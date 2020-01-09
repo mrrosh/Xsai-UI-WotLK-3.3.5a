@@ -1,0 +1,5 @@
+
+BROT_MMOptions = {
+	["minimapPos"] = 98,
+	["radius"] = 80,
+}

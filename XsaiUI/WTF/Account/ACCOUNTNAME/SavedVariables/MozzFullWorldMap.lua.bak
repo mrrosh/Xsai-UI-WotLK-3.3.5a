@@ -1,0 +1,9 @@
+
+MozzFullWorldMap = {
+	["Enabled"] = true,
+	["transparency"] = 1,
+	["Errata"] = {
+	},
+	["version"] = "v3.34.30000",
+	["colorStyle"] = 0,
+}

@@ -1,0 +1,32 @@
+
+MapsterDB = {
+	["namespaces"] = {
+		["FogClear"] = {
+			["global"] = {
+			},
+			["profileKeys"] = {
+				["Tydor - Arthas"] = "Default",
+			},
+			["profiles"] = {
+				["Default"] = {
+				},
+			},
+		},
+		["Coords"] = {
+			["profileKeys"] = {
+				["Tydor - Arthas"] = "Default",
+			},
+			["profiles"] = {
+				["Default"] = {
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Tydor - Arthas"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

@@ -1,0 +1,10 @@
+## Interface: 30000
+## Title: Baud Auction
+## Notes: Modifies Blizzard's auction house display so it can display and sort multiple pages of items at once.
+## Author: Baudzilla
+## Version: 1.11
+## LoadOnDemand: 1
+## LoadWith: Blizzard_AuctionUI
+## RequiredDeps: Blizzard_AuctionUI
+## SavedVariables: BaudAuctionConfig
+BaudAuction.xml

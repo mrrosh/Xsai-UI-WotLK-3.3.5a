@@ -1,0 +1,41 @@
+Geist History
+
+! - Feature Addition
+* - Feature or Code Change
+^ - Bug Fix
+
+Version 30000.4 2008-10-20
+^ - Fixed the German translation (again).
+^ - Fixed bug in the scale function that was breaking new installs. (Thanks Veyska!)
+
+Version 30000.3 2008-10-20
+^ - Fixed the German translation (maybe).
+^ - Fixed the ButtonFacade stuff to run only if you have ButtonFacade loaded.
+
+Version 30000.2 2008-10-16
+^ - Fixed the scale setting to actually work. This setting no longer requires a reload to take effect.
+
+Version 30000.1 2008-08-14
+! - Built in ButtonFacade support. (Untested)
+* - Bindings moved back into the Binding interface.
+* - ToC update.
+* - Changed default button IDs for new installs. The idea was to use as many consecutive slots as possible. See GeistButtons.lua for the new defaults.
+* - Removed the per button keybindings. Does anyone use those?
+^ - Updated to work with the new secure frames in WotLK.
+
+Version 20300.1 2007-11-12
+* - ToC update.
+* - Added the deDE localization. Huge thanks to Hannesz for this.
+
+Version 20200.1 2007-09-25
+* - ToC update.
+^ - Fixed the problem with all the buttons looking the same. 
+
+Version 20100.1 2007-05-22
+* - ToC update.
+
+Version 20000.2 2006-12-07
+! - Per button keybindings are back.
+
+Version 20000.1 2006-12-05
+! - It's new. Everything is a new feature. Including any bugs.

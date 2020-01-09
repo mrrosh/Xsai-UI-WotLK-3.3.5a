@@ -1,0 +1,129 @@
+------------------------------------------------------------------------
+r42 | ammo | 2009-01-04 21:21:23 +0000 (Sun, 04 Jan 2009) | 1 line
+Changed paths:
+   A /tags/r41-release (from /trunk:41)
+
+Tagging as r41-release
+------------------------------------------------------------------------
+r41 | ammo | 2009-01-04 21:19:57 +0000 (Sun, 04 Jan 2009) | 1 line
+Changed paths:
+   M /trunk/oUF_DebuffHighlight.lua
+
+urgh, make this behave properly
+------------------------------------------------------------------------
+r40 | ammo | 2009-01-04 11:33:04 +0000 (Sun, 04 Jan 2009) | 1 line
+Changed paths:
+   M /trunk/oUF_DebuffHighlight.lua
+
+fix typo
+------------------------------------------------------------------------
+r38 | ammo | 2008-12-31 07:58:47 +0000 (Wed, 31 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/oUF_DebuffHighlight.lua
+
+treat debuffhighlight like an element instead of a hookhackjob
+this fixes all the errorreports about a nil value blah
+------------------------------------------------------------------------
+r36 | ammo | 2008-11-10 18:54:40 +0000 (Mon, 10 Nov 2008) | 1 line
+Changed paths:
+   M /trunk/oUF_DebuffHighlight.lua
+   M /trunk/oUF_DebuffHighlight.toc
+
+drycode 3.0 update
+------------------------------------------------------------------------
+r35 | root | 2008-09-29 22:11:24 +0000 (Mon, 29 Sep 2008) | 1 line
+Changed paths:
+   A /trunk/.pkgmeta
+
+Facilitate WowAce-on-CurseForge transition
+------------------------------------------------------------------------
+r33 | root | 2008-09-29 20:59:02 +0000 (Mon, 29 Sep 2008) | 1 line
+Changed paths:
+   D /tmp/trunk/oUF_DebuffHighlight
+   A /trunk (from /tmp/trunk/oUF_DebuffHighlight:32)
+
+Importing old repo data under /trunk
+------------------------------------------------------------------------
+r30 | ammo | 2008-07-28 08:05:22 +0000 (Mon, 28 Jul 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/oUF_DebuffHighlight/oUF_DebuffHighlight.lua
+
+oUF_DebuffHighlight: update for latest oUF
+- If you get errors using this, update your oUF 
+------------------------------------------------------------------------
+r29 | rabbit | 2008-05-01 21:30:11 +0000 (Thu, 01 May 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/oUF_DebuffHighlight/oUF_DebuffHighlight.lua
+
+oUF_DebuffHighlight: Don't break on the first debuff if it doesn't have a type.
+------------------------------------------------------------------------
+r28 | ammo | 2008-04-29 14:27:37 +0000 (Tue, 29 Apr 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/oUF_DebuffHighlight/oUF_DebuffHighlight.lua
+   M /tmp/trunk/oUF_DebuffHighlight/readme.txt
+
+oUF_DebuffHighlight:
+- Add support for using the actual debuff icon texture instead of coloring a frame. see readme.txt for details
+------------------------------------------------------------------------
+r27 | ammo | 2008-04-29 14:13:58 +0000 (Tue, 29 Apr 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/oUF_DebuffHighlight/oUF_DebuffHighlight.lua
+
+oUF_DebuffHighlight: register the UNIT_AURA event instead of the RegisterObject hack.
+------------------------------------------------------------------------
+r26 | ammo | 2008-04-29 13:33:35 +0000 (Tue, 29 Apr 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/oUF_DebuffHighlight/oUF_DebuffHighlight.lua
+
+oUF_DebuffHighlight: make sure aura scanning is active on a unitobject regardless wether or not debuffs or buffs are shown
+------------------------------------------------------------------------
+r25 | ammo | 2008-04-29 11:31:58 +0000 (Tue, 29 Apr 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/oUF_DebuffHighlight/oUF_DebuffHighlight.lua
+
+oUF_DebuffHighlight: don't highlight frames if UnitCanAssist("player", unit) is false
+This prevents highlighting on units you can't cure anyway.
+------------------------------------------------------------------------
+r24 | ammo | 2008-04-29 08:22:48 +0000 (Tue, 29 Apr 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/oUF_DebuffHighlight/readme.txt
+
+oUF_DebuffHighlight: update readme for clarity
+------------------------------------------------------------------------
+r22 | ammo | 2008-04-28 15:14:10 +0000 (Mon, 28 Apr 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/oUF_DebuffHighlight/oUF_DebuffHighlight.lua
+
+oUF_DebuffHighlight: boot brain then code
+------------------------------------------------------------------------
+r21 | ammo | 2008-04-28 13:29:42 +0000 (Mon, 28 Apr 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/oUF_DebuffHighlight/oUF_DebuffHighlight.lua
+
+oUF_DebuffHighlight: and a , added
+------------------------------------------------------------------------
+r20 | ammo | 2008-04-28 13:04:08 +0000 (Mon, 28 Apr 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/oUF_DebuffHighlight/oUF_DebuffHighlight.lua
+
+oUF_DebuffHighlight: fix capitalization error, thanks firedancer
+------------------------------------------------------------------------
+r19 | ammo | 2008-04-28 11:57:15 +0000 (Mon, 28 Apr 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/oUF_DebuffHighlight/readme.txt
+
+oUF_DebuffHighlight: add debuff filter option to readme 
+------------------------------------------------------------------------
+r18 | ammo | 2008-04-28 11:54:39 +0000 (Mon, 28 Apr 2008) | 5 lines
+Changed paths:
+   A /tmp/trunk/oUF_DebuffHighlight
+   A /tmp/trunk/oUF_DebuffHighlight/oUF_DebuffHighlight.lua
+   A /tmp/trunk/oUF_DebuffHighlight/oUF_DebuffHighlight.toc
+   A /tmp/trunk/oUF_DebuffHighlight/readme.txt
+
+oUF_DebuffHighlight: initial import
+- Adds debuff highlighting to oUF unitframes
+- options to use the backdrop or a custom uielement that supports :SetVertexColor
+- option to set the alpha to use when highlighting
+- see readme.txt for details
+------------------------------------------------------------------------

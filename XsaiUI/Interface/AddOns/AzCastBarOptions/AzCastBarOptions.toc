@@ -1,0 +1,12 @@
+## Interface: 30000
+## Version: 09.03.08
+## Title: AzCastBarOptions
+## Author: Aezay (Earthen Ring EU)
+## Notes: Option Dialog for AzCastBar
+## SavedVariables: AzCastBar_Profiles
+## Dependencies: AzCastBar
+## LoadOnDemand: 1
+DropDowns.lua
+Options.lua
+Factory.lua
+Extras.lua

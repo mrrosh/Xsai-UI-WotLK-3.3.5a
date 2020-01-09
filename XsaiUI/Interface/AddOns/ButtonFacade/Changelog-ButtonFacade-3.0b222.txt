@@ -1,0 +1,931 @@
+------------------------------------------------------------------------
+r223 | stormfx | 2009-03-08 15:43:55 +0000 (Sun, 08 Mar 2009) | 3 lines
+Changed paths:
+   A /tags/3.0b222 (from /trunk:222)
+
+Release Changes
+ - Updated to the WoWAce localization system.
+ - Restructed the directories and files a bit.
+------------------------------------------------------------------------
+r222 | stormfx | 2009-02-02 12:40:17 +0000 (Mon, 02 Feb 2009) | 1 line
+Changed paths:
+   M /trunk/ButtonFacade.toc
+
+- Localization updates.
+------------------------------------------------------------------------
+r221 | stormfx | 2009-02-01 15:49:19 +0000 (Sun, 01 Feb 2009) | 2 lines
+Changed paths:
+   M /trunk/Locales.lua
+
+- Fix a typo.
+- Localization /poke to fix erroneous carriage returns in deDE translation of BT_DESC.
+------------------------------------------------------------------------
+r220 | stormfx | 2009-02-01 15:37:36 +0000 (Sun, 01 Feb 2009) | 2 lines
+Changed paths:
+   M /trunk/Locales.lua
+   M /trunk/Modules/ButtonTest.lua
+
+- Namespace updates for Locales.
+- Localization /poke.
+------------------------------------------------------------------------
+r219 | stormfx | 2009-01-31 20:32:11 +0000 (Sat, 31 Jan 2009) | 1 line
+Changed paths:
+   M /trunk/Core.lua
+   M /trunk/Locales.lua
+   M /trunk/Modules/ButtonTest.lua
+   M /trunk/Skins.lua
+
+- Clean up, etc.
+------------------------------------------------------------------------
+r218 | stormfx | 2009-01-31 17:41:43 +0000 (Sat, 31 Jan 2009) | 1 line
+Changed paths:
+   D /trunk/Locales
+   D /trunk/Skins
+
+- Clean up directories.
+------------------------------------------------------------------------
+r217 | stormfx | 2009-01-31 17:39:51 +0000 (Sat, 31 Jan 2009) | 2 lines
+Changed paths:
+   M /trunk/ButtonFacade.toc
+   A /trunk/Skins.lua
+
+- Update ToC with frFR Description.
+- Move Skins.lua to root directory.
+------------------------------------------------------------------------
+r216 | stormfx | 2009-01-31 16:57:49 +0000 (Sat, 31 Jan 2009) | 1 line
+Changed paths:
+   M /trunk/Modules/ButtonTest.lua
+
+Update localization in ButtonTest module.
+------------------------------------------------------------------------
+r215 | stormfx | 2009-01-31 15:40:12 +0000 (Sat, 31 Jan 2009) | 2 lines
+Changed paths:
+   D /trunk/ButtonFacade.lua
+   M /trunk/ButtonFacade.toc
+   A /trunk/Core.lua (from /trunk/ButtonFacade.lua:213)
+
+- Rename ButtonFacade.lua to Core.lua.
+- Test a single localization file.
+------------------------------------------------------------------------
+r214 | stormfx | 2009-01-31 15:08:07 +0000 (Sat, 31 Jan 2009) | 1 line
+Changed paths:
+   A /trunk/Locales.lua
+
+- Testing auto-injection of locales again.
+------------------------------------------------------------------------
+r213 | stormfx | 2009-01-28 14:23:26 +0000 (Wed, 28 Jan 2009) | 1 line
+Changed paths:
+   M /trunk/Locales/deDE.lua
+   M /trunk/Locales/enUS.lua
+   M /trunk/Locales/esES.lua
+   M /trunk/Locales/esMX.lua
+   M /trunk/Locales/frFR.lua
+   M /trunk/Locales/koKR.lua
+   M /trunk/Locales/ruRU.lua
+   M /trunk/Locales/zhCN.lua
+   M /trunk/Locales/zhTW.lua
+
+- Testing auto-injection of locales.
+------------------------------------------------------------------------
+r211 | stormfx | 2009-01-19 13:29:04 +0000 (Mon, 19 Jan 2009) | 1 line
+Changed paths:
+   M /trunk/Locales/ruRU.lua
+
+- ruRU update. (Swix)
+------------------------------------------------------------------------
+r210 | stormfx | 2009-01-18 17:28:11 +0000 (Sun, 18 Jan 2009) | 4 lines
+Changed paths:
+   D /tags/3.0.200
+   D /tags/3.0.202
+   D /tags/3.0r172
+   M /trunk/ButtonFacade.toc
+   D /trunk/Embeds.xml
+   M /trunk/Locales/deDE.lua
+   M /trunk/Locales/enUS.lua
+   M /trunk/Locales/esES.lua
+   A /trunk/Locales/esMX.lua
+   M /trunk/Locales/frFR.lua
+   M /trunk/Locales/koKR.lua
+   M /trunk/Locales/ruRU.lua
+   M /trunk/Locales/zhCN.lua
+   M /trunk/Locales/zhTW.lua
+   D /trunk/Locales.xml
+
+- Tag Cleanup
+- Add a base esMX file.
+- Reformat locales for WoWAce's export feature.
+- Load locales and embeds directly from ToC.
+------------------------------------------------------------------------
+r208 | stormfx | 2009-01-12 13:24:17 +0000 (Mon, 12 Jan 2009) | 1 line
+Changed paths:
+   M /trunk/Locales/frFR.lua
+
+- frFR update. (Pettigrow)
+------------------------------------------------------------------------
+r205 | stormfx | 2009-01-09 13:42:17 +0000 (Fri, 09 Jan 2009) | 1 line
+Changed paths:
+   M /trunk/Locales/zhCN.lua
+
+- zhCN tweaks (ananhaid)
+------------------------------------------------------------------------
+r204 | stormfx | 2009-01-09 00:45:26 +0000 (Fri, 09 Jan 2009) | 1 line
+Changed paths:
+   M /trunk/Locales/zhCN.lua
+   M /trunk/Locales/zhTW.lua
+
+- Update zhTW/zhCN. (digmouse)
+------------------------------------------------------------------------
+r202 | stormfx | 2009-01-08 00:58:17 +0000 (Thu, 08 Jan 2009) | 1 line
+Changed paths:
+   M /trunk/Libs/LibButtonFacade/LibButtonFacade.lua
+
+- Apply a fix for borderless skins (Dreamlayout, Blizzard, etc). (flickerstreak)
+------------------------------------------------------------------------
+r200 | stormfx | 2009-01-03 19:41:06 +0000 (Sat, 03 Jan 2009) | 1 line
+Changed paths:
+   M /trunk/ButtonFacade.lua
+
+- All that stuff worked. Now let's try this. ;p
+------------------------------------------------------------------------
+r199 | stormfx | 2009-01-03 19:29:45 +0000 (Sat, 03 Jan 2009) | 5 lines
+Changed paths:
+   M /trunk/.pkgmeta
+   M /trunk/ButtonFacade.lua
+   M /trunk/ButtonFacade.toc
+   M /trunk/Embeds.xml
+   A /trunk/Libs/LibDataBroker-1.1
+   A /trunk/Libs/LibDataBroker-1.1/LibDataBroker-1.1.lua
+   M /trunk/Locales/deDE.lua
+   M /trunk/Locales/enUS.lua
+   M /trunk/Locales/esES.lua
+   M /trunk/Locales/frFR.lua
+   M /trunk/Locales/koKR.lua
+   M /trunk/Locales/ruRU.lua
+   M /trunk/Locales/zhCN.lua
+   M /trunk/Locales/zhTW.lua
+
+- Remove a duplicate locale entry.
+- Change versioning to major.minor.revision.
+- Hard embed LDB *sigh*
+- Testing no-lib-strip in XML.
+- You've been warned!
+------------------------------------------------------------------------
+r193 | ananhaid | 2008-12-26 04:48:31 +0000 (Fri, 26 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/Locales/zhCN.lua
+   M /trunk/Locales/zhTW.lua
+
+ButtonFacade:
+- zhCN/zhTW update. 
+------------------------------------------------------------------------
+r187 | next96 | 2008-12-25 16:56:08 +0000 (Thu, 25 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/Locales/koKR.lua
+
+ButtonFacade :
+- Update locale koKR
+------------------------------------------------------------------------
+r186 | stormfx | 2008-12-25 15:45:36 +0000 (Thu, 25 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/ButtonFacade.lua
+
+- Fix the default profile.
+- This WILL wipe your saved variables for BF.
+------------------------------------------------------------------------
+r185 | stormfx | 2008-12-24 19:39:37 +0000 (Wed, 24 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/ButtonFacade.lua
+   M /trunk/ButtonFacade.toc
+   M /trunk/Locales/deDE.lua
+   M /trunk/Locales/enUS.lua
+   M /trunk/Locales/esES.lua
+   M /trunk/Locales/frFR.lua
+   M /trunk/Locales/koKR.lua
+   M /trunk/Locales/ruRU.lua
+   M /trunk/Locales/zhCN.lua
+   M /trunk/Locales/zhTW.lua
+
+- Update the "About" panel.
+- Prep for Beta.
+------------------------------------------------------------------------
+r184 | ananhaid | 2008-12-22 11:55:59 +0000 (Mon, 22 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/Locales/zhCN.lua
+   M /trunk/Locales/zhTW.lua
+
+ButtonFacade:
+- zhCN/zhTW update. 
+------------------------------------------------------------------------
+r183 | stormfx | 2008-12-21 22:42:18 +0000 (Sun, 21 Dec 2008) | 1 line
+Changed paths:
+   M /trunk/ButtonFacade.toc
+
+- Fix load order.
+------------------------------------------------------------------------
+r182 | stormfx | 2008-12-21 18:40:25 +0000 (Sun, 21 Dec 2008) | 8 lines
+Changed paths:
+   M /trunk/.pkgmeta
+   M /trunk/ButtonFacade.lua
+   M /trunk/ButtonFacade.toc
+   M /trunk/Embeds.xml
+   M /trunk/Locales/deDE.lua
+   M /trunk/Locales/enUS.lua
+   M /trunk/Locales/esES.lua
+   M /trunk/Locales/frFR.lua
+   M /trunk/Locales/koKR.lua
+   M /trunk/Locales/ruRU.lua
+   M /trunk/Locales/zhCN.lua
+   M /trunk/Locales/zhTW.lua
+   M /trunk/Modules/ButtonTest.lua
+
+- Removed LibBetterBlizzOptions.
+- Revamped the options window:
+  - Should be better for smaller resolutions.
+  - Now opens to global skin settings by default.
+  - Added an "About" section, to be tweaked later.
+- The /bf and /buttonfacade chat commands open to the Blizzard Options category for ButtonFacade.
+- Added a /bfo command and a button in the options that opens a standalone options window.
+- Updated locales to account for option changes.
+------------------------------------------------------------------------
+r181 | ananhaid | 2008-12-21 15:03:26 +0000 (Sun, 21 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/Locales/zhCN.lua
+   M /trunk/Locales/zhTW.lua
+
+ButtonFacade:
+- zhCN/zhTW update. 
+------------------------------------------------------------------------
+r180 | stormfx | 2008-12-20 21:42:24 +0000 (Sat, 20 Dec 2008) | 9 lines
+Changed paths:
+   M /trunk
+   M /trunk/.pkgmeta
+   M /trunk/Embeds.xml
+   M /trunk/Locales
+   M /trunk/Modules
+   M /trunk/Skins
+
+- Add LibBetterBlizzOptions.
+- Removed FuBar/Harbor support.
+- Added Broker Support.
+- Rebuilt the options window.
+- Slash commands now open the category in the Blizzard Options.
+- Updated some strings in the locales, so those need updated.
+- Also added basic locales for deDE and frFR. Need those translated.
+- Added LibDBIcon support.
+- Tons of code clean up. :p
+------------------------------------------------------------------------
+r179 | stormfx | 2008-12-20 21:24:33 +0000 (Sat, 20 Dec 2008) | 1 line
+Changed paths:
+   A /trunk/Libs/LibButtonFacade/LibButtonFacade.lua
+   A /trunk/Libs/LibButtonFacade/LibButtonFacade.xml
+
+- Take that!
+------------------------------------------------------------------------
+r178 | stormfx | 2008-12-20 21:22:55 +0000 (Sat, 20 Dec 2008) | 1 line
+Changed paths:
+   A /trunk/Libs/LibButtonFacade
+
+- Sigh
+------------------------------------------------------------------------
+r177 | stormfx | 2008-12-20 21:21:04 +0000 (Sat, 20 Dec 2008) | 1 line
+Changed paths:
+   A /trunk/Libs
+
+-- Try this...
+------------------------------------------------------------------------
+r176 | stormfx | 2008-12-20 21:14:06 +0000 (Sat, 20 Dec 2008) | 1 line
+Changed paths:
+   A /trunk/ButtonFacade.lua
+   A /trunk/ButtonFacade.toc
+   A /trunk/Embeds.xml
+   A /trunk/Locales
+   A /trunk/Locales/deDE.lua
+   A /trunk/Locales/enUS.lua
+   A /trunk/Locales/esES.lua
+   A /trunk/Locales/frFR.lua
+   A /trunk/Locales/koKR.lua
+   A /trunk/Locales/ruRU.lua
+   A /trunk/Locales/zhCN.lua
+   A /trunk/Locales/zhTW.lua
+   A /trunk/Locales.xml
+   A /trunk/Modules
+   A /trunk/Modules/ButtonTest.lua
+   A /trunk/Modules/Modules.xml
+   A /trunk/Skins
+   A /trunk/Skins/Skins.lua
+   A /trunk/icon.tga
+
+- Initial commit for changes.
+------------------------------------------------------------------------
+r175 | stormfx | 2008-12-20 21:08:49 +0000 (Sat, 20 Dec 2008) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+   D /trunk/ButtonFacade.lua
+   D /trunk/ButtonFacade.toc
+   D /trunk/LibButtonFacade
+   D /trunk/Libs
+   D /trunk/Localization
+   D /trunk/Modules
+   D /trunk/ReadMe.txt
+   D /trunk/Skins
+   D /trunk/embeds.xml
+   D /trunk/icon.tga
+
+- Incoming changes. Don't download this revision. :p
+------------------------------------------------------------------------
+r174 | ananhaid | 2008-10-24 14:09:22 +0000 (Fri, 24 Oct 2008) | 2 lines
+Changed paths:
+   M /trunk/Localization/zhCN.lua
+   M /trunk/Localization/zhTW.lua
+   M /trunk/Modules/ButtonTest.lua
+
+ButtonFacade:
+- zhCN/zhTW update. 
+------------------------------------------------------------------------
+r172 | stormfx | 2008-10-23 00:36:53 +0000 (Thu, 23 Oct 2008) | 2 lines
+Changed paths:
+   M /trunk/LibButtonFacade/LibButtonFacade.lua
+   M /trunk/Skins/Skins.lua
+
+ButtonFacade:
+ - Disable ModeScale to fix Autocast (It's not a model anymore?)
+------------------------------------------------------------------------
+r170 | satrina | 2008-10-22 16:11:53 +0000 (Wed, 22 Oct 2008) | 2 lines
+Changed paths:
+   M /trunk/LibButtonFacade/LibButtonFacade.lua
+
+ButtonFacade:
+ - Fix an error in LibButtonFacade where an infinite number of frames are created on repeated ApplySkin calls
+------------------------------------------------------------------------
+r168 | satrina | 2008-10-21 16:46:14 +0000 (Tue, 21 Oct 2008) | 2 lines
+Changed paths:
+   M /trunk
+   M /trunk/LibButtonFacade
+
+ButtonFacade:
+ - Fix LibStub external for LibButtonFacade
+------------------------------------------------------------------------
+r167 | satrina | 2008-10-21 15:38:17 +0000 (Tue, 21 Oct 2008) | 2 lines
+Changed paths:
+   M /trunk/ButtonFacade.toc
+
+ButtonFacade:
+ - Update TOC
+------------------------------------------------------------------------
+r166 | satrina | 2008-10-21 15:35:09 +0000 (Tue, 21 Oct 2008) | 2 lines
+Changed paths:
+   M /trunk/LibButtonFacade/LibButtonFacade.lua
+
+ButtonFacade:
+ - Fix infinite re-hooking bug
+------------------------------------------------------------------------
+r165 | swix | 2008-10-16 20:34:38 +0000 (Thu, 16 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/ButtonFacade.toc
+   A /trunk/Localization/ruRU.lua
+
+Added ruRU locale
+------------------------------------------------------------------------
+r164 | root | 2008-09-30 15:44:04 +0000 (Tue, 30 Sep 2008) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+
+Hopefully fix .pkgmeta
+------------------------------------------------------------------------
+r163 | root | 2008-09-30 14:45:07 +0000 (Tue, 30 Sep 2008) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+
+Hopefully fix .pkgmeta
+------------------------------------------------------------------------
+r162 | root | 2008-09-29 21:27:22 +0000 (Mon, 29 Sep 2008) | 1 line
+Changed paths:
+   A /trunk/.pkgmeta
+   M /trunk/Libs
+
+Facilitate WowAce-on-CurseForge transition
+------------------------------------------------------------------------
+r160 | root | 2008-09-29 20:57:40 +0000 (Mon, 29 Sep 2008) | 1 line
+Changed paths:
+   D /tmp/trunk/ButtonFacade
+   A /trunk (from /tmp/trunk/ButtonFacade:159)
+
+Importing old repo data under /trunk
+------------------------------------------------------------------------
+r159 | next96 | 2008-09-16 02:43:08 +0000 (Tue, 16 Sep 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/Localization/koKR.lua
+
+ButtonFacade:
+ - Update locale koKR
+------------------------------------------------------------------------
+r146 | jjsheets | 2008-05-21 15:19:32 +0000 (Wed, 21 May 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/ButtonFacade.lua
+
+ButtonFacade:
+ - Added /buttonfacade slash command, identical to /bf.
+------------------------------------------------------------------------
+r145 | StiviS | 2008-05-19 16:21:36 +0000 (Mon, 19 May 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/Localization/esES.lua
+
+ButtonFacade:
+ - esES updated
+------------------------------------------------------------------------
+r144 | jjsheets | 2008-05-19 14:27:27 +0000 (Mon, 19 May 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/ButtonFacade.lua
+   M /tmp/trunk/ButtonFacade/LibButtonFacade/LibButtonFacade.lua
+
+ButtonFacade:
+ - Fixed Backdrop never being able to be turned off.
+------------------------------------------------------------------------
+r140 | jjsheets | 2008-05-18 14:59:17 +0000 (Sun, 18 May 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/LibButtonFacade/LibButtonFacade.lua
+
+ButtonFacade:
+ - Actually having a method to supply saved colors would've been nice last night.  :p
+------------------------------------------------------------------------
+r139 | jjsheets | 2008-05-18 05:10:36 +0000 (Sun, 18 May 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/ButtonFacade.lua
+   M /tmp/trunk/ButtonFacade/LibButtonFacade/LibButtonFacade.lua
+   M /tmp/trunk/ButtonFacade/Localization/enUS.lua
+
+ButtonFacade:
+ - Dang users always requesting features... User customizable skin colors are now available.  No presets yet.  Color Reset button should work intuitively enough.  Bring on the bug reports tomorrow morning, I desperately need sleep.  :p
+------------------------------------------------------------------------
+r138 | stormfx | 2008-05-14 22:16:23 +0000 (Wed, 14 May 2008) | 4 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/Skins/Skins.lua
+
+ButtonFacade:
+ - Tweak Autocast.
+ - Add color selection support.
+ - Minor tweaks.
+------------------------------------------------------------------------
+r130 | jjsheets | 2008-05-12 00:00:11 +0000 (Mon, 12 May 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/LibButtonFacade/LibButtonFacade.lua
+
+ButtonFacade:
+ - Improved :RegisterSkinCallback Function.
+------------------------------------------------------------------------
+r129 | jjsheets | 2008-05-11 23:55:52 +0000 (Sun, 11 May 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/LibButtonFacade/LibButtonFacade.lua
+
+ButtonFacade:
+ - Added lib:GetSkins() function requested by Maul.
+------------------------------------------------------------------------
+r115 | StiviS | 2008-05-09 09:49:36 +0000 (Fri, 09 May 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/ButtonFacade.toc
+   A /tmp/trunk/ButtonFacade/Localization/esES.lua
+   M /tmp/trunk/ButtonFacade/Modules/ButtonTest.lua
+
+ButtonFacade:
+ - esES added
+------------------------------------------------------------------------
+r113 | jjsheets | 2008-05-09 05:08:01 +0000 (Fri, 09 May 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/LibButtonFacade/LibButtonFacade.lua
+
+ButtonFacade:
+ - Fixed Gloss layer Alpha setting incorrectly.
+------------------------------------------------------------------------
+r112 | jjsheets | 2008-05-09 03:44:25 +0000 (Fri, 09 May 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/LibButtonFacade/LibButtonFacade.lua
+
+ButtonFacade:
+ - Hopefully fixed bug when ButtonFacade is loaded without addons that use it.
+------------------------------------------------------------------------
+r111 | jjsheets | 2008-05-09 03:37:41 +0000 (Fri, 09 May 2008) | 4 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/LibButtonFacade/LibButtonFacade.lua
+
+ButtonFacade:
+ - All layers except Cooldown, AutoCast, and Icon now have skin settable colors.
+ - Calling SetVertexColor or SetTextColor on such layers will modulate the given color with the skin layer's color.  GetVertexColor and GetTextColor will likewise factor out the skin layer color before returning.
+ - The attribute Color = {r, g, b, a} can now be used instead of separate Red, Green, Blue, and Alpha attributes.
+------------------------------------------------------------------------
+r102 | Sorata | 2008-05-07 20:03:41 +0000 (Wed, 07 May 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/ButtonFacade.lua
+
+ButtonFacade:
+- Revert commit, was throwing an error when a group wasn't added before OnEnable was called.
+------------------------------------------------------------------------
+r101 | Sorata | 2008-05-07 19:42:36 +0000 (Wed, 07 May 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/ButtonFacade.lua
+
+ButtonFacade:
+ - Add fix for groups and buttons not showing up in ButtonFacade's UI when added before ButtonFacade's OnEnable is called.
+------------------------------------------------------------------------
+r100 | jjsheets | 2008-05-07 16:27:40 +0000 (Wed, 07 May 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/LibButtonFacade/LibButtonFacade.lua
+
+ButtonFacade:
+ - Changed the Border layer to Overlay on the 4th FrameLevel.
+------------------------------------------------------------------------
+r94 | kergoth | 2008-05-06 20:37:14 +0000 (Tue, 06 May 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/ButtonFacade/ButtonFacade.lua
+
+ButtonFacade: Fix the errors seen with addon/group having spaces.
+------------------------------------------------------------------------
+r90 | scorpio0920 | 2008-05-06 14:00:15 +0000 (Tue, 06 May 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/ButtonFacade.toc
+   A /tmp/trunk/ButtonFacade/Localization/zhTW.lua
+
+ButtonFacade:
+- Added zhTW localization.
+------------------------------------------------------------------------
+r89 | jjsheets | 2008-05-06 05:42:52 +0000 (Tue, 06 May 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/LibButtonFacade/LibButtonFacade.lua
+
+ButtonFacade:
+ - Fixed issue with blizzard borders showing up with certain skins.
+------------------------------------------------------------------------
+r88 | jjsheets | 2008-05-06 04:51:09 +0000 (Tue, 06 May 2008) | 3 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/Modules/ButtonTest.lua
+   D /tmp/trunk/ButtonFacade/Textures
+
+ButtonFacade:
+ - Removed empty and unused Textures folder.
+ - added a sixth button to the ButtonTest module.
+------------------------------------------------------------------------
+r83 | jjsheets | 2008-05-05 17:19:51 +0000 (Mon, 05 May 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/LibButtonFacade/LibButtonFacade.lua
+
+ButtonFacade:
+ - Fixed Pushed Texture issue.
+------------------------------------------------------------------------
+r80 | jjsheets | 2008-05-05 17:06:23 +0000 (Mon, 05 May 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/Skins/Skins.lua
+
+ButtonFacade:
+ - Added Pushed back to DreamLayout and Zoomed skins.
+------------------------------------------------------------------------
+r79 | jjsheets | 2008-05-05 15:52:36 +0000 (Mon, 05 May 2008) | 4 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/LibButtonFacade/LibButtonFacade.lua
+
+ButtonFacade:
+ - Fixed Typo with ModelScale option.
+ - Added AboveNormal option for AutoCast layer, which will place the layer above the Normal layer group.
+ - Put the AutoCastable texture in the Normal Layer group, where it will actually show up appropriately...
+------------------------------------------------------------------------
+r78 | jjsheets | 2008-05-05 02:23:16 +0000 (Mon, 05 May 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/LibButtonFacade/LibButtonFacade.lua
+
+ButtonFacade:
+ - Fixed a bug when hiding text layers in a skin definition.
+------------------------------------------------------------------------
+r76 | jjsheets | 2008-05-04 21:55:44 +0000 (Sun, 04 May 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/ButtonFacade.lua
+
+ButtonFacade:
+ - fixed buggy handling of new groups constantly deleting work previous done on the GUI.
+------------------------------------------------------------------------
+r73 | jjsheets | 2008-05-04 18:08:38 +0000 (Sun, 04 May 2008) | 3 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/ButtonFacade.toc
+   M /tmp/trunk/ButtonFacade/LibButtonFacade/LibButtonFacade.lua
+   D /tmp/trunk/ButtonFacade/Skins/DreamLayout.lua
+   A /tmp/trunk/ButtonFacade/Skins/Skins.lua (from /tmp/trunk/ButtonFacade/Skins/DreamLayout.lua:71)
+   D /tmp/trunk/ButtonFacade/Skins/Zoomed.lua
+   D /tmp/trunk/ButtonFacade/Skins.xml
+
+ButtonFacade:
+ - Added ModelX, ModelY, and ModelScale options for Model layers.
+ - updated the DreamLayout and Zoomed skins, and moved them into one file.
+------------------------------------------------------------------------
+r72 | damjau | 2008-05-04 04:42:01 +0000 (Sun, 04 May 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/ButtonFacade.toc
+   A /tmp/trunk/ButtonFacade/Localization/koKR.lua
+
+ButtonFacade:
+ - add koKR locals
+------------------------------------------------------------------------
+r71 | jjsheets | 2008-05-03 14:10:05 +0000 (Sat, 03 May 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/LibButtonFacade/LibButtonFacade.lua
+
+ButtonFacade:
+ - Added LBF:GetGlossLayer() and LBF:GetBackdropLayer().  Use with care.  :)
+------------------------------------------------------------------------
+r70 | jjsheets | 2008-05-03 04:03:45 +0000 (Sat, 03 May 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/Libs
+
+ButtonFacade:
+ - Updated externals.
+------------------------------------------------------------------------
+r67 | jjsheets | 2008-04-30 23:05:53 +0000 (Wed, 30 Apr 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/LibButtonFacade/LibButtonFacade.lua
+
+ButtonFacade:
+ - Drycoding is such a horrible thing to do.  :p
+------------------------------------------------------------------------
+r66 | jjsheets | 2008-04-30 22:55:29 +0000 (Wed, 30 Apr 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/LibButtonFacade/LibButtonFacade.lua
+
+ButtonFacade:
+ - added lib:GetNormalVertexColor(button) and lib:SetNormalVertexColor(button,r,g,b,a)
+------------------------------------------------------------------------
+r64 | jjsheets | 2008-04-30 01:27:14 +0000 (Wed, 30 Apr 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/LibButtonFacade/LibButtonFacade.lua
+
+ButtonFacade:
+ - Added lib:GetNormalTexture() to allow an addon to get whatever texture buttonfacade has skinned as the normal texture.
+------------------------------------------------------------------------
+r63 | jjsheets | 2008-04-29 05:38:01 +0000 (Tue, 29 Apr 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/LibButtonFacade/LibButtonFacade.lua
+
+ButtonFacade:
+ - Normal Layers can have Color assigned when they have the Static attribute set to true.
+------------------------------------------------------------------------
+r62 | jjsheets | 2008-04-29 01:15:52 +0000 (Tue, 29 Apr 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/ButtonFacade.lua
+   M /tmp/trunk/ButtonFacade/ButtonFacade.toc
+
+ButtonFacade:
+ - Added support for my pre-alpha addon Harbor.
+------------------------------------------------------------------------
+r60 | jjsheets | 2008-04-26 15:59:05 +0000 (Sat, 26 Apr 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/ButtonFacade.lua
+
+ButtonFacade:
+ - Made the Locale object a local as it should have been. >.<
+------------------------------------------------------------------------
+r59 | jjsheets | 2008-04-26 14:27:51 +0000 (Sat, 26 Apr 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/LibButtonFacade/LibButtonFacade.lua
+
+ButtonFacade:
+ - LBFGroup:RemoveButton() now checks for btndata before trying to reskin.
+------------------------------------------------------------------------
+r58 | jjsheets | 2008-04-25 02:26:21 +0000 (Fri, 25 Apr 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/LibButtonFacade/LibButtonFacade.lua
+
+ButtonFacade:
+ - Fixed Blizzard skin backdrop not showing up right when used after the DreamLayout skin.
+------------------------------------------------------------------------
+r57 | jjsheets | 2008-04-25 01:44:51 +0000 (Fri, 25 Apr 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/LibButtonFacade/LibButtonFacade.lua
+
+ButtonFacade:
+ - Added a backdrop to the Blizzard skin, on the offhand chance somebody wanted it.  :p
+------------------------------------------------------------------------
+r50 | jjsheets | 2008-04-20 15:53:19 +0000 (Sun, 20 Apr 2008) | 3 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/LibButtonFacade/LibButtonFacade.lua
+
+ButtonFacade:
+ - Fixed bug causing Gloss to not always be a number in the ApplySkin function.
+ - Streamlined some stuff to eliminate need for the local data table.
+------------------------------------------------------------------------
+r49 | jjsheets | 2008-04-19 21:59:28 +0000 (Sat, 19 Apr 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/LibButtonFacade/LibButtonFacade.lua
+
+ButtonFacade:
+ - Updated the system to never make changes to the Border and HotKey layer's Vertex Colors.
+------------------------------------------------------------------------
+r46 | jjsheets | 2008-04-19 14:24:19 +0000 (Sat, 19 Apr 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/LibButtonFacade/LibButtonFacade.lua
+
+ButtonFacade:
+ - AddSkin will now display a warning and not register the skin if it specifies a Template and that template doesn't exist.
+------------------------------------------------------------------------
+r45 | jjsheets | 2008-04-19 14:10:47 +0000 (Sat, 19 Apr 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/ButtonFacade.lua
+   M /tmp/trunk/ButtonFacade/LibButtonFacade/LibButtonFacade.lua
+
+ButtonFacade:
+ - Gloss can now be given an alpha value by the user.  Don't like a bright gloss?  Scale that bastard back to 50%!  Old paradigm of true and nil/false results in alpha of 100% and 0% respectively.  
+------------------------------------------------------------------------
+r44 | jjsheets | 2008-04-19 13:55:16 +0000 (Sat, 19 Apr 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/LibButtonFacade/LibButtonFacade.lua
+
+ButtonFacade:
+ - Fixed display bug introduced in r70325.
+------------------------------------------------------------------------
+r43 | stormfx | 2008-04-18 17:15:14 +0000 (Fri, 18 Apr 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/Skins/DreamLayout.lua
+   M /tmp/trunk/ButtonFacade/Skins/Zoomed.lua
+
+ButtonFacade:
+ - Update layer order in skins.
+------------------------------------------------------------------------
+r41 | jjsheets | 2008-04-18 15:00:37 +0000 (Fri, 18 Apr 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/LibButtonFacade/LibButtonFacade.lua
+
+ButtonFacade:
+ - Set up and verified the correct layering of skin elements.
+------------------------------------------------------------------------
+r40 | jjsheets | 2008-04-18 03:08:07 +0000 (Fri, 18 Apr 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/ButtonFacade.lua
+
+ButtonFacade:
+ - Fixed FuBar icon showing up when (re)loading ui and the FuBar icon is supposed to be hidden, but isn't.
+------------------------------------------------------------------------
+r39 | jjsheets | 2008-04-16 05:21:18 +0000 (Wed, 16 Apr 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/Modules/ButtonTest.lua
+
+ButtonFacade:
+ - Added Fonts Strings to ButtonTest module's buttons.  Added ability to drag said buttons, and now saving the skin settings too.
+------------------------------------------------------------------------
+r38 | jjsheets | 2008-04-14 22:16:39 +0000 (Mon, 14 Apr 2008) | 5 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/LibButtonFacade/LibButtonFacade.lua
+
+ButtonFacade:
+ - Changed UseAsBase normal layer attribute to Static.
+ - Border layer is added to layertypes as a Texture.
+ - A Normal Layer's EmptyTexture attribute will now default to the Texture Attribute if not specified.
+ - Fixed normal layer to not show up when using the Static attribute.
+------------------------------------------------------------------------
+r37 | jjsheets | 2008-04-14 17:21:15 +0000 (Mon, 14 Apr 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/LibButtonFacade/LibButtonFacade.lua
+
+ButtonFacade:
+ - Fixes to NromalTexture handling with the UseAsBase attribute.
+------------------------------------------------------------------------
+r36 | jjsheets | 2008-04-14 17:03:09 +0000 (Mon, 14 Apr 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/LibButtonFacade/LibButtonFacade.lua
+   M /tmp/trunk/ButtonFacade/Modules/ButtonTest.lua
+
+ButtonFacade:
+ - Fixed bug introduced last commit.  fixed ButtonTest module not showing buttons when enabling after having been disabled.
+------------------------------------------------------------------------
+r35 | jjsheets | 2008-04-14 16:58:20 +0000 (Mon, 14 Apr 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/LibButtonFacade/LibButtonFacade.lua
+
+ButtonFacade:
+ - Added Normal layer only skin attribute, UseAsBase, when set to true, the skin will use a separate texture instead of the default Normal texture.
+------------------------------------------------------------------------
+r34 | jjsheets | 2008-04-14 16:34:33 +0000 (Mon, 14 Apr 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/LibButtonFacade
+   D /tmp/trunk/ButtonFacade/LibButtonFacade/LibStub
+
+ButtonFacade:
+ - Cleaned out non-external version of LibStub, switched to an extrenal of the LibStub tag.  Testing shortly.  :)
+------------------------------------------------------------------------
+r33 | kurax | 2008-04-14 03:14:53 +0000 (Mon, 14 Apr 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/ButtonFacade.toc
+   A /tmp/trunk/ButtonFacade/Localization/zhCN.lua
+
+ButtonFacade:
+- Add zhCN locale
+------------------------------------------------------------------------
+r32 | nevcairiel | 2008-04-13 18:44:35 +0000 (Sun, 13 Apr 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/Skins/DreamLayout.lua
+
+ButtonFacade:
+ - add default pushed texture to DreamLayout skin
+------------------------------------------------------------------------
+r30 | jjsheets | 2008-04-12 15:30:36 +0000 (Sat, 12 Apr 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/LibButtonFacade/LibButtonFacade.lua
+
+ButtonFacade:
+ - Fixed weird behavior with buttons that do not start with a size of 36 x 36, including ShapeshiftTemplate derived buttons.
+------------------------------------------------------------------------
+r29 | jjsheets | 2008-04-12 01:08:30 +0000 (Sat, 12 Apr 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/Modules/ButtonTest.lua
+
+ButtonFacade:
+ - Disabling the Button Test module should now completely hide the test buttons from the screen.
+------------------------------------------------------------------------
+r28 | jjsheets | 2008-04-12 00:48:23 +0000 (Sat, 12 Apr 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/LibButtonFacade/LibButtonFacade.lua
+   A /tmp/trunk/ButtonFacade/Modules/ButtonTest.lua (from /tmp/trunk/ButtonFacade/Modules/HideBlizzard.lua:22)
+   D /tmp/trunk/ButtonFacade/Modules/HideBlizzard.lua
+   M /tmp/trunk/ButtonFacade/Modules/modules.xml
+
+ButtonFacade:
+ - Converted the temporary HideBlizzard module into a more useful Button Test Module, which will help skinners and authors to verify how different skins should look.
+------------------------------------------------------------------------
+r27 | stormfx | 2008-04-11 19:29:33 +0000 (Fri, 11 Apr 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/ReadMe.txt
+
+ButtonFacade:
+ - WTB URL. /lesigh
+------------------------------------------------------------------------
+r26 | stormfx | 2008-04-11 19:27:04 +0000 (Fri, 11 Apr 2008) | 2 lines
+Changed paths:
+   A /tmp/trunk/ButtonFacade/ReadMe.txt
+   D /tmp/trunk/ButtonFacade/docs
+
+ButtonFacade:
+ - ButtonFacade_Template is now available.
+------------------------------------------------------------------------
+r23 | stormfx | 2008-04-10 18:14:30 +0000 (Thu, 10 Apr 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/docs/Template.lua
+
+ButtonFacade:
+ - Template tweaks/fixes.
+------------------------------------------------------------------------
+r22 | jjsheets | 2008-04-10 00:33:37 +0000 (Thu, 10 Apr 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/Skins/DreamLayout.lua
+
+ButtonFacade:
+ - Remove weird chat frame message... :p
+------------------------------------------------------------------------
+r21 | jjsheets | 2008-04-10 00:14:51 +0000 (Thu, 10 Apr 2008) | 2 lines
+Changed paths:
+   A /tmp/trunk/ButtonFacade/Textures
+
+ButtonFacade:
+ - Added Textures folder to store the textures used by skins.
+------------------------------------------------------------------------
+r20 | jjsheets | 2008-04-09 23:34:35 +0000 (Wed, 09 Apr 2008) | 3 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade/ButtonFacade.lua
+   M /tmp/trunk/ButtonFacade/ButtonFacade.toc
+   M /tmp/trunk/ButtonFacade/LibButtonFacade/LibButtonFacade.lua
+   M /tmp/trunk/ButtonFacade/Libs
+   A /tmp/trunk/ButtonFacade/Skins
+   A /tmp/trunk/ButtonFacade/Skins/DreamLayout.lua
+   A /tmp/trunk/ButtonFacade/Skins/Zoomed.lua
+   A /tmp/trunk/ButtonFacade/Skins.xml
+   M /tmp/trunk/ButtonFacade/embeds.xml
+
+ButtonFacade:
+ - Updated embeds.xml, TOC, and externals.
+ - Separated Zoomed and DreamLayout skins into the new Skins directory.
+------------------------------------------------------------------------
+r19 | jjsheets | 2008-04-09 23:00:03 +0000 (Wed, 09 Apr 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/ButtonFacade
+   M /tmp/trunk/ButtonFacade/ButtonFacade.toc
+   M /tmp/trunk/ButtonFacade/Libs
+
+ButtonFacade:
+ - Updated Externals.  Set log template.
+------------------------------------------------------------------------
+r18 | jjsheets | 2008-04-09 22:55:32 +0000 (Wed, 09 Apr 2008) | 2 lines
+Changed paths:
+   A /tmp/trunk/ButtonFacade
+   A /tmp/trunk/ButtonFacade/ButtonFacade.lua
+   A /tmp/trunk/ButtonFacade/ButtonFacade.toc
+   A /tmp/trunk/ButtonFacade/LibButtonFacade
+   A /tmp/trunk/ButtonFacade/LibButtonFacade/LibButtonFacade.lua
+   A /tmp/trunk/ButtonFacade/LibButtonFacade/LibStub
+   A /tmp/trunk/ButtonFacade/LibButtonFacade/LibStub/LibStub.lua
+   A /tmp/trunk/ButtonFacade/LibButtonFacade/lib.xml
+   A /tmp/trunk/ButtonFacade/Libs
+   A /tmp/trunk/ButtonFacade/Localization
+   A /tmp/trunk/ButtonFacade/Localization/enUS.lua
+   A /tmp/trunk/ButtonFacade/Modules
+   A /tmp/trunk/ButtonFacade/Modules/HideBlizzard.lua
+   A /tmp/trunk/ButtonFacade/Modules/modules.xml
+   A /tmp/trunk/ButtonFacade/docs
+   A /tmp/trunk/ButtonFacade/docs/Template.lua
+   A /tmp/trunk/ButtonFacade/embeds.xml
+   A /tmp/trunk/ButtonFacade/icon.tga
+
+ButtonFacade:
+ - Initial Import from alpha Google Code repo.
+------------------------------------------------------------------------

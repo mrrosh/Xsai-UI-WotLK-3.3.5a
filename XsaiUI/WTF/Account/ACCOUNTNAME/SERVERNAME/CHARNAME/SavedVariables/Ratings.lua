@@ -1,0 +1,4 @@
+
+RatingsDB = {
+	["format"] = " ($V@$L)",
+}

@@ -1,0 +1,25 @@
+
+AutoNo_Enabled = true
+AutoNo_RandomReply = false
+AUTONO_RANDOM = {
+	"stelle gegen mats her |cffffd000|Henchant:50967|h[Lederverarbeitung: Eisschuppenbeinrüstung]|h|r |cffffd000|Henchant:50965|h[Lederverarbeitung: Frostbalgbeinrüstung]|h|r", -- [1]
+	"wts  |cffa335ee|Hitem:44259:0:0:0:0:0:0:415405504:80|h[Prismenkartenset]|h|r -->  |cffa335ee|Hitem:42988:0:0:0:0:0:0:0:80|h[Dunkelmond-Karte: Illusion]|h|r gebot bei 1000g", -- [2]
+	"lfg hero", -- [3]
+	"yammy karten können wir garned abgeben :D", -- [4]
+	"-_-", -- [5]
+	"Lf tank für feste drak'tharon heroic /w me !", -- [6]
+	"Elixiermeister bietet seine Dienste gegen Mats an! |cffffd000|Htrade:51304:450:450:1654727:RKi>rAkC[CX{K<Y\\Bp^Kg_`a]Wu{x<o{{zCL<Hv[tK=|h[Alchemie]|h|r/w me nehme auch gerne eine Spende :))", -- [7]
+	"kann wer  |cff0070dd|Hitem:40057:0:0:0:0:0:0:1407302886:80|h[Gleißender Monarchentopas]|h|r schleifen?", -- [8]
+	"|cffffd000|Htrade:28677:450:450:FC9239:r{{k{sks{sY{K<{c`@dKg_<<<bu{t<{{w{?<<Hvkt[=|h[Meister der Elixiere]|h|r&|cffffd000|Htrade:51296:421:450:FC9239:r{Wc{X_w{{I?Kw{omSj{{wi<\\K{[|h[Kochen]|h|r", -- [9]
+	"Alles gg Mats oder Gold", -- [10]
+	"Bei Interesse /w me!", -- [11]
+	"wts  |cff1eff00|Hitem:6037:0:0:0:0:0:0:1528854582:80|h[Echtsilberbarren]|h|r /w me mit gebot", -- [12]
+	"*stack", -- [13]
+	"lfm tank nexus hero 4/5", -- [14]
+	"Schleife |cffffd000|Htrade:51311:401:450:16BA646:x[vPhfHhEn_ebHC<<<<lC<<<\\{=\\{k=<<<<<<<z=<<<<v{swkwgZr[qZ?NN<\\=D<>?<<><<<<<<x\\?xK<|h[Juwelenschleifen]|h|r gegen Mats + freiwillige spende pls w/me", -- [15]
+	"Lf tank für feste drak'tharon heroic /w me !", -- [16]
+	"tausche  |cff0070dd|Hitem:41594:0:0:0:0:0:0:0:80|h[Mondgespinst]|h|r gegen   |cff0070dd|Hitem:41593:0:0:0:0:0:0:0:80|h[Schwarztuch]|h|r", -- [17]
+	"lfm 1 heal burg hero", -- [18]
+	"wts  |cffa335ee|Hitem:44276:0:0:0:0:0:0:773224680:80|h[Chaoskartenset]|h|r ---->  |cffa335ee|Hitem:42989:0:0:0:0:0:0:0:80|h[Dunkelmond-Karte: Beserker!]|h|r pvp karte bisher ohne gebot", -- [19]
+	"kann mir jmd mats für platten epic frostresi posten", -- [20]
+}

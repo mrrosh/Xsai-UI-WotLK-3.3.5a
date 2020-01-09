@@ -1,0 +1,10 @@
+
+DrDamageDB = {
+	["profiles"] = {
+		["Default"] = {
+			["FontSize"] = 12,
+			["FontYPosition"] = -2,
+			["BlizzardAB"] = true,
+		},
+	},
+}

@@ -1,0 +1,10 @@
+
+Scorchio2DB = {
+	["profileKeys"] = {
+		["Xsai - Arthas"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

@@ -1,0 +1,163 @@
+
+AsheylaLib_Settings = {
+	["Default"] = {
+		["DoTimer"] = {
+			["keybindings"] = {
+				["Timer"] = {
+					["Remove"] = "2",
+					["Announce"] = "1",
+					["Block"] = "s-2",
+				},
+			},
+			["isAnnouncing"] = false,
+			["partyBuffs"] = {
+				[" spirit"] = 1,
+				["soulstone"] = 1,
+				["shadow protection"] = 1,
+				["fortitude"] = 1,
+				["arcane"] = 1,
+				["of the wild"] = 1,
+				["shout"] = 1,
+				["blessing of"] = 1,
+				["thorns"] = 1,
+			},
+			["showOnlyFocus"] = false,
+			["userAnchors"] = {
+				["DoTimer Anchor"] = {
+					["pbLoc"] = true,
+					["default"] = true,
+					["ntLoc"] = true,
+					["targets"] = {
+					},
+					["timerSettings"] = {
+					},
+				},
+			},
+			["usePartyBuffs"] = false,
+		},
+		["TimerLib"] = {
+			["timerSettings"] = {
+				["Default Timer"] = {
+					["iconFlipText"] = false,
+					["finalColor"] = {
+						["b"] = 0.3764705882352941,
+						["g"] = 0.4941176470588236,
+						["r"] = 0.6235294117647059,
+					},
+					["barFlipIcon"] = true,
+					["startColor"] = {
+						["b"] = 0.3764705882352941,
+						["g"] = 0.4941176470588236,
+						["r"] = 0.6235294117647059,
+					},
+					["barMajorLength"] = 200,
+					["alpha"] = 1,
+					["timeFormat"] = "letters",
+					["timerFormat"] = "bar",
+					["iconDisplayFormat"] = "outside",
+					["barTexture"] = "Banto",
+					["middleColor"] = {
+						["b"] = 0.3764705882352941,
+						["g"] = 0.4941176470588236,
+						["r"] = 0.6235294117647059,
+					},
+				},
+			},
+			["anchorSettings"] = {
+				["DoTimer Mouseover"] = {
+					["overflowPoint"] = 0,
+					["timerDirection"] = "down",
+					["combatAlpha"] = 1,
+					["timerSpacing"] = 5,
+					["displayNames"] = false,
+					["mouseoverAlpha"] = 1,
+					["groupDirection"] = "down",
+					["overflowDirection"] = "right",
+					["anchorsToCursor"] = true,
+					["standardAlpha"] = 1,
+				},
+				["Default Anchor"] = {
+					["locked"] = true,
+					["positionY"] = 568.763311525347,
+					["positionX"] = 314.6392645953121,
+					["groupDirection"] = "up",
+				},
+				["PlayerAuras Anchor"] = {
+					["groupSortMethod"] = "Alphabetical (A)",
+				},
+				["DoTimer Anchor"] = {
+					["positionX"] = 309.8268345281113,
+					["positionY"] = 290.1953558752267,
+				},
+				["Notifications Anchor"] = {
+				},
+				["Cooldowns Anchor"] = {
+					["positionX"] = -0.0618703939417944,
+					["positionY"] = 333.4557999405499,
+				},
+			},
+		},
+		["Cooldowns"] = {
+			["userAnchors"] = {
+				["Cooldowns Anchor"] = {
+					["externalLoc"] = true,
+					["timers"] = {
+					},
+					["default"] = true,
+					["timerSettings"] = {
+					},
+				},
+			},
+			["enabled"] = false,
+			["isAnnouncing"] = false,
+			["keybindings"] = {
+				["Timer"] = {
+					["Remove"] = "2",
+					["Announce"] = "1",
+					["Block"] = "s-2",
+				},
+			},
+		},
+		["VersionCommunication"] = {
+		},
+		["CooldownsComm"] = {
+			["keybindings"] = {
+				["Timer"] = {
+					["Remove"] = "2",
+					["Announce"] = "1",
+					["Block"] = "s-2",
+				},
+			},
+		},
+		["PlayerAuras"] = {
+			["keybindings"] = {
+				["Timer"] = {
+					["Remove"] = "2",
+					["Announce"] = "1",
+					["Block"] = "s-2",
+				},
+			},
+			["userAnchors-Buffs"] = {
+				["PlayerAuras Anchor"] = {
+					["noDurLoc"] = true,
+					["timers"] = {
+					},
+					["default"] = true,
+					["timerSettings"] = {
+					},
+				},
+			},
+			["userAnchors-Debuffs"] = {
+				["PlayerAuras Anchor"] = {
+					["noDurLoc"] = true,
+					["timers"] = {
+					},
+					["default"] = true,
+					["timerSettings"] = {
+					},
+				},
+			},
+		},
+	},
+	["simpleMode"] = true,
+}

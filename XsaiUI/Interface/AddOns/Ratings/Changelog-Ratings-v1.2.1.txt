@@ -1,0 +1,104 @@
+------------------------------------------------------------------------
+r41 | jerry | 2009-03-09 09:03:15 +0000 (Mon, 09 Mar 2009) | 1 line
+Changed paths:
+   A /tags/v1.2.1 (from /trunk:40)
+
+Tagging as v1.2.1
+------------------------------------------------------------------------
+r40 | jerry | 2009-03-08 13:36:18 +0000 (Sun, 08 Mar 2009) | 1 line
+Changed paths:
+   M /trunk/core.lua
+
+add ingame configuration panel
+------------------------------------------------------------------------
+r38 | jerry | 2009-02-24 10:36:59 +0000 (Tue, 24 Feb 2009) | 4 lines
+Changed paths:
+   M /trunk/Ratings.toc
+   M /trunk/core.lua
+
+Change format to look like wowhead.
+Allow user to change the format and the level used for calculations.
+No UI for now.
+
+------------------------------------------------------------------------
+r37 | jerry | 2009-02-18 19:58:57 +0000 (Wed, 18 Feb 2009) | 1 line
+Changed paths:
+   M /trunk/core.lua
+
+Simplify calls to :HookScript()
+------------------------------------------------------------------------
+r35 | jerry | 2008-12-07 00:32:53 +0000 (Sun, 07 Dec 2008) | 1 line
+Changed paths:
+   M /trunk/core.lua
+
+German translation, thanks D4wn
+------------------------------------------------------------------------
+r33 | jerry | 2008-11-26 07:39:28 +0000 (Wed, 26 Nov 2008) | 2 lines
+Changed paths:
+   M /trunk/core.lua
+
+Fix multiplier calculation for level above 70
+
+------------------------------------------------------------------------
+r31 | jerry | 2008-11-21 07:52:02 +0000 (Fri, 21 Nov 2008) | 2 lines
+Changed paths:
+   M /trunk/core.lua
+
+Fix for player level above 70
+
+------------------------------------------------------------------------
+r29 | jerry | 2008-10-16 07:03:15 +0000 (Thu, 16 Oct 2008) | 2 lines
+Changed paths:
+   M /trunk/Ratings.toc
+   M /trunk/core.lua
+
+Wow 3.0 compatible
+
+------------------------------------------------------------------------
+r28 | root | 2008-09-29 22:15:09 +0000 (Mon, 29 Sep 2008) | 1 line
+Changed paths:
+   A /trunk/.pkgmeta
+
+Facilitate WowAce-on-CurseForge transition
+------------------------------------------------------------------------
+r26 | root | 2008-09-29 20:58:34 +0000 (Mon, 29 Sep 2008) | 1 line
+Changed paths:
+   D /tmp/trunk/Ratings
+   A /trunk (from /tmp/trunk/Ratings:25)
+
+Importing old repo data under /trunk
+------------------------------------------------------------------------
+r23 | jerry | 2008-06-11 09:42:46 +0000 (Wed, 11 Jun 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/Ratings/core.lua
+
+Ratings: Automatically disable the addon for unsupported locales. Slight speed improvement.
+
+------------------------------------------------------------------------
+r22 | jerry | 2008-05-21 18:05:10 +0000 (Wed, 21 May 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/Ratings/core.lua
+
+Ratings: Don't show a percent sign for Expertise
+------------------------------------------------------------------------
+r21 | jerry | 2008-05-20 20:34:16 +0000 (Tue, 20 May 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/Ratings/core.lua
+
+Ratings: don't change the ratings twice for recipes.
+------------------------------------------------------------------------
+r20 | jerry | 2008-05-20 20:19:17 +0000 (Tue, 20 May 2008) | 3 lines
+Changed paths:
+   A /tmp/trunk/Ratings/Ratings.toc
+   A /tmp/trunk/Ratings/core.lua
+
+Ratings: initial import
+Minimal addon that analyse tooltips and insert the value of rating bonus. (i.e. the easy part of what RatingBuster does).
+No dependencies
+------------------------------------------------------------------------
+r19 | jerry | 2008-05-20 20:14:12 +0000 (Tue, 20 May 2008) | 1 line
+Changed paths:
+   A /tmp/trunk/Ratings
+
+Ratings: Created folder remotely
+------------------------------------------------------------------------

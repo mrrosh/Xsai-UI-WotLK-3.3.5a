@@ -1,0 +1,153 @@
+
+TipTac_Config = {
+	["showUnitTip"] = true,
+	["showRealm"] = "show",
+	["selfBuffsOnly"] = false,
+	["barHeight"] = 6,
+	["manaBarColor"] = {
+		0.3, -- [1]
+		0.55, -- [2]
+		0.9, -- [3]
+		1, -- [4]
+	},
+	["anchorPoint"] = "TOPLEFT",
+	["aurasAtBottom"] = false,
+	["backdropEdgeSize"] = 21,
+	["powerBar"] = false,
+	["fontFlags"] = "",
+	["showAuraCooldown"] = false,
+	["colReactBack7"] = {
+		0.05, -- [1]
+		0.05, -- [2]
+		0.05, -- [3]
+		1, -- [4]
+	},
+	["showDebuffs"] = false,
+	["powerBarText"] = "value",
+	["colReactText1"] = "|cffc0c0c0",
+	["healthBarClassColor"] = true,
+	["barFontFlags"] = "OUTLINE",
+	["classification_rare"] = "%sr",
+	["colReactBack2"] = {
+		0.3, -- [1]
+		0, -- [2]
+		0, -- [3]
+		1, -- [4]
+	},
+	["optionsBottom"] = 367.5829409763134,
+	["colReactText3"] = "|cffff7f00",
+	["hideAllTipsInCombat"] = false,
+	["iconSize"] = 30,
+	["manaBar"] = false,
+	["gradientColor"] = {
+		0.8, -- [1]
+		0.8, -- [2]
+		0.8, -- [3]
+		0.2, -- [4]
+	},
+	["fadeTime"] = 0.2000000029802322,
+	["targetYouText"] = "<<YOU>>",
+	["showGuildRank"] = false,
+	["itemQualityBorder"] = true,
+	["gradientTip"] = false,
+	["barFontSize"] = 12,
+	["gttScale"] = 0.8500000238418579,
+	["top"] = 250.2075866600886,
+	["colReactBack3"] = {
+		0.3, -- [1]
+		0.15, -- [2]
+		0, -- [3]
+		1, -- [4]
+	},
+	["preFadeTime"] = 0,
+	["pvpName"] = true,
+	["left"] = 1426.614526931829,
+	["reactText"] = false,
+	["colReactText2"] = "|cffff0000",
+	["optionsLeft"] = 310.8726394528283,
+	["tipBackdropBG"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+	["reactColoredBackdrop"] = false,
+	["tipColor"] = {
+		0.1, -- [1]
+		0.1, -- [2]
+		0.2, -- [3]
+		1, -- [4]
+	},
+	["updateFreq"] = 0.1000000014901161,
+	["mouseOffsetX"] = 200,
+	["colRace"] = "|cffffffff",
+	["colReactBack5"] = {
+		0, -- [1]
+		0.3, -- [2]
+		0.1, -- [3]
+		1, -- [4]
+	},
+	["auraMaxRows"] = 2,
+	["mouseOffsetY"] = 120,
+	["colLevel"] = "|cffc0c0c0",
+	["colReactText5"] = "|cff00ff00",
+	["barTexture"] = "Interface\\TargetingFrame\\UI-StatusBar",
+	["tipBorderColor"] = {
+		0.7529411764705882, -- [1]
+		0.7529411764705882, -- [2]
+		1, -- [3]
+		0.7000000178813934, -- [4]
+	},
+	["colReactText6"] = "|cff25c1eb",
+	["healthBarColor"] = {
+		0.3, -- [1]
+		0.9, -- [2]
+		0.3, -- [3]
+		1, -- [4]
+	},
+	["colReactBack1"] = {
+		0.2, -- [1]
+		0.2, -- [2]
+		0.2, -- [3]
+		1, -- [4]
+	},
+	["auraSize"] = 18,
+	["healthBar"] = true,
+	["classColoredBorder"] = false,
+	["fontSize"] = 13,
+	["tipBackdropEdge"] = "Interface\\Tooltips\\UI-Tooltip-Border",
+	["colReactText4"] = "|cffffff00",
+	["manaBarText"] = "none",
+	["anchorTypeUnit"] = "normal",
+	["selfDebuffsOnly"] = false,
+	["showStatus"] = true,
+	["barFontFace"] = "Fonts\\FRIZQT__.TTF",
+	["backdropInsets"] = 0,
+	["classification_worldboss"] = "%sb++",
+	["showTarget"] = "last",
+	["anchorType"] = "normal",
+	["healthBarText"] = "none",
+	["showTargetedBy"] = false,
+	["showBuffs"] = false,
+	["classification_rareelite"] = "%sr+",
+	["colorNameByClass"] = true,
+	["colSameGuild"] = "|cffff32ff",
+	["iconAnchor"] = "TOPRIGHT",
+	["classification_elite"] = "%s+",
+	["colReactBack4"] = {
+		0.3, -- [1]
+		0.3, -- [2]
+		0, -- [3]
+		1, -- [4]
+	},
+	["anchorPointUnit"] = "TOPLEFT",
+	["hideUFTipsInCombat"] = false,
+	["fontFace"] = "Fonts\\ARIALN.TTF",
+	["classification_normal"] = "%s",
+	["modifyFonts"] = true,
+	["hookTips"] = true,
+	["colReactBack6"] = {
+		0, -- [1]
+		0, -- [2]
+		0.5, -- [3]
+		1, -- [4]
+	},
+	["colReactText7"] = "|cff808080",
+	["hideWorldTips"] = true,
+	["showIcon"] = true,
+}

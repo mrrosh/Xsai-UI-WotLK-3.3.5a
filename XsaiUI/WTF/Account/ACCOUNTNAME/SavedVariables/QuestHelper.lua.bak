@@ -1,0 +1,972 @@
+
+QuestHelper_Version = "0.70"
+QuestHelper_SaveVersion = 10
+QuestHelper_Locale = "enUS"
+QuestHelper_Quests = {
+	["0.70 on 3.0.3"] = {
+		{
+			[78] = {
+				["Just Around the Corner"] = {
+					["hash"] = 4077723238,
+					["item"] = {
+						["Sparksocket's Tools"] = {
+							["pos"] = {
+								{
+									73, -- [1]
+									0.3510841429233551, -- [2]
+									0.8774442076683044, -- [3]
+									2, -- [4]
+								}, -- [1]
+							},
+						},
+					},
+					["id"] = 12819,
+					["start"] = "Jeer Sparksocket",
+					["finish"] = "Jeer Sparksocket",
+				},
+				["Reclaimed Rations"] = {
+					["hash"] = 521740584,
+					["item"] = {
+						["Dried Gnoll Rations"] = {
+							["drop"] = {
+								["Savage Hill Brute"] = 4,
+								["Savage Hill Mystic"] = 1,
+							},
+						},
+					},
+					["id"] = 12827,
+					["finish"] = "Ricket",
+				},
+				["Clean Up"] = {
+					["hash"] = 3581351475,
+					["item"] = {
+						["Charred Wreckage"] = {
+							["pos"] = {
+								{
+									73, -- [1]
+									0.391925573348999, -- [2]
+									0.8668434202671052, -- [3]
+									20, -- [4]
+								}, -- [1]
+							},
+						},
+					},
+					["id"] = 12818,
+					["finish"] = "Jeer Sparksocket",
+				},
+				["Expression of Gratitude"] = {
+					["id"] = 12836,
+					["hash"] = 730533483,
+					["finish"] = "Ricket",
+				},
+				["A Delicate Touch"] = {
+					["start"] = "Ricket",
+					["id"] = 12820,
+					["hash"] = 3426172386,
+				},
+				["Slightly Unstable"] = {
+					["hash"] = 3581350261,
+					["id"] = 12826,
+					["start"] = "Jeer Sparksocket",
+					["finish"] = "Ricket",
+				},
+				["Leave No Goblin Behind"] = {
+					["start"] = "Gretchen Fizzlespark",
+					["id"] = 12846,
+					["hash"] = 2736401595,
+				},
+				["Ample Inspiration"] = {
+					["hash"] = 141829454,
+					["id"] = 12828,
+					["start"] = "Ricket",
+					["finish"] = "Ricket",
+				},
+			},
+			[79] = {
+				["Equipment Recovery"] = {
+					["hash"] = 336601935,
+					["item"] = {
+						["K3 Equipment"] = {
+							["pos"] = {
+								{
+									73, -- [1]
+									0.4109418094158173, -- [2]
+									0.7287857234477997, -- [3]
+									16, -- [4]
+								}, -- [1]
+							},
+						},
+					},
+					["id"] = 12844,
+					["finish"] = "Gretchen Fizzlespark",
+				},
+				["They Took Our Men!"] = {
+					["id"] = 12843,
+					["hash"] = 2879856682,
+					["finish"] = "Gretchen Fizzlespark",
+				},
+			},
+			[80] = {
+				["Proof of Demise: King Ymiron"] = {
+					["hash"] = 3116118994,
+					["id"] = 13248,
+				},
+				["Timear Foresees Infinite Agents in your Future!"] = {
+					["hash"] = 970136482,
+					["id"] = 13243,
+				},
+			},
+		}, -- [1]
+	},
+}
+QuestHelper_Objectives = {
+	["0.70 on 3.0.3"] = {
+		["monster"] = {
+			["Galendror Whitewing"] = {
+			},
+			["Gryth Thurden"] = {
+			},
+			["Bibilfaz Featherwhistle"] = {
+			},
+			["Gurric"] = {
+			},
+			["Baldruc"] = {
+			},
+			["Bilko Driftspark"] = {
+			},
+			["Halu"] = {
+			},
+			["Savage Hill Scavenger"] = {
+				["level"] = 77.22222222222223,
+				["id"] = 29404,
+				["levelw"] = 9,
+				["looted"] = 4,
+				["pos"] = {
+					{
+						73, -- [1]
+						0.3924571211190568, -- [2]
+						0.8654180499389, -- [3]
+						7.76, -- [4]
+					}, -- [1]
+					{
+						73, -- [1]
+						0.3150595185302553, -- [2]
+						0.8506990302176701, -- [3]
+						2.1, -- [4]
+					}, -- [2]
+				},
+			},
+			["Nutral"] = {
+			},
+			["Kara Thricestar"] = {
+			},
+			["Felicia Maline"] = {
+			},
+			["Vesprystus"] = {
+			},
+			["Alexandra Constantine"] = {
+			},
+			["Cloud Skydancer"] = {
+			},
+			["Rip Pedalslam"] = {
+			},
+			["Amish Wildhammer"] = {
+			},
+			["Mishellena"] = {
+			},
+			["Grimwing"] = {
+			},
+			["Baritanas Skyriver"] = {
+			},
+			["Surristrasz"] = {
+			},
+			["Palena Silvercloud"] = {
+			},
+			["Nethestrasz"] = {
+			},
+			["Tomas Riverwell"] = {
+			},
+			["Furgu"] = {
+			},
+			["Runetog Wildhammer"] = {
+			},
+			["Suralais Farwind"] = {
+			},
+			["Rodney Wells"] = {
+			},
+			["Halvdan"] = {
+			},
+			["Gnarlhide"] = {
+				["looted"] = 1,
+				["levelw"] = 2,
+				["id"] = 30003,
+				["level"] = 77,
+				["quest"] = true,
+				["pos"] = {
+					{
+						73, -- [1]
+						0.3065301381772564, -- [2]
+						0.8547742597518429, -- [3]
+						3.1, -- [4]
+					}, -- [1]
+				},
+			},
+			["Savage Hill Mystic"] = {
+				["level"] = 77.66666666666667,
+				["id"] = 29622,
+				["levelw"] = 9,
+				["looted"] = 4,
+				["pos"] = {
+					{
+						73, -- [1]
+						0.3120294403883496, -- [2]
+						0.8545199765690734, -- [3]
+						8.960000000000001, -- [4]
+					}, -- [1]
+				},
+			},
+			["Furnan Skysoar"] = {
+			},
+			["Gryfe"] = {
+			},
+			["Greer Orehammer"] = {
+			},
+			["James Ormsby"] = {
+			},
+			["Lok'lira the Crone"] = {
+			},
+			["Maaka"] = {
+			},
+			["Sifreldar Runekeeper"] = {
+				["level"] = 79.33333333333333,
+				["id"] = 29331,
+				["levelw"] = 6,
+				["looted"] = 3,
+				["pos"] = {
+					{
+						73, -- [1]
+						0.408584525660863, -- [2]
+						0.7335810472094825, -- [3]
+						6.3, -- [4]
+					}, -- [1]
+				},
+			},
+			["Maethrya"] = {
+			},
+			["Archmage Timear"] = {
+			},
+			["Goblin Prisoner freed"] = {
+				["quest"] = true,
+				["pos"] = {
+					{
+						73, -- [1]
+						0.407344663143158, -- [2]
+						0.726842212677002, -- [3]
+						5, -- [4]
+					}, -- [1]
+				},
+			},
+			["Teloren"] = {
+			},
+			["Dreadwind"] = {
+			},
+			["Kip Trawlskip"] = {
+			},
+			["Ariena Stormfeather"] = {
+			},
+			["Gretchen Fizzlespark"] = {
+				["id"] = 29473,
+				["level"] = 78,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						73, -- [1]
+						0.4115307927131653, -- [2]
+						0.8608288168907166, -- [3]
+						5, -- [4]
+					}, -- [1]
+				},
+			},
+			["Infinite Agent"] = {
+				["quest"] = true,
+			},
+			["Vana Grey"] = {
+			},
+			["Lanie Reed"] = {
+			},
+			["Arzo Safeflight"] = {
+			},
+			["Caylais Moonfeather"] = {
+			},
+			["Garm Attackers"] = {
+				["quest"] = true,
+			},
+			["Gyll"] = {
+			},
+			["Penumbrius"] = {
+			},
+			["Savage Hill Brute"] = {
+				["level"] = 77.5,
+				["id"] = 29623,
+				["levelw"] = 16,
+				["looted"] = 7,
+				["pos"] = {
+					{
+						73, -- [1]
+						0.3185554933890201, -- [2]
+						0.856645182167229, -- [3]
+						16.72, -- [4]
+					}, -- [1]
+				},
+			},
+			["Breck Rockbrow"] = {
+			},
+			["Derek Rammel"] = {
+			},
+			["Bragok"] = {
+			},
+			["Bera Stonehammer"] = {
+			},
+			["Sifreldar Storm Maiden"] = {
+				["level"] = 78.24000000000002,
+				["id"] = 29323,
+				["levelw"] = 25,
+				["looted"] = 12,
+				["pos"] = {
+					{
+						73, -- [1]
+						0.4083888724639523, -- [2]
+						0.7309656021342217, -- [3]
+						26.22, -- [4]
+					}, -- [1]
+				},
+			},
+			["Thyssiana"] = {
+			},
+			["Fhyn Leafshadow"] = {
+			},
+			["Silva Fil'naveth"] = {
+			},
+			["Gorrim"] = {
+			},
+			["Alieshor"] = {
+			},
+			["Dyslix Silvergrub"] = {
+			},
+			["Ricket"] = {
+				["id"] = 29428,
+				["levelw"] = 2,
+				["level"] = 80,
+				["pos"] = {
+					{
+						73, -- [1]
+						0.4092233330011368, -- [2]
+						0.8534888088703155, -- [3]
+						10, -- [4]
+					}, -- [1]
+				},
+			},
+			["The Spirit of Gnomeregan"] = {
+			},
+			["Shavalius the Fancy"] = {
+			},
+			["Amerun Leafshade"] = {
+			},
+			["Nizzle"] = {
+			},
+			["Fyldren Moonfeather"] = {
+			},
+			["Laando"] = {
+			},
+			["Morlia Doomwing"] = {
+			},
+			["Kiz Coilspanner"] = {
+			},
+			["Jarrodenus"] = {
+			},
+			["Darla Harris"] = {
+			},
+			["Rafae"] = {
+			},
+			["Grennik"] = {
+			},
+			["Stephanos"] = {
+			},
+			["Samuel Clearbook"] = {
+			},
+			["Kuma"] = {
+			},
+			["Baneflight"] = {
+			},
+			["Thorgrum Borrelson"] = {
+			},
+			["Skizzle Slickslide"] = {
+			},
+			["Faldorf Bitterchill"] = {
+			},
+			["Torseg the Exiled"] = {
+				["id"] = 29350,
+				["level"] = 79,
+				["levelw"] = 1,
+				["pos"] = {
+					{
+						73, -- [1]
+						0.3170291781425476, -- [2]
+						0.8549379110336304, -- [3]
+						0.1, -- [4]
+					}, -- [1]
+				},
+			},
+			["Sindrayl"] = {
+			},
+			["Warmage Adami"] = {
+			},
+			["Marvin Wobblesprocket"] = {
+			},
+			["Harpax"] = {
+			},
+			["Cedrik Prose"] = {
+			},
+			["Ohura"] = {
+			},
+			["Borgus Stoutarm"] = {
+			},
+			["Aludane Whitecloud"] = {
+			},
+			["Munci"] = {
+			},
+			["Krexcil"] = {
+			},
+			["Khaelyn Steelwing"] = {
+			},
+			["Maddix"] = {
+			},
+			["Shellei Brondir"] = {
+			},
+			["Brubeck Stormfoot"] = {
+			},
+			["Archmage Lan'dalock"] = {
+			},
+			["Aedan Moran"] = {
+			},
+			["Danica Saint"] = {
+			},
+			["Thor"] = {
+			},
+			["Ironwool Mammoth"] = {
+				["level"] = 78,
+				["id"] = 29402,
+				["levelw"] = 2,
+				["looted"] = 1,
+				["pos"] = {
+					{
+						73, -- [1]
+						0.3725820893333072, -- [2]
+						0.8438364636330377, -- [3]
+						2.1, -- [4]
+					}, -- [1]
+				},
+			},
+			["Guthrum Thunderfist"] = {
+			},
+			["Jeer Sparksocket"] = {
+				["id"] = 29431,
+				["levelw"] = 2,
+				["level"] = 80,
+				["pos"] = {
+					{
+						73, -- [1]
+						0.4099723663594987, -- [2]
+						0.8635855383343167, -- [3]
+						9, -- [4]
+					}, -- [1]
+				},
+			},
+			["Cid Flounderfix"] = {
+			},
+			["Dungar Longdrink"] = {
+			},
+			["Flightmaster Krill Bitterhue"] = {
+			},
+			["King Ymiron"] = {
+			},
+			["Pricilla Winterwind"] = {
+			},
+			["Daelyshia"] = {
+			},
+		},
+		["item"] = {
+			[""] = {
+				["id"] = 40969,
+			},
+			["Shattered Bow"] = {
+				["id"] = 33422,
+			},
+			["Arathi Basin Mark of Honor"] = {
+				["id"] = 20559,
+			},
+			["Froststeel Lockbox"] = {
+				["id"] = 43622,
+			},
+			["Arcane Powder"] = {
+				["id"] = 17020,
+			},
+			["The Violet Hold Key"] = {
+				["id"] = 42482,
+			},
+			["Dream Shard"] = {
+				["id"] = 34052,
+			},
+			["Cracked Iron Staff"] = {
+				["id"] = 33424,
+			},
+			["Serene Hammer of the Elder"] = {
+				["id"] = 36693,
+			},
+			["Charred Wreckage"] = {
+				["quest"] = true,
+				["id"] = 40603,
+			},
+			["Titanium Lockbox"] = {
+				["id"] = 43624,
+			},
+			["Blessed Wizard Oil"] = {
+				["id"] = 23123,
+			},
+			["Hoary Crystals"] = {
+				["id"] = 39512,
+			},
+			["King's Square Postbox Key"] = {
+				["id"] = 13306,
+			},
+			["Runic Mana Potion"] = {
+				["id"] = 33448,
+			},
+			["Shadow Labyrinth Key"] = {
+				["id"] = 27991,
+			},
+			["Bolt of Frostweave"] = {
+				["id"] = 41510,
+			},
+			["Crystallized Water"] = {
+				["id"] = 37705,
+			},
+			["Heavy Frostweave Bandage"] = {
+				["id"] = 34722,
+			},
+			["Glacial Slippers"] = {
+				["id"] = 43585,
+			},
+			["The Scarlet Key"] = {
+				["id"] = 7146,
+			},
+			["Thick Fur Clothing Scraps"] = {
+				["id"] = 43852,
+				["drop"] = {
+					["Savage Hill Brute"] = 2,
+					["Sifreldar Storm Maiden"] = 1,
+				},
+			},
+			["Badge of Justice"] = {
+				["id"] = 29434,
+			},
+			["The Master's Key"] = {
+				["id"] = 24490,
+			},
+			["Warpforged Key"] = {
+				["id"] = 30634,
+			},
+			["Frostweave Cloth"] = {
+				["id"] = 33470,
+				["drop"] = {
+					["Sifreldar Storm Maiden"] = 6,
+					["Savage Hill Scavenger"] = 1,
+					["Savage Hill Brute"] = 3,
+					["Sifreldar Runekeeper"] = 4,
+					["Savage Hill Mystic"] = 2,
+				},
+			},
+			["Slag Footguards"] = {
+				["id"] = 37841,
+			},
+			["Potion of Speed"] = {
+				["id"] = 40211,
+			},
+			["Flask of Pure Death"] = {
+				["id"] = 22866,
+			},
+			["Mana Attuned Band"] = {
+				["id"] = 33497,
+			},
+			["Jump-a-tron 4000 Key"] = {
+				["id"] = 27808,
+			},
+			["Salted Venison"] = {
+				["id"] = 33454,
+				["drop"] = {
+					["Sifreldar Storm Maiden"] = 2,
+				},
+			},
+			["Heavy Netherweave Bandage"] = {
+				["id"] = 21991,
+			},
+			["Chestguard of the Frozen Ascent"] = {
+				["id"] = 42877,
+			},
+			["Key to the City"] = {
+				["id"] = 12382,
+			},
+			["Key of Time"] = {
+				["id"] = 30635,
+			},
+			["Blump Family Fishing Pole"] = {
+				["id"] = 12225,
+			},
+			["Conjured Mana Strudel"] = {
+				["id"] = 43523,
+			},
+			["Emblem of Valor"] = {
+				["id"] = 40753,
+			},
+			["Locket of the Deceased Queen"] = {
+				["quest"] = true,
+			},
+			["Warsong Gulch Mark of Honor"] = {
+				["id"] = 20558,
+			},
+			["Workshop Key"] = {
+				["id"] = 6893,
+			},
+			["Improved Land Mines"] = {
+				["id"] = 40676,
+			},
+			["Looped Tusk"] = {
+				["id"] = 39562,
+				["drop"] = {
+					["Ironwool Mammoth"] = 1,
+				},
+			},
+			["money"] = {
+				["drop"] = {
+					["Sifreldar Storm Maiden"] = 21387,
+					["Savage Hill Scavenger"] = 7913,
+					["Savage Hill Mystic"] = 5985,
+					["Sifreldar Runekeeper"] = 6591,
+					["Savage Hill Brute"] = 12700,
+					["Gnarlhide"] = 2801,
+				},
+			},
+			["Fur Clothing Scraps"] = {
+				["id"] = 43851,
+				["drop"] = {
+					["Savage Hill Mystic"] = 1,
+					["Sifreldar Storm Maiden"] = 2,
+					["Savage Hill Scavenger"] = 2,
+				},
+			},
+			["Dried Gnoll Rations"] = {
+				["quest"] = true,
+				["id"] = 40645,
+			},
+			["Sparksocket's Tools"] = {
+				["quest"] = true,
+				["id"] = 40642,
+			},
+			["Hearty Mammoth Meat"] = {
+				["quest"] = true,
+			},
+			["Cold Iron Key"] = {
+				["id"] = 40641,
+				["drop"] = {
+					["Sifreldar Storm Maiden"] = 5,
+				},
+			},
+			["Overcharged Capacitor"] = {
+				["id"] = 39682,
+			},
+			["Efflorescing Shards"] = {
+				["id"] = 39513,
+			},
+			["Relic of Ulduar"] = {
+				["id"] = 42780,
+				["drop"] = {
+					["Sifreldar Runekeeper"] = 1,
+					["Sifreldar Storm Maiden"] = 4,
+				},
+			},
+			["Glacial Waistband"] = {
+				["id"] = 43584,
+			},
+			["Captain's Key"] = {
+				["id"] = 9249,
+			},
+			["Alterac Valley Mark of Honor"] = {
+				["id"] = 20560,
+			},
+			["Eye of the Storm Mark of Honor"] = {
+				["id"] = 29024,
+			},
+			["K3 Equipment"] = {
+				["quest"] = true,
+				["id"] = 40726,
+			},
+			["Shoveltusk Soup"] = {
+				["id"] = 34125,
+			},
+			["Belt of the Tempest"] = {
+				["id"] = 34557,
+			},
+			["Relic Coffer Key"] = {
+				["id"] = 11078,
+			},
+			["Flamewrought Key"] = {
+				["id"] = 30622,
+			},
+			["Ethereum Prison Key"] = {
+				["id"] = 29460,
+			},
+			["Stone Keeper's Shard"] = {
+				["id"] = 43228,
+			},
+			["The Tempest Key"] = {
+				["id"] = 31704,
+			},
+			["Reservoir Key"] = {
+				["id"] = 30623,
+			},
+			["Frigid Mail Belt"] = {
+				["id"] = 33398,
+			},
+			["Baked Manta Ray"] = {
+				["id"] = 42942,
+			},
+			["Auchenai Key"] = {
+				["id"] = 30633,
+			},
+			["Adept's Elixir"] = {
+				["id"] = 28103,
+			},
+			["Runic Healing Potion"] = {
+				["id"] = 33447,
+				["drop"] = {
+					["Gnarlhide"] = 1,
+				},
+			},
+			["The Skull of Gul'dan"] = {
+				["id"] = 32483,
+			},
+			["Glacial Robe"] = {
+				["id"] = 43583,
+			},
+			["Market Row Postbox Key"] = {
+				["id"] = 13302,
+			},
+			["Mana Sapphire"] = {
+				["id"] = 33312,
+			},
+			["Shattered Halls Key"] = {
+				["id"] = 28395,
+			},
+			["Elixir of Healing Power"] = {
+				["id"] = 22825,
+			},
+			["Super Rejuvenation Potion"] = {
+				["id"] = 22850,
+			},
+			["Runed Eternium Rod"] = {
+				["id"] = 22463,
+			},
+			["Eternal Earth"] = {
+				["id"] = 35624,
+			},
+			["Frozen Armor"] = {
+				["id"] = 33379,
+			},
+			["Drakkari Offerings"] = {
+				["id"] = 38551,
+			},
+			["Hearthstone"] = {
+				["id"] = 6948,
+			},
+			["Honeymint Tea"] = {
+				["id"] = 33445,
+				["drop"] = {
+					["Sifreldar Storm Maiden"] = 2,
+				},
+			},
+			["Rune of Portals"] = {
+				["id"] = 17032,
+			},
+			["Vrykul Bones"] = {
+				["id"] = 43089,
+			},
+			["Crystalsong Bracelets of the Owl"] = {
+				["id"] = 36050,
+			},
+			["Rune of Teleportation"] = {
+				["id"] = 17031,
+			},
+		},
+	},
+}
+QuestHelper_FlightInstructors = {
+	["0.70 on 3.0.3"] = {
+	},
+}
+QuestHelper_FlightRoutes = {
+	["0.70 on 3.0.3"] = {
+	},
+}
+QuestHelper_Pref = {
+	["track"] = true,
+	["filter_zone"] = false,
+	["scale"] = 1,
+	["comm"] = false,
+	["locale"] = "enUS",
+	["track_level"] = true,
+	["hide"] = false,
+	["show_ants"] = true,
+	["track_size"] = 8,
+	["perf_scale"] = 1,
+	["level"] = 2,
+	["map_button"] = true,
+	["solo"] = false,
+	["filter_level"] = true,
+	["filter_blocked"] = false,
+	["track_minimized"] = false,
+	["cart_wp"] = true,
+	["track_qcolour"] = true,
+	["tomtom_wp"] = true,
+	["tooltip"] = true,
+	["share"] = true,
+	["filter_watched"] = false,
+	["track_ocolour"] = true,
+	["filter_done"] = false,
+	["flight_time"] = true,
+	["track_scale"] = 1,
+}
+QuestHelper_UID = "DspGYHBHT2nTTpLF8Numc84036c07sVk"
+QuestHelper_SaveDate = 1227323954
+QuestHelper_SeenRealms = {
+	["Arthas"] = true,
+}
+QuestHelper_Errors = {
+	["crashes"] = {
+	},
+}
+QuestHelper_Collector = {
+	["0.70 on 3.0.3"] = {
+		["traveled"] = {
+			["compressing"] = {
+			},
+			["done"] = {
+				"\000Á7‘\rDK\000\0002t\nV\r®qPRÀ”bXæ] &¢ºlÊA0áP5lÚF‰Û„‰Ì O!€&r—Î^*@€", -- [1]
+				"\000şÕrL\000	!ã	Ô[Yœ“_pÅã¹>™€)©\000 ", -- [2]
+				"\000¼8ú,L\000	0!%8\000lk-ò3]Ö5ãá\000´”Ò€", -- [3]
+				"\000:!5L\000	0!Ğc¤ÚNÔ\000h:	èT&åI`]Ål¾ªhÑğ¦\000 ", -- [4]
+				"\000ì¨àIK\000	+,c \000CeŞØãpm%\\4š„h¦ºl¾û‡'ãLş8XOÈoc@ùÁğ%_ ùétçƒ9	!\n’H¢Õ¥Cr\\Ã“#Úönb»g.)yöï±oµ½{m& ƒK„SU‰S1H‰pheZhN#“Y`ƒQœO›…:‡¢Q#N‡}zt)k…01€ª|2´¶¯/±‚¸»¹¬¿¼Š²Ã¾©ÃÁ³ÈFÏbIÓ!B9XAË6¼yÇ`\000²B6ä)@.O09ŞEëç{˜ çX UˆêAŸ™ïÀø¼\000“I-hbz¡”ŞÆQ3@ZR\000Æ¡tuà´v‰ãŒ. <Ñ7qp‚ñ)HİÉQ8 ]Š'ñ\\ô¦!ƒÀàˆÙItÏ:•¢ÃSHšf/“RÁJ‰šVœNéµ¨¥]o^DóÚÀ–³f²°¬v›=®İdµ[Lö‹uÎ×sJ´böÒf$^D˜#\"¾à“¬-óÅ¦¯Á¼ï–Keò˜ÜÆ'8[Éå³oİ—5§¿%²¥9%®JgêM[ßC·Õê0Ù=³‡H\\Õl´ÛŒ–¶ÿÅä&öÜ°X[O©ã~v; ÖW) 0ÑïeAİQ§¢§—¯ĞïÕ®Ç‘áêésP¿9'½îí|jo’õíA_—áLÇ| H%Õ‚ÆŠX1y]7Eç„ ˆ:eßG6\000…˜1z\"7r‰ç®†Iø-\"øCIØÙÏ‚RAü@‚VL‹raRàj@ĞE@ ÃåÂ(ÆXèóED ±…ÌøèŒLTd\000øÓµH&f©¥‡È¡A^$Rã\nq\"NÑPvHL!¹>‰ÎV]h5©kyÍ†T dƒfYlï@eÄa-MĞjišåÄò?¦\"‚€Ti9€Afí2':Ü*Ñ”øBdV<«vŞø¬ÖQ@*Cz•7GéZ~sM¤òd«T¢¼9*Yj’jpÿh\000ã9¬&…9¥$‰úJ6¦ôêÒKaKEĞ€±pº×C¼%ÁÕ†±8ª1II»Å@JîÀ°\n", -- [5]
+				"\000ô_‘vÕB\000	;£&‰‘½«°€Qxô” ¸ë®báÂü«ÇJµ²Ht_J€h„é@‹%ü•EUÍ€UR¶²ê¶]šŞû±‡eÑ#F]Z÷W;¿–=x˜Íã¹®¿|my„…e‚{‰†xŠ‡“gmˆ•Š–‘x—œƒg ‹˜’Œ¡}”©¢™|®¦¥³¹¨š£¼µ½º¶­«´ÄÇ§¬¢uzÌ|Êg\000Ò‘\"$<DÏÉ&LtAJ;ÍN'P'ç$íOªQJÜe1'Ãpã@,Û&±Ñ¬Óe'ÖJS”\r)¸ˆÊğÛš*şŠ\"ÌeB‘ 6¨‰JÆBq‰Yğãd¢<Î–£æÙ¦W7˜°dS8üá“	HOM©´2G\000‘ĞsÔ\000H€#n¢àPsÄ cƒÔŞ\n", -- [6]
+				"\000Ë‹\"dL\000	0Íj€", -- [7]
+				"\000~T‹~qL\000	0Ì!\000£	ºa+¬Wİ`0Ï”ùé¢dì­V'Ó$ã~›OP’ #P¡Cl¨)^¯[&µF (Y¸ ", -- [8]
+				"\000$‹¶gL\000	!½c ĞV«LÖUq(‚YhÑhö\n", -- [9]
+				"\000³é‹üL\000	!k\nVÀ©œjçcqö¡Ë±›­ÀÉ€(", -- [10]
+			},
+			["working"] = {
+				"^<><>^<>^<>^<M>YC^<><>^<>C^<><>^<>^<>C^<>C^<><>^<><><>CC^<^C^><><C^><><C^><C^><^><^^C^><^^C^><^^^^^^^^^^^^<>^^^^^^<>^^^^<>^^^C^<>^C^<>^C^<>^C^<>^C^<>^<>^C^<>^<>^C^<>^<>^C^<>^<>^C^<>^C^<>^<>^<>^^<>^^<>^C^<>^C^<>^C^<>^C^<>^<>^^<>^Y^<>^^<>^C^<^^^><><><><>C^<><>^<>^^^^^^^^><^C^><C^><C^><><^>M<C^><><><><><^><><><><><^><><><><><^^^^>^^C^<><><>^C^<vM<Y^C^><^><^^><^C^><^><^^><^^><^^C^><^^><^^C^><^^><^^^><^^^><^^C^><^^><^^C^><^^><^^><^^C^><^^><^^C^><^^><^^C^><^^><^^^^C^<><><><><><><><>^<>C^<><>^^<>^^<>^^C^<>^<>^<>^<", -- [1]
+				"Y>^<>C^<><><^C^>C^<><><><><>C^<>Y^C^><^><^C^><C^><><><><><><C^>C^<^><><><><><><><><><C^>^<C^>C^<^>C^<C^><><><>C^<^><><><><><><><><><><><C^>CC^^<^><><><C^>C^<C^>C^<C^>C^<C^>C^<C^>C^<C^>C^<C^><><><><><>C^<^><><><><><><><><><><><C^>C^<C^><C^>C^<^C^><><^C^><C^", -- [2]
+				"><^><^><^C^><Y^Y><^^^^^^><><><><>C^<><>C^<>><C^<><><>^<>Yv<><><><>^<>^<^><^><^><>^^^^^^><^^^><^^C^><C^>C^<C^>C^<^^^^^^^^^^^^^^^^", -- [3]
+				"^C<<^><C^<>^^^^^^^^><><><><><><C^><><C^><<>^<>^<>^<>^^<>^^^^^^C^", -- [4]
+				"<>^^^<>^", -- [5]
+				"^<>^", -- [6]
+				"<<", -- [7]
+				">", -- [8]
+				["prefix"] = "\000”%5ÖL\000	",
+			},
+		},
+		["realms"] = {
+			["Arthas"] = 1,
+		},
+		["zone"] = {
+			["enUS"] = {
+				["The Storm Peaks@@The Storm Peaks@@Sparksocket Minefield"] = {
+					["mapname"] = "TheStormPeaks",
+					["border"] = {
+						"\000FGŒucK\000	\000\000‹ıJ\000	", -- [1]
+						"\000·HŒÿdL\000	", -- [2]
+					},
+					["update"] = {
+						"\000•©‹teL\000	\000œŒÿØK\000	\000†‹^sL\000	\000Áx‹¿L\000	", -- [1]
+					},
+				},
+				["The Storm Peaks@@The Storm Peaks@@Snowblind Hills"] = {
+					["mapname"] = "TheStormPeaks",
+					["border"] = {
+						"\000›ÕĞK\000	\000É*üJ\000	\000ìËS«K\000	\000æÌ‹‚øJ\000	\000ïµ‰¿K\000	\000jG‰QqI\000	\000]µ’cD\000	\000ø<égF\000	", -- [1]
+						"\000Í×àK\000	\000ÍJŒM\000	", -- [2]
+					},
+					["update"] = {
+						"\000	ÏaÉK\000	\0002­üGK\000	\000’¼Ÿ-K\000	\000dEÉK\000	\000FGŒucK\000	\000™‡‰$K\000	\000,õ‡{.K\000	\000#ˆ>K\000	\000¾‡›9K\000	\000À™‡¨>K\000	\000Ÿ‡ÁK\000	\000£¹‡fK\000	\000^h‡€ÒJ\000	\000ƒ}‡¬°J\000	\000v3‡FsJ\000	\000ò†ÁJ\000	", -- [1]
+						"\000£²†Ş™J\000	\000'‡†P•J\000	\000îp†i¹J\000	\000Ã†œJ\000	\000éÃ‹¢¿G\000	\000iòéRE\000	\000	qŒ½nL\000	\000å¤ŒmÛL\000	", -- [2]
+						"\000öCûÄL\000	\000:ÌEJ\000	\000dsØÿI\000	\000Ë\nB0J\000	", -- [3]
+					},
+				},
+				["The Storm Peaks@@The Storm Peaks@@Crystalweb Cavern"] = {
+					["border"] = {
+						"\000ìö«cE\000	", -- [1]
+					},
+					["mapname"] = "TheStormPeaks",
+				},
+				["The Storm Peaks@@The Storm Peaks@@Torseg's Rest"] = {
+					["border"] = {
+						"\000£˜ˆùI\000	", -- [1]
+					},
+					["mapname"] = "TheStormPeaks",
+				},
+				["The Storm Peaks@@The Storm Peaks@@Sifreldar Village"] = {
+					["mapname"] = "TheStormPeaks",
+					["border"] = {
+						"\000|Zx=D\000	", -- [1]
+					},
+					["update"] = {
+						"\000÷Ùİ¡C\000	\000}éUB\000	\000™OÊB\000	\000=RgıA\000	\000›SLĞA\000	\000ø]†xA\000	\000}³n$A\000	\000ıO+A\000	\000é;‘€KA\000	\000•f‘Ì$A\000	\000‰-‘8¯@\000	\000b‘àß@\000	\000‹‘<¥A\000	\000/’ €A\000	\000’%tA\000	\000g&’¾fA\000	", -- [1]
+						"\000›:’ïA\000	\000©H’šÄA\000	\000ÇŸ’2òA\000	\000ë ’Õ[B\000	\000h’Ò˜B\000	\000ã­‘¹&B\000	\000Q‘2[B\000	\000+y‘¸İB\000	", -- [2]
+						"\000+y‘¸İB\000	\000+y‘¸İB\000	\000+y‘¸İB\000	\000Gy‘CC\000	", -- [3]
+						"\000tş@6B\000	\000.EÆóA\000	", -- [4]
+					},
+				},
+				["The Storm Peaks@@The Storm Peaks@@K3"] = {
+					["mapname"] = "TheStormPeaks",
+					["border"] = {
+						"\000Á7‘\rDK\000\000\000ä_Ì.L\000	\000&2‘ÉöI\000	\000Áëh	K\000	", -- [1]
+					},
+					["update"] = {
+						"\000¨ŒQK\000	\000iŒ=AL\000	\000D‘…DJ\000	\000Êl‘L»J\000	\000tƒ‘ëvK\000	\000I£‘ã(K\000	\000ì©‘?K\000	\000È`‘Ü%K\000	", -- [1]
+						"\000_}‘wsK\000	\000Gh‘nºJ\000	", -- [2]
+						"\000™B‘úK\000	", -- [3]
+					},
+				},
+				["The Storm Peaks@@The Storm Peaks@@Bor's Fall"] = {
+					["mapname"] = "TheStormPeaks",
+					["border"] = {
+						"\000ğPŒ×QG\000	", -- [1]
+					},
+					["update"] = {
+						"\000´)ïF\000	\000´)ïF\000	", -- [1]
+					},
+				},
+				["The Storm Peaks@@The Storm Peaks@@Ricket's Folly"] = {
+					["mapname"] = "TheStormPeaks",
+					["border"] = {
+						"\000˜S|sK\000	\000°7£,L\000	\000qÖÄK\000	\000¼r5K\000	", -- [1]
+						"\000³PdK\000	", -- [2]
+					},
+					["update"] = {
+						"\000™HzK\000	\000VŞì…K\000	\000‰ˆûëK\000	\000;¤úIL\000	\000é~\n[L\000	\000:)ÚüJ\000	\000aÌ#K\000	\000J2\000zK\000	", -- [1]
+						"\000uPÅK\000	", -- [2]
+					},
+				},
+			},
+		},
+	},
+}
+QuestHelper_Collector_Version = 2

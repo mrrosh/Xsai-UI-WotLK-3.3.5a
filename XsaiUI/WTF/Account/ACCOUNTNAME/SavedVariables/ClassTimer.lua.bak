@@ -1,0 +1,16 @@
+
+ClassTimerDB = {
+	["profileKeys"] = {
+		["Tydor - Arthas"] = "Tydor - Arthas",
+	},
+	["profiles"] = {
+		["Tydor - Arthas"] = {
+			["Units"] = {
+				["player"] = {
+				},
+				["focus"] = {
+				},
+			},
+		},
+	},
+}

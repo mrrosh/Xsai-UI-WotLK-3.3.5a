@@ -1,0 +1,7 @@
+## Interface: 30000
+## Title: MozzFullWorldMap |c0000FF00(v3.34.30000)|r
+## Version: 3.34.30000
+## Notes: MFWM (Fan's Update):Shows Unexplored Areas of the Map. Compatible with The Burning Crusade Expansion Pack. telic@hotmail.co.uk
+## SavedVariables: MozzFullWorldMap
+# MozzFullWorldMap(Fan's Update)
+MozzFullWorldMap.xml

@@ -1,0 +1,131 @@
+
+Bartender4DB = {
+	["namespaces"] = {
+		["BagBar"] = {
+			["profileKeys"] = {
+				["Bàdrasta - Crushridge"] = "Bàdrasta - Crushridge",
+			},
+			["profiles"] = {
+				["Bàdrasta - Crushridge"] = {
+				},
+			},
+		},
+		["XPBar"] = {
+			["profileKeys"] = {
+				["Bàdrasta - Crushridge"] = "Bàdrasta - Crushridge",
+			},
+			["profiles"] = {
+				["Bàdrasta - Crushridge"] = {
+				},
+			},
+		},
+		["ActionBars"] = {
+			["profileKeys"] = {
+				["Bàdrasta - Crushridge"] = "Bàdrasta - Crushridge",
+			},
+			["profiles"] = {
+				["Bàdrasta - Crushridge"] = {
+					["actionbars"] = {
+						{
+							["position"] = {
+								["y"] = -204.9999972998847,
+								["x"] = 0,
+								["point"] = "CENTER",
+								["relPoint"] = "CENTER",
+							},
+						}, -- [1]
+						{
+							["position"] = {
+								["y"] = -173.8399966597059,
+								["x"] = 0,
+								["point"] = "CENTER",
+								["relPoint"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["position"] = {
+								["y"] = -142.6799960195271,
+								["x"] = 0,
+								["point"] = "CENTER",
+								["relPoint"] = "CENTER",
+							},
+						}, -- [3]
+						{
+							["position"] = {
+								["y"] = -111.520002675156,
+								["x"] = 0,
+								["point"] = "CENTER",
+								["relPoint"] = "CENTER",
+							},
+						}, -- [4]
+						{
+							["position"] = {
+								["y"] = -80.36000203497726,
+								["x"] = 0,
+								["point"] = "CENTER",
+								["relPoint"] = "CENTER",
+							},
+						}, -- [5]
+						{
+							["position"] = {
+								["y"] = -49.20000139479848,
+								["x"] = 0,
+								["point"] = "CENTER",
+								["relPoint"] = "CENTER",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						[9] = {
+						},
+						[10] = {
+						},
+					},
+				},
+			},
+		},
+		["RepBar"] = {
+			["profileKeys"] = {
+				["Bàdrasta - Crushridge"] = "Bàdrasta - Crushridge",
+			},
+			["profiles"] = {
+				["Bàdrasta - Crushridge"] = {
+				},
+			},
+		},
+		["StanceBar"] = {
+			["profileKeys"] = {
+				["Bàdrasta - Crushridge"] = "Bàdrasta - Crushridge",
+			},
+			["profiles"] = {
+				["Bàdrasta - Crushridge"] = {
+				},
+			},
+		},
+		["PetBar"] = {
+			["profileKeys"] = {
+				["Bàdrasta - Crushridge"] = "Bàdrasta - Crushridge",
+			},
+			["profiles"] = {
+				["Bàdrasta - Crushridge"] = {
+				},
+			},
+		},
+		["MicroMenu"] = {
+			["profileKeys"] = {
+				["Bàdrasta - Crushridge"] = "Bàdrasta - Crushridge",
+			},
+			["profiles"] = {
+				["Bàdrasta - Crushridge"] = {
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Bàdrasta - Crushridge"] = "Bàdrasta - Crushridge",
+	},
+	["profiles"] = {
+		["Bàdrasta - Crushridge"] = {
+		},
+	},
+}

@@ -1,0 +1,334 @@
+
+ParrotDB = {
+	["namespaces"] = {
+		["ScrollAreas"] = {
+			["profiles"] = {
+				["Default"] = {
+					["areas"] = {
+						["Notification"] = {
+							["stickyDirection"] = "UP;CENTER",
+							["direction"] = "UP;CENTER",
+							["yOffset"] = 175,
+							["xOffset"] = 0,
+							["size"] = 150,
+							["animationStyle"] = "Straight",
+							["stickyAnimationStyle"] = "Pow",
+						},
+						["Outgoing"] = {
+							["stickyDirection"] = "DOWN;LEFT",
+							["direction"] = "DOWN;RIGHT",
+							["yOffset"] = -30,
+							["xOffset"] = 60,
+							["size"] = 260,
+							["animationStyle"] = "Parabola",
+							["stickyAnimationStyle"] = "Pow",
+						},
+						["Incoming"] = {
+							["stickyDirection"] = "DOWN;RIGHT",
+							["direction"] = "DOWN;LEFT",
+							["yOffset"] = -30,
+							["iconSide"] = "RIGHT",
+							["xOffset"] = -60,
+							["size"] = 260,
+							["animationStyle"] = "Parabola",
+							["stickyAnimationStyle"] = "Pow",
+						},
+					},
+				},
+			},
+		},
+		["Triggers"] = {
+			["profiles"] = {
+				["Default"] = {
+					["triggers"] = {
+						{
+							["name"] = "Heimzahlen!",
+							["sticky"] = true,
+							["color"] = "ff00ff",
+							["class"] = "WARLOCK",
+							["icon"] = 34939,
+							["conditions"] = {
+								["Self buff gain"] = "Heimzahlen",
+							},
+						}, -- [1]
+						{
+							["name"] = "Blackout!",
+							["sticky"] = true,
+							["color"] = "ff00ff",
+							["class"] = "PRIEST",
+							["icon"] = 15326,
+							["conditions"] = {
+								["Target debuff gain"] = "Blackout",
+							},
+						}, -- [2]
+						{
+							["name"] = "Freizaubern!",
+							["sticky"] = true,
+							["color"] = "ffff00",
+							["class"] = "MAGE;PRIEST;SHAMAN",
+							["icon"] = 34754,
+							["conditions"] = {
+								["Self buff gain"] = "Freizaubern",
+							},
+						}, -- [3]
+						{
+							["secondaryConditions"] = {
+								["Spell ready"] = "Gegenangriff",
+							},
+							["name"] = "Gegenangriff!",
+							["sticky"] = true,
+							["color"] = "ffff00",
+							["class"] = "HUNTER",
+							["icon"] = 27067,
+							["conditions"] = {
+								["Incoming Parry"] = true,
+							},
+						}, -- [4]
+						{
+							["secondaryConditions"] = {
+								["Spell ready"] = "Hinrichten",
+							},
+							["name"] = "Hinrichten!",
+							["sticky"] = true,
+							["color"] = "ffff00",
+							["class"] = "WARRIOR",
+							["icon"] = 25236,
+							["conditions"] = {
+								["Enemy target health percent"] = 0.19,
+							},
+						}, -- [5]
+						{
+							["name"] = "Erfrierung!",
+							["sticky"] = true,
+							["color"] = "0000ff",
+							["class"] = "MAGE",
+							["icon"] = 12497,
+							["conditions"] = {
+								["Target debuff gain"] = "Erfrierung",
+							},
+						}, -- [6]
+						{
+							["secondaryConditions"] = {
+								["Spell ready"] = "Hammer des Zorns",
+							},
+							["name"] = "Hammer des Zorns!",
+							["sticky"] = true,
+							["color"] = "ffff00",
+							["class"] = "PALADIN",
+							["icon"] = 27180,
+							["conditions"] = {
+								["Enemy target health percent"] = 0.2,
+							},
+						}, -- [7]
+						{
+							["name"] = "Einschlag!",
+							["sticky"] = true,
+							["color"] = "ff0000",
+							["class"] = "MAGE",
+							["icon"] = 11103,
+							["conditions"] = {
+								["Target debuff gain"] = "Einschlag",
+							},
+						}, -- [8]
+						{
+							["secondaryConditions"] = {
+								["Spell ready"] = "Fass!",
+							},
+							["disabled"] = true,
+							["name"] = "Fass!!",
+							["sticky"] = true,
+							["color"] = "ff0000",
+							["class"] = "HUNTER",
+							["icon"] = 34026,
+							["conditions"] = {
+								["Outgoing crit"] = true,
+							},
+						}, -- [9]
+						{
+							["secondaryConditions"] = {
+								["Trigger cooldown"] = 3,
+							},
+							["name"] = "Niedrige Gesundheit!",
+							["color"] = "ff7f7f",
+							["class"] = "DRUID;HUNTER;MAGE;PALADIN;PRIEST;ROGUE;SHAMAN;WARLOCK;WARRIOR",
+							["sticky"] = true,
+							["conditions"] = {
+								["Self health percent"] = 0.4,
+							},
+						}, -- [10]
+						{
+							["secondaryConditions"] = {
+								["Trigger cooldown"] = 3,
+							},
+							["name"] = "Niedriges Mana!",
+							["color"] = "7f7fff",
+							["class"] = "DRUID;HUNTER;MAGE;PALADIN;PRIEST;SHAMAN;WARLOCK",
+							["sticky"] = true,
+							["conditions"] = {
+								["Self mana percent"] = 0.35,
+							},
+						}, -- [11]
+						{
+							["secondaryConditions"] = {
+								["Trigger cooldown"] = 3,
+							},
+							["name"] = "Niedrige Begleitergesundheit!",
+							["color"] = "ff7f7f",
+							["class"] = "HUNTER;MAGE;WARLOCK",
+							["conditions"] = {
+								["Pet health percent"] = 0.4,
+							},
+						}, -- [12]
+						{
+							["secondaryConditions"] = {
+								["Spell ready"] = "Mungobiss",
+							},
+							["name"] = "Mungobiss!",
+							["sticky"] = true,
+							["color"] = "ffff00",
+							["class"] = "HUNTER",
+							["icon"] = 36916,
+							["conditions"] = {
+								["Incoming Dodge"] = true,
+							},
+						}, -- [13]
+						{
+							["name"] = "Einbruch der Nacht!",
+							["sticky"] = true,
+							["color"] = "7f007f",
+							["class"] = "WARLOCK",
+							["icon"] = 18095,
+							["conditions"] = {
+								["Self buff gain"] = "Schattentrance",
+							},
+						}, -- [14]
+						{
+							["sticky"] = true,
+							["name"] = "Freier",
+							["disabled"] = true,
+							["color"] = "ff0000",
+							["class"] = "PRIEST",
+							["icon"] = 25364,
+							["conditions"] = {
+								["Self buff gain"] = "Woge des Lichts",
+							},
+						}, -- [15]
+						{
+							["secondaryConditions"] = {
+								["Spell ready"] = "Überwältigen",
+							},
+							["name"] = "Überwältigen!",
+							["sticky"] = true,
+							["color"] = "7f007f",
+							["class"] = "WARRIOR",
+							["icon"] = 11585,
+							["conditions"] = {
+								["Outgoing Dodge"] = true,
+							},
+						}, -- [16]
+						{
+							["secondaryConditions"] = {
+								["Spell ready"] = "Toben",
+								["Buff inactive"] = "Toben",
+								["Minimum power amount"] = 20,
+							},
+							["name"] = "Toben!",
+							["sticky"] = true,
+							["color"] = "ff0000",
+							["class"] = "WARRIOR",
+							["icon"] = 29801,
+							["conditions"] = {
+								["Outgoing crit"] = true,
+							},
+						}, -- [17]
+						{
+							["secondaryConditions"] = {
+								["Spell ready"] = "Rache",
+								["Warrior stance"] = "Defensive Stance",
+							},
+							["disabled"] = true,
+							["name"] = "Rache!",
+							["sticky"] = true,
+							["color"] = "ffff00",
+							["class"] = "WARRIOR",
+							["icon"] = 30357,
+							["conditions"] = {
+								["Incoming Block"] = true,
+								["Incoming Dodge"] = true,
+								["Incoming Parry"] = true,
+							},
+						}, -- [18]
+						{
+							["secondaryConditions"] = {
+								["Spell ready"] = "Riposte",
+							},
+							["name"] = "Riposte!",
+							["sticky"] = true,
+							["color"] = "ffff00",
+							["class"] = "ROGUE",
+							["icon"] = 14251,
+							["conditions"] = {
+								["Incoming Parry"] = true,
+							},
+						}, -- [19]
+						{
+							["name"] = "Waffe des Mahlstroms!",
+							["sticky"] = true,
+							["color"] = "0000ff",
+							["class"] = "SHAMAN",
+							["icon"] = 51532,
+							["conditions"] = {
+								["Self buff stacks gain"] = "Waffe des Mahlstroms,5",
+							},
+						}, -- [20]
+						{
+							["name"] = "Todestrance!!",
+							["sticky"] = true,
+							["color"] = "ff0000",
+							["class"] = "DEATHKNIGHT",
+							["icon"] = 50466,
+							["conditions"] = {
+								["Self buff gain"] = "Todestrance!",
+							},
+						}, -- [21]
+						{
+							["name"] = "Gefrierender Nebel!",
+							["sticky"] = true,
+							["color"] = "0000ff",
+							["class"] = "DEATHKNIGHT",
+							["icon"] = 59052,
+							["conditions"] = {
+								["Self buff gain"] = "Gefrierender Nebel",
+							},
+						}, -- [22]
+						{
+							["name"] = "Tötungsmaschine!",
+							["sticky"] = true,
+							["color"] = "0000ff",
+							["class"] = "DEATHKNIGHT",
+							["icon"] = 51130,
+							["conditions"] = {
+								["Self buff gain"] = "Tötungsmaschine",
+							},
+						}, -- [23]
+						{
+							["disabled"] = true,
+							["name"] = "Runenstoß!",
+							["sticky"] = true,
+							["color"] = "0000ff",
+							["class"] = "DEATHKNIGHT",
+							["icon"] = 56816,
+							["conditions"] = {
+								["Incoming Dodge"] = true,
+								["Incoming Parry"] = true,
+							},
+						}, -- [24]
+					},
+				},
+			},
+		},
+	},
+	["account"] = {
+		["firstTimeWoW21"] = true,
+	},
+}

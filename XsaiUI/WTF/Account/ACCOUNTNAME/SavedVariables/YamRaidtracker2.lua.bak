@@ -1,0 +1,38 @@
+
+YRT2_Saved = {
+	["Options"] = {
+		["checkVersion"] = 1,
+		["rankToWhisperTwink"] = {
+			[8] = 1,
+		},
+		["autoCreateNewRaid"] = 1,
+		["autoOpen"] = 1,
+		["rankToWhisperMain"] = {
+			1, -- [1]
+			1, -- [2]
+			1, -- [3]
+			1, -- [4]
+			1, -- [5]
+			1, -- [6]
+			1, -- [7]
+		},
+		["qualityToLog"] = {
+			[4] = 1,
+			[5] = 1,
+		},
+		["lastRun"] = {
+		},
+		["showAFKstatus"] = 1,
+		["qualityToAskCosts"] = {
+			[4] = 1,
+			[5] = 1,
+		},
+		["allowWhisper"] = 1,
+	},
+}
+YRT2_RaidLog = {
+}
+YRT2_PlayerInfos = {
+}
+YRT2_Cache = {
+}

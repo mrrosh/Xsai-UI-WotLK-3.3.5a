@@ -1,0 +1,72 @@
+MACRO 16777230 " " Spell_Fire_MasterOfElements
+#showtooltip Erstklassiger Manatrank
+/use Erstklassiger Manatrank
+/cast Feuerball
+END
+MACRO 16777229 " " INV_Misc_QuestionMark
+#showtooltip Mana Sapphire
+/use [button:1] Mana Sapphire
+/cast [button:2] Conjure Mana Gem(Rank 6)
+END
+MACRO 16777228 "  fb spam2" Spell_Fire_FlameBolt
+#showtooltip Feuerball(Rang 13)
+/run SetCVar("Sound_EnableSFX","0")
+/cast Feuerball(Rang 13)
+/cast Feuerball(Rang 13)
+/cast Feuerball(Rang 13)
+/cast Feuerball(Rang 13)
+/run SetCVar("Sound_EnableSFX","1")
+END
+MACRO 16777221 " blink" INV_Misc_QuestionMark
+#showtooltip
+/stopcasting
+/cast Blink
+END
+MACRO 16777220 " block" INV_Misc_QuestionMark
+#showtooltip
+/stopcasting
+/cancelaura Ice Block
+/cast Ice Block
+END
+MACRO 16777222 " cs" INV_Misc_QuestionMark
+/stopcasting
+/cast Counterspell
+END
+MACRO 16777225 " shadowsword ss" Ability_Ambush
+/stopcasting
+/target shadowsword fury mage
+/cast Zauberraub
+END
+MACRO 16777226 " ss" INV_Misc_QuestionMark
+#showtooltip Spellsteal
+/stopcasting
+/cast Spellsteal
+END
+MACRO 16777218 " trinket+iv" Spell_Frost_FrozenCore
+#showtooltip Eisige Adern
+/script UIErrorsFrame:Hide() 
+/run SetCVar("Sound_EnableSFX","0")
+/use Verhexter Schrumpfkopf
+/cast Eisige Adern
+/run SetCVar("Sound_EnableSFX","1")
+/cast Feuerball
+/script UIErrorsFrame:Clear() 
+END
+MACRO 16777224 "arcboom" INV_Misc_QuestionMark
+#showtooltip Eisige Adern
+/cast Arcane Power
+/cast Icy Veins
+/cast Presence of Mind
+END
+MACRO 16777232 "food" Spell_Misc_Food
+/use [button:1] Conjured Mana Strudel
+/cast [button:2] Conjure Refreshment(Rank 2)
+/cast [button:3] Ritual of Refreshment(Rank 2)
+END
+MACRO 16777231 "Ride" Ability_Creature_Poison_05
+/dismount [mounted]
+/use Rivendare's Deathcharger
+END
+MACRO 16777233 "ride2" INV_Misc_QuestionMark
+/use Black Proto-Drake
+END

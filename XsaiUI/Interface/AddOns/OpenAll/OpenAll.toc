@@ -1,0 +1,12 @@
+## Interface: 30000
+
+## Title: OpenAll
+## Notes: Open all your mail
+## Author: Kemayo
+## Version: 1
+## X-Category: Mail
+## LoadManagers: SupplyAndDemand, AddonLoader
+## X-S&D-AtMail: true
+## X-LoadOn-Mailbox: true
+
+OpenAll.lua

@@ -1,0 +1,167 @@
+
+SBFDB = {
+	["profiles"] = {
+		["char/Absolutrayne - Kil'jaeden"] = {
+			["frames"] = {
+				{
+					["sctColour"] = {
+						["b"] = 0.1,
+						["g"] = 1,
+						["r"] = 0.1,
+					},
+					["barBuffColour"] = {
+						["b"] = 1,
+						["g"] = 0.7,
+						["r"] = 0,
+					},
+					["timerPositionX"] = 0,
+					["timerScale"] = 1,
+					["barOffset"] = 0,
+					["sound"] = "None",
+					["barDebuffColour"] = {
+						["b"] = 0,
+						["g"] = 0,
+						["r"] = 0.7,
+					},
+					["barNameColour"] = {
+						["b"] = 0,
+						["g"] = 0.82,
+						["r"] = 1,
+					},
+					["barTexture"] = "Blizzard",
+					["rowCount"] = 1,
+					["sortType"] = 1,
+					["count"] = 20,
+					["timerFormat"] = 2,
+					["expireFrame"] = "ChatFrame1",
+					["timerPositionY"] = 7,
+					["spacingY"] = 0,
+					["iconScale"] = 1,
+					["barNameJustify"] = "LEFT",
+					["opacity"] = 1,
+					["timerJustify"] = "CENTER",
+					["barNameFontSize"] = 12,
+					["expireTime"] = 30,
+					["regularTimerColour"] = {
+						["b"] = 0,
+						["g"] = 0.82,
+						["r"] = 1,
+					},
+					["barBackdropColour"] = {
+						["a"] = 1,
+						["b"] = 0.5,
+						["g"] = 0.5,
+						["r"] = 0.5,
+					},
+					["timerFont"] = "Friz Quadrata TT",
+					["point"] = {
+						"TOPRIGHT", -- [1]
+						-65, -- [2]
+						-250, -- [3]
+					},
+					["warnTime"] = 0,
+					["spacingX"] = 0,
+					["countColour"] = {
+						["b"] = 1,
+						["g"] = 1,
+						["r"] = 1,
+					},
+					["expireTimerColour"] = {
+						["b"] = 0,
+						["g"] = 0.82,
+						["r"] = 1,
+					},
+					["timerFontSize"] = 10,
+					["frameVisibility"] = 1,
+					["barNameFont"] = "Friz Quadrata TT",
+					["barTimerPosition"] = "RIGHT",
+					["barWidth"] = 200,
+				}, -- [1]
+				{
+					["sctColour"] = {
+						["b"] = 0.1,
+						["g"] = 1,
+						["r"] = 0.1,
+					},
+					["barBuffColour"] = {
+						["b"] = 1,
+						["g"] = 0.7,
+						["r"] = 0,
+					},
+					["timerPositionX"] = 0,
+					["timerScale"] = 1,
+					["barOffset"] = 0,
+					["sound"] = "None",
+					["barDebuffColour"] = {
+						["b"] = 0,
+						["g"] = 0,
+						["r"] = 0.7,
+					},
+					["barNameColour"] = {
+						["b"] = 0,
+						["g"] = 0.82,
+						["r"] = 1,
+					},
+					["barTexture"] = "Blizzard",
+					["rowCount"] = 1,
+					["sortType"] = 1,
+					["count"] = 16,
+					["timerFormat"] = 2,
+					["expireFrame"] = "ChatFrame1",
+					["timerPositionY"] = 7,
+					["spacingY"] = 0,
+					["iconScale"] = 1,
+					["barNameJustify"] = "LEFT",
+					["opacity"] = 1,
+					["timerJustify"] = "CENTER",
+					["barNameFontSize"] = 12,
+					["expireTime"] = 30,
+					["regularTimerColour"] = {
+						["b"] = 0,
+						["g"] = 0.82,
+						["r"] = 1,
+					},
+					["barBackdropColour"] = {
+						["a"] = 1,
+						["b"] = 0.5,
+						["g"] = 0.5,
+						["r"] = 0.5,
+					},
+					["timerFont"] = "Friz Quadrata TT",
+					["point"] = {
+						"TOPRIGHT", -- [1]
+						-110, -- [2]
+						-250, -- [3]
+					},
+					["warnTime"] = 0,
+					["spacingX"] = 0,
+					["countColour"] = {
+						["b"] = 1,
+						["g"] = 1,
+						["r"] = 1,
+					},
+					["expireTimerColour"] = {
+						["b"] = 0,
+						["g"] = 0.82,
+						["r"] = 1,
+					},
+					["timerFontSize"] = 10,
+					["frameVisibility"] = 1,
+					["barNameFont"] = "Friz Quadrata TT",
+					["barTimerPosition"] = "RIGHT",
+					["barWidth"] = 200,
+				}, -- [2]
+			},
+		},
+	},
+	["account"] = {
+		["safecall"] = true,
+		["spells"] = {
+			["Honorless Target"] = {
+				["buffType"] = 10,
+				["duration"] = 28,
+				["untilCancelled"] = false,
+			},
+		},
+	},
+}

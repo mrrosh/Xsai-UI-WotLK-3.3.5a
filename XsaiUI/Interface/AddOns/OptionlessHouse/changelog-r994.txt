@@ -1,0 +1,12 @@
+------------------------------------------------------------------------
+r994 | shadowed.wow | 2008-10-30 15:34:41 -0700 (Thu, 30 Oct 2008) | 3 lines
+
+* Fixed "Disabled" not being shown when something is disabled
+* Added text for an addon that was disabled, but will be enabled on reload
+* Added text for loaded addons so it looks a bit less empty
+------------------------------------------------------------------------
+r987 | shadowed.wow | 2008-10-26 17:38:35 -0700 (Sun, 26 Oct 2008) | 2 lines
+
+* Initial Import: OptionlessHouse/
+* Stripped out all of the configuration stuff in OptionHouse and updated it for 3.0, should be functional but needs more testing
+------------------------------------------------------------------------

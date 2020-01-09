@@ -1,0 +1,299 @@
+
+SexyMapDB = {
+	["namespaces"] = {
+		["Ping"] = {
+			["profileKeys"] = {
+				["Bàdrasta - Crushridge"] = "Bàdrasta - Crushridge",
+			},
+			["profiles"] = {
+				["Bàdrasta - Crushridge"] = {
+				},
+			},
+		},
+		["Coordinates"] = {
+			["profileKeys"] = {
+				["Bàdrasta - Crushridge"] = "Bàdrasta - Crushridge",
+			},
+			["profiles"] = {
+				["Bàdrasta - Crushridge"] = {
+					["enabled"] = true,
+					["fontSize"] = 10,
+					["borderColor"] = {
+						["a"] = 0,
+						["r"] = 0,
+						["g"] = 0,
+						["b"] = 0,
+					},
+					["y"] = 55.1336317274215,
+					["backgroundColor"] = {
+						["a"] = 0,
+						["r"] = 0,
+						["g"] = 0,
+						["b"] = 0,
+					},
+					["x"] = 0,
+				},
+			},
+		},
+		["ZoneText"] = {
+			["profileKeys"] = {
+				["Bàdrasta - Crushridge"] = "Bàdrasta - Crushridge",
+			},
+			["profiles"] = {
+				["Bàdrasta - Crushridge"] = {
+					["show"] = "hover",
+				},
+			},
+		},
+		["Movers"] = {
+			["profileKeys"] = {
+				["Bàdrasta - Crushridge"] = "Bàdrasta - Crushridge",
+			},
+			["profiles"] = {
+				["Bàdrasta - Crushridge"] = {
+					["clamp"] = false,
+					["lock"] = false,
+					["framePositions"] = {
+						["AchievementWatchFrame"] = {
+							["y"] = -6.193988966202949,
+							["x"] = 1449.444956967524,
+						},
+					},
+					["alpha"] = 1,
+				},
+			},
+		},
+		["Buttons"] = {
+			["profileKeys"] = {
+				["Bàdrasta - Crushridge"] = "Bàdrasta - Crushridge",
+			},
+			["profiles"] = {
+				["Bàdrasta - Crushridge"] = {
+					["radius"] = 0,
+					["dragPositions"] = {
+						["MiniMapTrackingButton"] = 145.7787700544213,
+						["MiniMapMailFrame"] = 34.2118441965779,
+						["GameTimeFrame"] = 160.4330154994106,
+						["LibFuBarPlugin-3.0_ButtonFacade_FrameMinimapButton"] = 175.476571848423,
+						["TimeManagerClockButton"] = -88.82475704152566,
+					},
+					["zoom"] = {
+						["hide"] = "never",
+					},
+				},
+			},
+		},
+		["Borders"] = {
+			["global"] = {
+				["userPresets"] = {
+					["Bad01"] = {
+						["borders"] = {
+							{
+								["a"] = 1,
+								["hNudge"] = 0,
+								["rotSpeed"] = 10,
+								["r"] = 1,
+								["scale"] = 0.73,
+								["g"] = 0.1372549019607843,
+								["vNudge"] = 0,
+								["disableRotation"] = true,
+								["name"] = "Square Overlay",
+								["blendMode"] = "ADD",
+								["rotation"] = 66,
+								["drawLayer"] = "ARTWORK",
+								["b"] = 0.2235294117647059,
+								["texture"] = "World\\GENERIC\\ACTIVEDOODADS\\WORLDTREEPORTALS\\TWISTEDNETHER8.BLP",
+							}, -- [1]
+							{
+								["a"] = 1,
+								["hNudge"] = -8,
+								["rotSpeed"] = -14,
+								["b"] = 0.2274509803921569,
+								["scale"] = 2.52,
+								["g"] = 0.1843137254901961,
+								["vNudge"] = 5,
+								["disableRotation"] = true,
+								["name"] = "Circle 2",
+								["playerRotation"] = "none",
+								["blendMode"] = "ADD",
+								["r"] = 0.8627450980392157,
+								["drawLayer"] = "BACKGROUND",
+								["texture"] = "World\\GENERIC\\ACTIVEDOODADS\\INSTANCEPORTAL\\GENERICGLOW2.BLP",
+							}, -- [2]
+						},
+						["backdrop"] = {
+							["show"] = false,
+							["textureColor"] = {
+							},
+							["settings"] = {
+								["bgFile"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+								["edgeFile"] = "Interface\\Tooltips\\UI-Tooltip-Border",
+								["tile"] = false,
+								["edgeSize"] = 16,
+								["insets"] = {
+									["top"] = 4,
+									["right"] = 4,
+									["left"] = 4,
+									["bottom"] = 4,
+								},
+							},
+							["borderColor"] = {
+							},
+							["scale"] = 1,
+						},
+						["shape"] = "Interface\\BUTTONS\\WHITE8X8",
+					},
+					["bad02"] = {
+						["borders"] = {
+							{
+								["a"] = 1,
+								["hNudge"] = 0,
+								["rotSpeed"] = 10,
+								["r"] = 1,
+								["scale"] = 0.73,
+								["g"] = 0.1372549019607843,
+								["vNudge"] = 0,
+								["disableRotation"] = true,
+								["name"] = "Square Overlay",
+								["blendMode"] = "ADD",
+								["rotation"] = 66,
+								["drawLayer"] = "ARTWORK",
+								["b"] = 0.2235294117647059,
+								["texture"] = "World\\GENERIC\\ACTIVEDOODADS\\WORLDTREEPORTALS\\TWISTEDNETHER8.BLP",
+							}, -- [1]
+							{
+								["a"] = 1,
+								["hNudge"] = -8,
+								["rotSpeed"] = -14,
+								["b"] = 0.2274509803921569,
+								["scale"] = 2.52,
+								["g"] = 0.1843137254901961,
+								["vNudge"] = 5,
+								["disableRotation"] = true,
+								["name"] = "Circle 2",
+								["playerRotation"] = "normal",
+								["blendMode"] = "ADD",
+								["r"] = 0.8627450980392157,
+								["drawLayer"] = "BACKGROUND",
+								["texture"] = "World\\GENERIC\\ACTIVEDOODADS\\INSTANCEPORTAL\\GENERICGLOW2.BLP",
+							}, -- [2]
+							{
+								["a"] = 1,
+								["rotSpeed"] = -11,
+								["b"] = 0.5058823529411765,
+								["scale"] = 1.31,
+								["g"] = 0.01568627450980392,
+								["vNudge"] = 1,
+								["drawLayer"] = "ARTWORK",
+								["blendMode"] = "ADD",
+								["r"] = 0.9019607843137255,
+								["name"] = "cardinal",
+								["texture"] = "Interface\\Minimap\\Ping\\ping5.blp",
+							}, -- [3]
+						},
+						["backdrop"] = {
+							["show"] = false,
+							["textureColor"] = {
+							},
+							["settings"] = {
+								["bgFile"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+								["edgeFile"] = "Interface\\Tooltips\\UI-Tooltip-Border",
+								["tile"] = false,
+								["edgeSize"] = 16,
+								["insets"] = {
+									["top"] = 4,
+									["right"] = 4,
+									["left"] = 4,
+									["bottom"] = 4,
+								},
+							},
+							["borderColor"] = {
+							},
+							["scale"] = 1,
+						},
+						["shape"] = "Interface\\BUTTONS\\WHITE8X8",
+					},
+				},
+			},
+			["profileKeys"] = {
+				["Bàdrasta - Crushridge"] = "Bàdrasta - Crushridge",
+			},
+			["profiles"] = {
+				["Bàdrasta - Crushridge"] = {
+					["applyPreset"] = false,
+					["borders"] = {
+						{
+							["a"] = 1,
+							["hNudge"] = 0,
+							["rotSpeed"] = 10,
+							["r"] = 1,
+							["scale"] = 0.73,
+							["g"] = 0.1372549019607843,
+							["vNudge"] = 0,
+							["disableRotation"] = true,
+							["name"] = "Square Overlay",
+							["blendMode"] = "ADD",
+							["b"] = 0.2235294117647059,
+							["drawLayer"] = "ARTWORK",
+							["rotation"] = 66,
+							["texture"] = "World\\GENERIC\\ACTIVEDOODADS\\WORLDTREEPORTALS\\TWISTEDNETHER8.BLP",
+						}, -- [1]
+						{
+							["a"] = 1,
+							["hNudge"] = 0,
+							["rotSpeed"] = -14,
+							["b"] = 0.2274509803921569,
+							["scale"] = 1.83,
+							["g"] = 0.1843137254901961,
+							["vNudge"] = 1,
+							["disableRotation"] = true,
+							["name"] = "Circle 2",
+							["playerRotation"] = "normal",
+							["drawLayer"] = "BACKGROUND",
+							["r"] = 0.8627450980392157,
+							["blendMode"] = "ADD",
+							["texture"] = "World\\GENERIC\\ACTIVEDOODADS\\INSTANCEPORTAL\\GENERICGLOW2.BLP",
+						}, -- [2]
+						{
+							["a"] = 1,
+							["rotSpeed"] = -11,
+							["b"] = 0.5058823529411765,
+							["scale"] = 1.31,
+							["g"] = 0.01568627450980392,
+							["vNudge"] = 1,
+							["drawLayer"] = "ARTWORK",
+							["blendMode"] = "ADD",
+							["r"] = 0.9019607843137255,
+							["name"] = "cardinal",
+							["texture"] = "Interface\\Minimap\\Ping\\ping5.blp",
+						}, -- [3]
+					},
+				},
+			},
+		},
+		["AutoZoom"] = {
+			["profileKeys"] = {
+				["Bàdrasta - Crushridge"] = "Bàdrasta - Crushridge",
+			},
+			["profiles"] = {
+				["Bàdrasta - Crushridge"] = {
+				},
+			},
+		},
+		["Shapes"] = {
+			["profileKeys"] = {
+				["Bàdrasta - Crushridge"] = "Bàdrasta - Crushridge",
+			},
+			["profiles"] = {
+				["Bàdrasta - Crushridge"] = {
+					["shape"] = "Interface\\BUTTONS\\WHITE8X8",
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Bàdrasta - Crushridge"] = "Bàdrasta - Crushridge",
+	},
+	["profiles"] = {
+	},
+}

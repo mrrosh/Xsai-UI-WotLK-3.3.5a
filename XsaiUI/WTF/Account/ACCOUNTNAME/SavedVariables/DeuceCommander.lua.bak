@@ -1,0 +1,9 @@
+
+DeuceCommanderDB = {
+	["profiles"] = {
+		["Default"] = {
+			["detachedTooltip"] = {
+			},
+		},
+	},
+}

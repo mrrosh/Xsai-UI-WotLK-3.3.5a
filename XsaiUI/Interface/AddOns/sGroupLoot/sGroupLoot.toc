@@ -1,0 +1,7 @@
+## Interface: 30000
+## Title: |cffff00ffs|r|cffffffffGroupLoot|r
+## Notes: Neues Gruppenpluendern.
+## Author: Nils Ruesch
+## Version: 090222
+
+sGroupLoot.lua

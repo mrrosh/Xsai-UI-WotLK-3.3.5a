@@ -1,0 +1,6 @@
+## Interface: 30000
+## Title: |cff0088ffxSettings|r
+## Notes: Some UI tweaks
+## Author: Xsai
+
+xSettings.lua

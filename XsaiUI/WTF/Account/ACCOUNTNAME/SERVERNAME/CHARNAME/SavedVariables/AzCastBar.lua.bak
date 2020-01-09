@@ -1,0 +1,282 @@
+
+AzCastBar_Config = {
+	["Player"] = {
+		["fontFace"] = "Fonts\\FRIZQT__.TTF",
+		["left"] = 680.2702643014353,
+		["colInterrupt"] = {
+			1, -- [1]
+			0.75, -- [2]
+			0.5, -- [3]
+			1, -- [4]
+		},
+		["colSafezone"] = {
+			0.3, -- [1]
+			0.8, -- [2]
+			0.3, -- [3]
+			0.6, -- [4]
+		},
+		["showLabel"] = true,
+		["showIcon"] = true,
+		["colNormal"] = {
+			0.4, -- [1]
+			0.6, -- [2]
+			0.8, -- [3]
+			1, -- [4]
+		},
+		["safeZone"] = false,
+		["backdropIndent"] = -3,
+		["showTime"] = true,
+		["texture"] = "Interface\\Addons\\AzCastBar\\Textures\\Waterline",
+		["enabled"] = true,
+		["showTotalTime"] = false,
+		["fontFlags"] = "",
+		["bottom"] = 408.9189384363633,
+		["fontSize"] = 12,
+		["fadeTime"] = 0.6,
+		["showRank"] = true,
+		["width"] = 300,
+		["colBackdrop"] = {
+			0.1, -- [1]
+			0.22, -- [2]
+			0.35, -- [3]
+			1, -- [4]
+		},
+		["backdropBG"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+		["colFailed"] = {
+			1, -- [1]
+			0.5, -- [2]
+			0.5, -- [3]
+			1, -- [4]
+		},
+		["alpha"] = 1,
+		["height"] = 20,
+		["textAlign"] = "LEFT",
+		["colFont"] = {
+			1, -- [1]
+			1, -- [2]
+			1, -- [3]
+			1, -- [4]
+		},
+		["colBackground"] = {
+			1, -- [1]
+			1, -- [2]
+			1, -- [3]
+			1, -- [4]
+		},
+	},
+	["Focus"] = {
+		["fontFace"] = "Fonts\\FRIZQT__.TTF",
+		["left"] = 680.2702643014353,
+		["colInterrupt"] = {
+			1, -- [1]
+			0.75, -- [2]
+			0.5, -- [3]
+			1, -- [4]
+		},
+		["showIcon"] = true,
+		["showLabel"] = true,
+		["colNormal"] = {
+			0.4, -- [1]
+			0.6, -- [2]
+			0.8, -- [3]
+			1, -- [4]
+		},
+		["backdropIndent"] = -3,
+		["showTime"] = true,
+		["texture"] = "Interface\\Addons\\AzCastBar\\Textures\\Waterline",
+		["enabled"] = true,
+		["showTotalTime"] = false,
+		["alpha"] = 1,
+		["bottom"] = 352.9189277524907,
+		["fontFlags"] = "",
+		["fadeTime"] = 0.6,
+		["showRank"] = true,
+		["width"] = 300,
+		["fontSize"] = 12,
+		["colBackdrop"] = {
+			0.1, -- [1]
+			0.22, -- [2]
+			0.35, -- [3]
+			1, -- [4]
+		},
+		["colFailed"] = {
+			1, -- [1]
+			0.5, -- [2]
+			0.5, -- [3]
+			1, -- [4]
+		},
+		["backdropBG"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+		["height"] = 20,
+		["textAlign"] = "LEFT",
+		["colFont"] = {
+			1, -- [1]
+			1, -- [2]
+			1, -- [3]
+			1, -- [4]
+		},
+		["colBackground"] = {
+			1, -- [1]
+			1, -- [2]
+			1, -- [3]
+			1, -- [4]
+		},
+	},
+	["Target"] = {
+		["fontFace"] = "Fonts\\FRIZQT__.TTF",
+		["left"] = 680.2702643014353,
+		["colInterrupt"] = {
+			1, -- [1]
+			0.75, -- [2]
+			0.5, -- [3]
+			1, -- [4]
+		},
+		["showIcon"] = true,
+		["showLabel"] = true,
+		["colNormal"] = {
+			0.4, -- [1]
+			0.6, -- [2]
+			0.8, -- [3]
+			1, -- [4]
+		},
+		["backdropIndent"] = -3,
+		["showTime"] = true,
+		["texture"] = "Interface\\Addons\\AzCastBar\\Textures\\Waterline",
+		["enabled"] = true,
+		["showTotalTime"] = false,
+		["alpha"] = 1,
+		["bottom"] = 380.918933094427,
+		["fontFlags"] = "",
+		["fadeTime"] = 0.6,
+		["showRank"] = true,
+		["width"] = 300,
+		["fontSize"] = 12,
+		["colBackdrop"] = {
+			0.1, -- [1]
+			0.22, -- [2]
+			0.35, -- [3]
+			1, -- [4]
+		},
+		["colFailed"] = {
+			1, -- [1]
+			0.5, -- [2]
+			0.5, -- [3]
+			1, -- [4]
+		},
+		["backdropBG"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+		["height"] = 20,
+		["textAlign"] = "LEFT",
+		["colFont"] = {
+			1, -- [1]
+			1, -- [2]
+			1, -- [3]
+			1, -- [4]
+		},
+		["colBackground"] = {
+			1, -- [1]
+			1, -- [2]
+			1, -- [3]
+			1, -- [4]
+		},
+	},
+	["Pet"] = {
+		["fontFace"] = "Fonts\\FRIZQT__.TTF",
+		["left"] = 680.2702643014353,
+		["colInterrupt"] = {
+			1, -- [1]
+			0.75, -- [2]
+			0.5, -- [3]
+			1, -- [4]
+		},
+		["showIcon"] = true,
+		["showLabel"] = true,
+		["colNormal"] = {
+			0.4, -- [1]
+			0.6, -- [2]
+			0.8, -- [3]
+			1, -- [4]
+		},
+		["backdropIndent"] = -3,
+		["showTime"] = true,
+		["texture"] = "Interface\\Addons\\AzCastBar\\Textures\\Waterline",
+		["enabled"] = true,
+		["showTotalTime"] = false,
+		["alpha"] = 1,
+		["bottom"] = 324.9189224105544,
+		["fontFlags"] = "",
+		["fadeTime"] = 0.6,
+		["showRank"] = true,
+		["width"] = 300,
+		["fontSize"] = 12,
+		["colBackdrop"] = {
+			0.1, -- [1]
+			0.22, -- [2]
+			0.35, -- [3]
+			1, -- [4]
+		},
+		["colFailed"] = {
+			1, -- [1]
+			0.5, -- [2]
+			0.5, -- [3]
+			1, -- [4]
+		},
+		["backdropBG"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+		["height"] = 20,
+		["textAlign"] = "LEFT",
+		["colFont"] = {
+			1, -- [1]
+			1, -- [2]
+			1, -- [3]
+			1, -- [4]
+		},
+		["colBackground"] = {
+			1, -- [1]
+			1, -- [2]
+			1, -- [3]
+			1, -- [4]
+		},
+	},
+	["Mirror"] = {
+		["fontFace"] = "Fonts\\FRIZQT__.TTF",
+		["left"] = 680.2702643014353,
+		["showLabel"] = true,
+		["colNormal"] = {
+			0.4, -- [1]
+			0.6, -- [2]
+			0.8, -- [3]
+			1, -- [4]
+		},
+		["showTime"] = true,
+		["texture"] = "Interface\\Addons\\AzCastBar\\Textures\\Waterline",
+		["enabled"] = true,
+		["showTotalTime"] = false,
+		["backdropIndent"] = -3,
+		["bottom"] = 708.9189134136091,
+		["showIcon"] = true,
+		["fadeTime"] = 0.6,
+		["alpha"] = 1,
+		["width"] = 300,
+		["backdropBG"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+		["colBackdrop"] = {
+			0.1, -- [1]
+			0.22, -- [2]
+			0.35, -- [3]
+			1, -- [4]
+		},
+		["fontFlags"] = "",
+		["fontSize"] = 12,
+		["height"] = 20,
+		["textAlign"] = "LEFT",
+		["colFont"] = {
+			1, -- [1]
+			1, -- [2]
+			1, -- [3]
+			1, -- [4]
+		},
+		["colBackground"] = {
+			1, -- [1]
+			1, -- [2]
+			1, -- [3]
+			1, -- [4]
+		},
+	},
+}

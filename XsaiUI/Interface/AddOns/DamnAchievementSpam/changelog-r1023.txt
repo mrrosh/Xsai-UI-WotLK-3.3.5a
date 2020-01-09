@@ -1,0 +1,18 @@
+------------------------------------------------------------------------
+r1023 | shadowed.wow | 2008-11-19 22:39:18 -0800 (Wed, 19 Nov 2008) | 1 line
+
+* Fixed plural vs singular for the achievement things, added brackets if it's a singular one. 
+------------------------------------------------------------------------
+r1020 | shadowed.wow | 2008-11-18 13:38:25 -0800 (Tue, 18 Nov 2008) | 1 line
+
+* Drycoding is bad
+------------------------------------------------------------------------
+r1018 | shadowed.wow | 2008-11-17 23:31:53 -0800 (Mon, 17 Nov 2008) | 1 line
+
+* Added Realm First titles to the list since they are incredibly spammy
+------------------------------------------------------------------------
+r1015 | shadowed.wow | 2008-11-16 22:23:34 -0800 (Sun, 16 Nov 2008) | 2 lines
+
+* Initial Import: DamnAchievementSpam/
+* Reduces the spam from PvP and Dungeon achievements where 5-25+ people can get them and you get 500000 bajillion messages in chat, basically all this does is compact them so if Foo, Bar, Apple, Orange get the same dungeon or pvp achievement, you will see "Foo, Bar, Apple, Orange have earned the achievement <blah>" instead of 4 different messages
+------------------------------------------------------------------------

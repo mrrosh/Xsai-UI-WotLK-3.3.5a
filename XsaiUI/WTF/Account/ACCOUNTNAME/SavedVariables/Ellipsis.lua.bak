@@ -1,0 +1,11 @@
+
+EllipsisDB = {
+	["profileKeys"] = {
+		["Tydor - Arthas"] = "Tydor - Arthas",
+	},
+	["profiles"] = {
+		["Tydor - Arthas"] = {
+			["version"] = 1,
+		},
+	},
+}

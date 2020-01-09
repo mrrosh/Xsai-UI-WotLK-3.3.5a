@@ -1,0 +1,66 @@
+------------------------------------------------------------------------
+r76455 | snago | 2008-06-11 04:35:38 -0400 (Wed, 11 Jun 2008) | 2 lines
+Changed paths:
+   M /trunk/oUF_PowerSpark/oUF_PowerSpark.lua
+
+oUF_PowerSpark:
+- Fix two var names
+------------------------------------------------------------------------
+r76453 | snago | 2008-06-11 03:40:19 -0400 (Wed, 11 Jun 2008) | 2 lines
+Changed paths:
+   M /trunk/oUF_PowerSpark/oUF_PowerSpark.lua
+
+oUF_PowerSpark:
+- Fix the 5sr spark from not showing at all if you didn't use the manaticker.
+------------------------------------------------------------------------
+r76259 | snago | 2008-06-08 06:34:23 -0400 (Sun, 08 Jun 2008) | 2 lines
+Changed paths:
+   M /trunk/oUF_PowerSpark/oUF_PowerSpark.lua
+
+oUF_PowerSpark:
+- Fix 5sr spark showing when it wasn't supposed to.
+------------------------------------------------------------------------
+r75324 | snago | 2008-05-28 03:50:28 -0400 (Wed, 28 May 2008) | 2 lines
+Changed paths:
+   M /trunk/oUF_PowerSpark/oUF_PowerSpark.lua
+
+oUF_PowerSpark:
+- Tick on timer > 2 instead of >= 2. Seems more accurate, but I could be imagining things.
+------------------------------------------------------------------------
+r73795 | snago | 2008-05-14 03:06:33 -0400 (Wed, 14 May 2008) | 2 lines
+Changed paths:
+   M /trunk/oUF_PowerSpark/oUF_PowerSpark.lua
+
+oUF_PowerSpark:
+- Hide energy ticker when out of combat, at full energy and with no attackable target.
+------------------------------------------------------------------------
+r73572 | snago | 2008-05-12 06:34:37 -0400 (Mon, 12 May 2008) | 2 lines
+Changed paths:
+   M /trunk/oUF_PowerSpark/oUF_PowerSpark.lua
+
+oUF_PowerSpark:
+- Hide spark at full mana at login as well
+------------------------------------------------------------------------
+r73571 | snago | 2008-05-12 06:16:48 -0400 (Mon, 12 May 2008) | 2 lines
+Changed paths:
+   M /trunk/oUF_PowerSpark/oUF_PowerSpark.lua
+   M /trunk/oUF_PowerSpark/readme.txt
+
+oUF_PowerSpark:
+- Hide mana ticker at full mana.
+------------------------------------------------------------------------
+r73475 | snago | 2008-05-11 12:02:24 -0400 (Sun, 11 May 2008) | 2 lines
+Changed paths:
+   M /trunk/oUF_PowerSpark/oUF_PowerSpark.lua
+
+oUF_PowerSpark:
+- Ugly hack to get around bar width returning 0 at login
+------------------------------------------------------------------------
+r73472 | snago | 2008-05-11 11:04:31 -0400 (Sun, 11 May 2008) | 2 lines
+Changed paths:
+   M /trunk/oUF_PowerSpark/oUF_PowerSpark.lua
+   M /trunk/oUF_PowerSpark/readme.txt
+
+oUF_PowerSpark: Merge from branches
+- Can now tick for mana as well as energy between FSRs. Off by default, configurable (different) alpha for FSR and ticker. See readme.txt
+------------------------------------------------------------------------

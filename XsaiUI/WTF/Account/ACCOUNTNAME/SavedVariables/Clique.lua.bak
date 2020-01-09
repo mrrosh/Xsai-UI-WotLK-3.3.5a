@@ -1,0 +1,10 @@
+
+CliqueDB = {
+	["profileKeys"] = {
+		["Tydor - Arthas"] = "Tydor - Arthas",
+	},
+	["profiles"] = {
+		["Tydor - Arthas"] = {
+		},
+	},
+}

@@ -1,0 +1,12 @@
+## Interface: 30000
+## Title: ReURL
+## Author: AnduinLothar
+## Notes: Click chat URL's to insert into the editbox.
+## Author: Karl Isenberg (AnduinLothar)
+## Version: 2.0
+## X-Date: Oct 18 2008
+## X-Category: Chat
+## X-Website: http://www.wowinterface.com/downloads/info5181-ReURL.html
+## X-Email: karlkfi@yahoo.com
+## OptionalDeps: Sky, CT_RaidAssist, TellTrack
+ReURL.lua

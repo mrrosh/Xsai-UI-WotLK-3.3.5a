@@ -1,0 +1,3227 @@
+
+PitBullDB = {
+	["disabledModules"] = {
+		["Default"] = {
+			["CombatFader"] = true,
+			["EstimatedHeals"] = true,
+			["Highlight"] = true,
+			["InteractLines"] = true,
+			["BarFader"] = true,
+			["Spark"] = true,
+		},
+	},
+	["namespaces"] = {
+		["BarFader"] = {
+			["profiles"] = {
+				["Default"] = {
+					["groups"] = {
+						["target"] = {
+							["smooth"] = true,
+							["fade"] = true,
+						},
+						["player"] = {
+							["fade"] = true,
+							["smooth"] = true,
+						},
+					},
+					["fadetime"] = 0.1,
+				},
+			},
+		},
+		["LeaderIcon"] = {
+			["profiles"] = {
+				["Default"] = {
+					["raid"] = {
+						["disable"] = true,
+					},
+				},
+			},
+		},
+		["Banzai"] = {
+			["profiles"] = {
+				["Default"] = {
+					["groups"] = {
+						["targettargettarget"] = {
+							["ignore"] = false,
+						},
+						["partytarget"] = {
+							["ignore"] = true,
+						},
+						["pet"] = {
+							["ignore"] = true,
+						},
+						["player"] = {
+							["ignore"] = true,
+						},
+						["maintanktargettarget"] = {
+							["ignore"] = true,
+						},
+						["raid"] = {
+							["ignore"] = true,
+						},
+						["party"] = {
+							["ignore"] = true,
+						},
+						["maintank"] = {
+							["ignore"] = true,
+						},
+					},
+				},
+			},
+		},
+		["RaidTargetIcon"] = {
+			["profiles"] = {
+				["Default"] = {
+					["party"] = {
+						["disable"] = true,
+					},
+					["targettargettarget"] = {
+						["disable"] = true,
+					},
+					["focus"] = {
+						["disable"] = true,
+					},
+					["raid"] = {
+						["disable"] = true,
+					},
+					["pet"] = {
+						["disable"] = true,
+					},
+					["player"] = {
+						["disable"] = true,
+					},
+				},
+			},
+		},
+		["PowerBar"] = {
+			["profiles"] = {
+				["Default"] = {
+					["mainassisttarget"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								nil, -- [2]
+								0.2666666666666667, -- [3]
+								0.8196078431372549, -- [4]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.5882352941176471, -- [1]
+								0.7450980392156863, -- [2]
+								0.996078431372549, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8274509803921568, -- [2]
+								0.3254901960784314, -- [3]
+								0.6941176470588235, -- [4]
+							},
+						},
+					},
+					["targettargettarget"] = {
+						["hidden"] = false,
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								nil, -- [2]
+								0.2666666666666667, -- [3]
+								0.8196078431372549, -- [4]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.5882352941176471, -- [1]
+								0.7450980392156863, -- [2]
+								0.996078431372549, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8274509803921568, -- [2]
+								0.3254901960784314, -- [3]
+								0.6941176470588235, -- [4]
+							},
+						},
+					},
+					["partytarget"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								nil, -- [2]
+								0.2666666666666667, -- [3]
+								0.8196078431372549, -- [4]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.5882352941176471, -- [1]
+								0.7450980392156863, -- [2]
+								0.996078431372549, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8274509803921568, -- [2]
+								0.3254901960784314, -- [3]
+								0.6941176470588235, -- [4]
+							},
+						},
+					},
+					["mainassisttargettarget"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								nil, -- [2]
+								0.2666666666666667, -- [3]
+								0.8196078431372549, -- [4]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.5882352941176471, -- [1]
+								0.7450980392156863, -- [2]
+								0.996078431372549, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8274509803921568, -- [2]
+								0.3254901960784314, -- [3]
+								0.6941176470588235, -- [4]
+							},
+						},
+					},
+					["party"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								nil, -- [2]
+								0.2666666666666667, -- [3]
+								0.8196078431372549, -- [4]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.5882352941176471, -- [1]
+								0.7450980392156863, -- [2]
+								0.996078431372549, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8274509803921568, -- [2]
+								0.3254901960784314, -- [3]
+								0.6941176470588235, -- [4]
+							},
+						},
+					},
+					["maintanktarget"] = {
+						["hidden"] = true,
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								nil, -- [2]
+								0.2666666666666667, -- [3]
+								0.8196078431372549, -- [4]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.5882352941176471, -- [1]
+								0.7450980392156863, -- [2]
+								0.996078431372549, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8274509803921568, -- [2]
+								0.3254901960784314, -- [3]
+								0.6941176470588235, -- [4]
+							},
+						},
+					},
+					["raidpet"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								nil, -- [2]
+								0.2666666666666667, -- [3]
+								0.8196078431372549, -- [4]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.5882352941176471, -- [1]
+								0.7450980392156863, -- [2]
+								0.996078431372549, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8274509803921568, -- [2]
+								0.3254901960784314, -- [3]
+								0.6941176470588235, -- [4]
+							},
+						},
+					},
+					["target"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								nil, -- [2]
+								0.2666666666666667, -- [3]
+								0.8196078431372549, -- [4]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.5882352941176471, -- [1]
+								0.7450980392156863, -- [2]
+								0.996078431372549, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8274509803921568, -- [2]
+								0.3254901960784314, -- [3]
+								0.6941176470588235, -- [4]
+							},
+						},
+					},
+					["raid"] = {
+						["hideNoMana"] = false,
+						["hidden"] = true,
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								nil, -- [2]
+								0.2666666666666667, -- [3]
+								0.8196078431372549, -- [4]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.5882352941176471, -- [1]
+								0.7450980392156863, -- [2]
+								0.996078431372549, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8274509803921568, -- [2]
+								0.3254901960784314, -- [3]
+								0.6941176470588235, -- [4]
+							},
+						},
+					},
+					["raidtarget"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								nil, -- [2]
+								0.2666666666666667, -- [3]
+								0.8196078431372549, -- [4]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.5882352941176471, -- [1]
+								0.7450980392156863, -- [2]
+								0.996078431372549, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8274509803921568, -- [2]
+								0.3254901960784314, -- [3]
+								0.6941176470588235, -- [4]
+							},
+						},
+					},
+					["mainassist"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								nil, -- [2]
+								0.2666666666666667, -- [3]
+								0.8196078431372549, -- [4]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.5882352941176471, -- [1]
+								0.7450980392156863, -- [2]
+								0.996078431372549, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8274509803921568, -- [2]
+								0.3254901960784314, -- [3]
+								0.6941176470588235, -- [4]
+							},
+						},
+					},
+					["maintanktargettarget"] = {
+						["hidden"] = true,
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								nil, -- [2]
+								0.2666666666666667, -- [3]
+								0.8196078431372549, -- [4]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.5882352941176471, -- [1]
+								0.7450980392156863, -- [2]
+								0.996078431372549, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8274509803921568, -- [2]
+								0.3254901960784314, -- [3]
+								0.6941176470588235, -- [4]
+							},
+						},
+					},
+					["partypettarget"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								nil, -- [2]
+								0.2666666666666667, -- [3]
+								0.8196078431372549, -- [4]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.5882352941176471, -- [1]
+								0.7450980392156863, -- [2]
+								0.996078431372549, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8274509803921568, -- [2]
+								0.3254901960784314, -- [3]
+								0.6941176470588235, -- [4]
+							},
+						},
+					},
+					["focustarget"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								nil, -- [2]
+								0.2666666666666667, -- [3]
+								0.8196078431372549, -- [4]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.5882352941176471, -- [1]
+								0.7450980392156863, -- [2]
+								0.996078431372549, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8274509803921568, -- [2]
+								0.3254901960784314, -- [3]
+								0.6941176470588235, -- [4]
+							},
+						},
+					},
+					["mouseover"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								nil, -- [2]
+								0.2666666666666667, -- [3]
+								0.8196078431372549, -- [4]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.5882352941176471, -- [1]
+								0.7450980392156863, -- [2]
+								0.996078431372549, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8274509803921568, -- [2]
+								0.3254901960784314, -- [3]
+								0.6941176470588235, -- [4]
+							},
+						},
+					},
+					["partypet"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								nil, -- [2]
+								0.2666666666666667, -- [3]
+								0.8196078431372549, -- [4]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.5882352941176471, -- [1]
+								0.7450980392156863, -- [2]
+								0.996078431372549, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8274509803921568, -- [2]
+								0.3254901960784314, -- [3]
+								0.6941176470588235, -- [4]
+							},
+						},
+					},
+					["mouseovertarget"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								nil, -- [2]
+								0.2666666666666667, -- [3]
+								0.8196078431372549, -- [4]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.5882352941176471, -- [1]
+								0.7450980392156863, -- [2]
+								0.996078431372549, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8274509803921568, -- [2]
+								0.3254901960784314, -- [3]
+								0.6941176470588235, -- [4]
+							},
+						},
+					},
+					["player"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								nil, -- [2]
+								0.2666666666666667, -- [3]
+								0.8196078431372549, -- [4]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["manaBG"] = {
+								0.3372549019607843, -- [1]
+								0.4117647058823529, -- [2]
+								0.4745098039215686, -- [3]
+							},
+							["mana"] = {
+								0.5882352941176471, -- [1]
+								0.7450980392156863, -- [2]
+								0.996078431372549, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8274509803921568, -- [2]
+								0.3254901960784314, -- [3]
+								0.6941176470588235, -- [4]
+							},
+						},
+					},
+					["pettarget"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								nil, -- [2]
+								0.2666666666666667, -- [3]
+								0.8196078431372549, -- [4]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.5882352941176471, -- [1]
+								0.7450980392156863, -- [2]
+								0.996078431372549, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8274509803921568, -- [2]
+								0.3254901960784314, -- [3]
+								0.6941176470588235, -- [4]
+							},
+						},
+					},
+					["targettarget"] = {
+						["hidden"] = false,
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								nil, -- [2]
+								0.2666666666666667, -- [3]
+								0.8196078431372549, -- [4]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.5882352941176471, -- [1]
+								0.7450980392156863, -- [2]
+								0.996078431372549, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8274509803921568, -- [2]
+								0.3254901960784314, -- [3]
+								0.6941176470588235, -- [4]
+							},
+						},
+					},
+					["pet"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								nil, -- [2]
+								0.2666666666666667, -- [3]
+								0.8196078431372549, -- [4]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.5882352941176471, -- [1]
+								0.7450980392156863, -- [2]
+								0.996078431372549, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8274509803921568, -- [2]
+								0.3254901960784314, -- [3]
+								0.6941176470588235, -- [4]
+							},
+						},
+					},
+					["maintank"] = {
+						["hidden"] = true,
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								nil, -- [2]
+								0.2666666666666667, -- [3]
+								0.8196078431372549, -- [4]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.5882352941176471, -- [1]
+								0.7450980392156863, -- [2]
+								0.996078431372549, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8274509803921568, -- [2]
+								0.3254901960784314, -- [3]
+								0.6941176470588235, -- [4]
+							},
+						},
+					},
+					["focustargettarget"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								nil, -- [2]
+								0.2666666666666667, -- [3]
+								0.8196078431372549, -- [4]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.5882352941176471, -- [1]
+								0.7450980392156863, -- [2]
+								0.996078431372549, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8274509803921568, -- [2]
+								0.3254901960784314, -- [3]
+								0.6941176470588235, -- [4]
+							},
+						},
+					},
+					["focus"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								nil, -- [2]
+								0.2666666666666667, -- [3]
+								0.8196078431372549, -- [4]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+							["mana"] = {
+								0.5882352941176471, -- [1]
+								0.7450980392156863, -- [2]
+								0.996078431372549, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8274509803921568, -- [2]
+								0.3254901960784314, -- [3]
+								0.6941176470588235, -- [4]
+							},
+						},
+					},
+				},
+			},
+		},
+		["CastBar"] = {
+			["profiles"] = {
+				["Default"] = {
+					["groups"] = {
+						["player"] = {
+							["ignore"] = true,
+						},
+						["pet"] = {
+							["ignore"] = true,
+						},
+						["maintanktarget"] = {
+							["ignore"] = true,
+						},
+						["party"] = {
+							["ignore"] = true,
+						},
+						["maintanktargettarget"] = {
+							["ignore"] = true,
+						},
+						["focus"] = {
+							["showIcon"] = false,
+						},
+						["target"] = {
+							["ignore"] = true,
+						},
+						["maintank"] = {
+							["ignore"] = true,
+						},
+						["raid"] = {
+							["ignore"] = true,
+						},
+					},
+					["completecolor"] = {
+						0.4274509803921568, -- [1]
+						0.5607843137254902, -- [2]
+						0.5843137254901961, -- [3]
+					},
+					["channelingcolor"] = {
+						0.5764705882352941, -- [1]
+						0.7529411764705882, -- [2]
+						0.592156862745098, -- [3]
+					},
+				},
+			},
+		},
+		["EstimatedHeals"] = {
+			["profiles"] = {
+				["Default"] = {
+					["groups"] = {
+						["party"] = {
+							["ignore"] = true,
+						},
+						["partytarget"] = {
+							["ignore"] = true,
+						},
+						["player"] = {
+							["text"] = false,
+							["ignore"] = true,
+						},
+						["targettarget"] = {
+							["ignore"] = true,
+						},
+						["target"] = {
+							["ignore"] = true,
+						},
+					},
+				},
+			},
+		},
+		["MetaLayout"] = {
+			["profiles"] = {
+				["Default"] = {
+					["targettargettarget"] = {
+						["bars"] = {
+							["powerBar"] = {
+								["height"] = 1,
+							},
+						},
+						["texts"] = {
+							["Power"] = {
+								["hidden"] = true,
+							},
+							["Class"] = {
+								["hidden"] = true,
+							},
+							["Health"] = {
+								["style"] = "Percent",
+								["custom"] = "[Status:PercentHP:Percent]",
+								["size"] = 1.28,
+							},
+							["Name"] = {
+								["size"] = 1.28,
+							},
+						},
+					},
+					["partytarget"] = {
+						["bars"] = {
+							["healthBar"] = {
+								["height"] = 8,
+							},
+							["powerBar"] = {
+								["height"] = 2,
+							},
+						},
+						["icons"] = {
+							["raidTargetIcon"] = {
+								["size"] = 0.88,
+								["position"] = "frame-edgetopleft",
+							},
+						},
+						["texts"] = {
+							["Power"] = {
+								["hidden"] = true,
+							},
+							["Class"] = {
+								["hidden"] = true,
+							},
+							["Name"] = {
+								["style"] = "Class Colored",
+								["custom"] = "[Name:ClassColor] [AFKDND:Angle]",
+								["size"] = 1.26,
+							},
+							["Health"] = {
+								["style"] = "Percent",
+								["custom"] = "[Status:PercentHP:Percent]",
+								["size"] = 1.26,
+							},
+						},
+					},
+					["targettarget"] = {
+						["bars"] = {
+							["healthBar"] = {
+								["height"] = 9,
+							},
+							["powerBar"] = {
+								["height"] = 3,
+							},
+						},
+						["icons"] = {
+							["raidTargetIcon"] = {
+								["size"] = 1.02,
+								["position"] = "frame-outtop",
+							},
+						},
+						["texts"] = {
+							["Power"] = {
+								["hidden"] = true,
+							},
+							["Class"] = {
+								["hidden"] = true,
+							},
+							["Name"] = {
+								["custom"] = "[Name:ClassColor] || [~Dead?~IsMaxHP?PercentHP:Round:Percent:HPColor]",
+								["position"] = "frame-outbottom",
+								["style"] = "Custom",
+								["size"] = 1.02,
+							},
+							["Health"] = {
+								["custom"] = "[Outline][Status:PercentHP:Short:Percent:HPColor]",
+								["style"] = "Custom",
+								["hidden"] = true,
+								["size"] = 0.8,
+							},
+						},
+					},
+					["pet"] = {
+						["bars"] = {
+							["healthBar"] = {
+								["height"] = 9,
+							},
+							["powerBar"] = {
+								["height"] = 2,
+							},
+						},
+						["texts"] = {
+							["buff"] = {
+								["styleType"] = "none",
+								["style"] = "Custom",
+								["position"] = "frame-center",
+								["custom"] = "",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["Threat"] = {
+								["styleType"] = "threat",
+								["style"] = "Absolute Short",
+								["position"] = "threatBar-right",
+								["custom"] = "[Threat]/[MaxThreat]",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["Power"] = {
+								["styleType"] = "power",
+								["style"] = "Absolute",
+								["position"] = "powerBar-right",
+								["custom"] = "[CurMP]/[MaxMP]",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["hp perc"] = {
+								["styleType"] = "none",
+								["style"] = "Custom",
+								["position"] = "frame-center",
+								["custom"] = "",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["Reputation"] = {
+								["styleType"] = "reputation",
+								["custom"] = "",
+								["position"] = "repBar-center",
+								["style"] = "Standard",
+								["hidden"] = false,
+								["size"] = 1,
+							},
+							["Class"] = {
+								["styleType"] = "class",
+								["style"] = "Standard",
+								["position"] = "powerBar-left",
+								["custom"] = "[Classification] [Level:DifficultyColor] [SmartClass:ClassColor] [DruidForm:Paren] [SmartRace]",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["range"] = {
+								["styleType"] = "none",
+								["custom"] = "",
+								["position"] = "frame-center",
+								["style"] = "Custom",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["name mid"] = {
+								["styleType"] = "none",
+								["style"] = "Custom",
+								["position"] = "frame-center",
+								["custom"] = "",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["Health"] = {
+								["styleType"] = "health",
+								["style"] = "Percent",
+								["position"] = "healthBar-right",
+								["custom"] = "[Status:PercentHP:Percent]",
+								["hidden"] = true,
+								["size"] = 1.21,
+							},
+							["status"] = {
+								["styleType"] = "none",
+								["style"] = "Custom",
+								["position"] = "frame-center",
+								["custom"] = "",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["Experience"] = {
+								["styleType"] = "experience",
+								["custom"] = "",
+								["position"] = "expBar-center",
+								["style"] = "Standard",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["combatText"] = {
+								["styleType"] = "none",
+								["style"] = "Custom",
+								["position"] = "frame-center",
+								["custom"] = "",
+								["hidden"] = false,
+								["size"] = 1,
+							},
+							["mp perc"] = {
+								["styleType"] = "none",
+								["style"] = "Custom",
+								["position"] = "frame-center",
+								["custom"] = "",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["Name"] = {
+								["styleType"] = "name",
+								["style"] = "Standard",
+								["position"] = "healthBar-center",
+								["custom"] = "[Name] [AFKDND:Angle]",
+								["hidden"] = false,
+								["size"] = 0.9300000000000001,
+							},
+							["name midd"] = {
+								["styleType"] = "none",
+								["style"] = "Custom",
+								["position"] = "frame-center",
+								["custom"] = "",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["Combo"] = {
+								["styleType"] = "combo",
+								["custom"] = "",
+								["position"] = "frame-outright",
+								["style"] = "Standard",
+								["hidden"] = false,
+								["size"] = 1,
+							},
+						},
+					},
+					["raid"] = {
+						["buffSide"] = "left",
+						["debuffSide"] = "bottom",
+						["bars"] = {
+							["healthBar"] = {
+								["height"] = 7,
+							},
+							["powerBar"] = {
+								["height"] = 1,
+							},
+						},
+						["auraSide"] = "topleft",
+						["icons"] = {
+							["leaderIcon"] = {
+								["position"] = "frame-outleft",
+								["size"] = 0.5,
+							},
+							["raidTargetIcon"] = {
+								["position"] = "frame-center",
+								["size"] = 0.72,
+							},
+						},
+						["texts"] = {
+							["Threat"] = {
+								["position"] = "frame-inbottomright",
+								["hidden"] = true,
+								["size"] = 1.07,
+							},
+							["Power"] = {
+								["hidden"] = true,
+							},
+							["Class"] = {
+								["style"] = "Custom",
+								["custom"] = "[RaidGroup]",
+								["hidden"] = true,
+								["size"] = 1.16,
+							},
+							["range"] = {
+								["custom"] = "[Range?Text(r)]",
+								["position"] = "healthBar-outleft",
+								["size"] = 0.64,
+							},
+							["Health"] = {
+								["custom"] = "[Outline][~Dead?~IsMaxHP?CurHP:VeryShort:HPColor]",
+								["style"] = "Custom",
+								["size"] = 0.92,
+							},
+							["combatText"] = {
+								["position"] = "frame-outleft",
+							},
+							["status"] = {
+								["custom"] = "[Dead?Text(Dead)!Offline?Text(Offline)!AFK?Text(AFk)]",
+								["position"] = "healthBar-center",
+								["hidden"] = false,
+								["size"] = 0.6699999999999999,
+							},
+							["Name"] = {
+								["style"] = "Custom",
+								["position"] = "frame-outright",
+								["custom"] = "[Name:ClassColor]",
+								["size"] = 0.92,
+							},
+							["buff"] = {
+								["custom"] = "[[HasAura(Power Word: Fortitude)!HasAura(Prayer of Fortitude)]?Text(F):Color(A9F5A9)] [[HasAura(Shadow Protection)!HasAura(Prayer of Shadow Protection)]?Text(S):Color(B868D0)]",
+								["position"] = "healthBar-left",
+								["hidden"] = false,
+								["size"] = 0.55,
+							},
+							["Combo"] = {
+								["position"] = "frame-center",
+							},
+						},
+					},
+					["player"] = {
+						["bars"] = {
+							["healthBar"] = {
+								["height"] = 11,
+							},
+						},
+						["debuffSide"] = "bottomright",
+						["buffSide"] = "left",
+						["auraSide"] = "top",
+						["icons"] = {
+							["leaderIcon"] = {
+								["size"] = 0.66,
+							},
+						},
+						["texts"] = {
+							["Combo"] = {
+								["styleType"] = "combo",
+								["custom"] = "",
+								["position"] = "frame-outright",
+								["style"] = "Standard",
+								["hidden"] = false,
+								["size"] = 1,
+							},
+							["Threat"] = {
+								["styleType"] = "threat",
+								["style"] = "Absolute Short",
+								["position"] = "threatBar-right",
+								["custom"] = "[Threat]/[MaxThreat]",
+								["hidden"] = false,
+								["size"] = 1,
+							},
+							["Power"] = {
+								["styleType"] = "power",
+								["style"] = "Custom",
+								["position"] = "frame-outbottomleft",
+								["custom"] = "[~HasNoMP?CurMP:Short:Color(81BEF7)] || [MaxMP:Short:Color(0174DF)]",
+								["hidden"] = false,
+								["size"] = 1.1,
+							},
+							["buff"] = {
+								["styleType"] = "none",
+								["custom"] = "",
+								["position"] = "frame-center",
+								["style"] = "Custom",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["Reputation"] = {
+								["styleType"] = "reputation",
+								["custom"] = "",
+								["position"] = "repBar-center",
+								["style"] = "Standard",
+								["hidden"] = false,
+								["size"] = 1,
+							},
+							["Class"] = {
+								["styleType"] = "class",
+								["style"] = "Hide",
+								["position"] = "frame-center",
+								["custom"] = "",
+								["hidden"] = true,
+								["size"] = 1.1,
+							},
+							["range"] = {
+								["styleType"] = "none",
+								["custom"] = "",
+								["position"] = "frame-center",
+								["style"] = "Custom",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["name mid"] = {
+								["styleType"] = "none",
+								["custom"] = "[Outline][~Dead?~IsMaxHP?PercentHP:Percent:HPColor]",
+								["position"] = "healthBar-right",
+								["style"] = "Custom",
+								["hidden"] = false,
+								["size"] = 1.26,
+							},
+							["Name"] = {
+								["styleType"] = "name",
+								["style"] = "Hide",
+								["position"] = "frame-outbottom",
+								["custom"] = "",
+								["hidden"] = false,
+								["size"] = 1.1,
+							},
+							["status"] = {
+								["styleType"] = "none",
+								["custom"] = "",
+								["position"] = "frame-center",
+								["style"] = "Custom",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["Experience"] = {
+								["styleType"] = "experience",
+								["custom"] = "",
+								["position"] = "expBar-center",
+								["style"] = "Standard",
+								["hidden"] = false,
+								["size"] = 1,
+							},
+							["combatText"] = {
+								["styleType"] = "none",
+								["style"] = "Custom",
+								["position"] = "healthBar-left",
+								["custom"] = "",
+								["hidden"] = false,
+								["size"] = 1,
+							},
+							["mp perc"] = {
+								["styleType"] = "none",
+								["custom"] = "[~IsMaxMP?Status:PercentMP:Percent]",
+								["position"] = "frame-center",
+								["style"] = "Custom",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["Health"] = {
+								["styleType"] = "health",
+								["custom"] = "[CurHP:Short:HideZero:HPColor] || [Dead?Text(Dead):Gray!Offline?Text(Offline):Gray!MaxHP:Short:Color(38610B)]",
+								["position"] = "frame-outbottomright",
+								["style"] = "Custom",
+								["hidden"] = false,
+								["size"] = 1.12,
+							},
+							["name midd"] = {
+								["styleType"] = "none",
+								["custom"] = "",
+								["position"] = "frame-center",
+								["style"] = "Custom",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["hp perc"] = {
+								["styleType"] = "health",
+								["custom"] = "[Dead] [~IsMaxHP?Status:PercentHP:Percent]",
+								["position"] = "powerBar-right",
+								["style"] = "Custom",
+								["hidden"] = true,
+								["size"] = 1.31,
+							},
+						},
+					},
+					["maintanktarget"] = {
+						["bars"] = {
+							["powerBar"] = {
+								["height"] = 1,
+							},
+						},
+						["texts"] = {
+							["Threat"] = {
+								["hidden"] = true,
+							},
+							["Power"] = {
+								["hidden"] = true,
+							},
+							["Class"] = {
+								["hidden"] = true,
+							},
+							["Name"] = {
+								["size"] = 1.02,
+							},
+							["Health"] = {
+								["custom"] = "[PercentHP:Percent]",
+								["style"] = "Custom",
+								["size"] = 1.19,
+							},
+						},
+					},
+					["focus"] = {
+						["bars"] = {
+							["castBar"] = {
+								["height"] = 9,
+								["position"] = 4,
+							},
+							["healthBar"] = {
+								["height"] = 10,
+							},
+							["blankSpace"] = {
+								["position"] = 8,
+							},
+							["threatBar"] = {
+								["position"] = 7,
+							},
+							["expBar"] = {
+								["position"] = 5,
+							},
+							["powerBar"] = {
+								["height"] = 3,
+							},
+							["repBar"] = {
+								["position"] = 6,
+							},
+						},
+						["texts"] = {
+							["Threat"] = {
+								["hidden"] = true,
+							},
+							["Combo"] = {
+								["position"] = "healthBar-outright",
+							},
+							["Class"] = {
+								["hidden"] = true,
+							},
+							["Name"] = {
+								["position"] = "frame-outtop",
+								["size"] = 1.15,
+							},
+							["Power"] = {
+								["hidden"] = true,
+							},
+							["Health"] = {
+								["custom"] = "[Outline][~Dead?~IsMaxHP?PercentHP:Percent:HPColor]",
+								["style"] = "Custom",
+								["size"] = 1.25,
+							},
+							["hp perc"] = {
+								["position"] = "frame-edgetop",
+							},
+						},
+					},
+					["target"] = {
+						["bars"] = {
+							["castBar"] = {
+								["height"] = 5,
+								["position"] = 8,
+							},
+							["healthBar"] = {
+								["height"] = 11,
+								["position"] = 2,
+							},
+							["expBar"] = {
+								["height"] = 2,
+								["position"] = 4,
+							},
+							["blankSpace"] = {
+								["height"] = 2,
+								["hidden"] = true,
+								["position"] = 7,
+							},
+							["threatBar"] = {
+								["height"] = 2,
+								["position"] = 6,
+							},
+							["portrait"] = {
+								["height"] = 2,
+								["side"] = "left",
+								["position"] = 1,
+							},
+							["powerBar"] = {
+								["height"] = 4,
+								["position"] = 3,
+							},
+							["repBar"] = {
+								["height"] = 2,
+								["position"] = 5,
+							},
+						},
+						["debuffSide"] = "top",
+						["buffSide"] = "top",
+						["auraSide"] = "top",
+						["icons"] = {
+							["raidTargetIcon"] = {
+								["position"] = "frame-outrighttop",
+								["size"] = 1.22,
+							},
+						},
+						["texts"] = {
+							["hp perc"] = {
+								["styleType"] = "none",
+								["custom"] = "[~IsMaxHP?Status:PercentHP:Percent]",
+								["position"] = "powerBar-center",
+								["style"] = "Custom",
+								["hidden"] = true,
+								["size"] = 1.27,
+							},
+							["Threat"] = {
+								["styleType"] = "threat",
+								["style"] = "Absolute Short",
+								["position"] = "threatBar-right",
+								["custom"] = "[Threat]/[MaxThreat]",
+								["hidden"] = false,
+								["size"] = 1,
+							},
+							["Power"] = {
+								["styleType"] = "power",
+								["style"] = "Hide",
+								["position"] = "frame-center",
+								["custom"] = "",
+								["hidden"] = true,
+								["size"] = 1.14,
+							},
+							["Combo"] = {
+								["styleType"] = "combo",
+								["custom"] = "",
+								["position"] = "frame-outleft",
+								["style"] = "Standard",
+								["hidden"] = false,
+								["size"] = 1,
+							},
+							["Reputation"] = {
+								["styleType"] = "reputation",
+								["custom"] = "",
+								["position"] = "repBar-center",
+								["style"] = "Standard",
+								["hidden"] = false,
+								["size"] = 1,
+							},
+							["Class"] = {
+								["styleType"] = "class",
+								["style"] = "Hide",
+								["position"] = "healthBar-center",
+								["custom"] = "",
+								["hidden"] = true,
+								["size"] = 1.1,
+							},
+							["range"] = {
+								["styleType"] = "none",
+								["style"] = "Custom",
+								["position"] = "frame-center",
+								["custom"] = "",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["name mid"] = {
+								["styleType"] = "none",
+								["custom"] = "",
+								["position"] = "frame-center",
+								["style"] = "Custom",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["Health"] = {
+								["styleType"] = "health",
+								["style"] = "Custom",
+								["position"] = "frame-outbottomright",
+								["custom"] = "[CurHP:Short:HideZero:HPColor] || [Dead?Text(Dead):Gray!Offline?Text(Offline):Gray!MaxHP:Short:Color(38610B)]",
+								["hidden"] = false,
+								["size"] = 1.1,
+							},
+							["mp perc"] = {
+								["styleType"] = "none",
+								["custom"] = "",
+								["position"] = "frame-intopleft",
+								["style"] = "Custom",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["Experience"] = {
+								["styleType"] = "experience",
+								["custom"] = "",
+								["position"] = "expBar-center",
+								["style"] = "Standard",
+								["hidden"] = false,
+								["size"] = 1,
+							},
+							["combatText"] = {
+								["styleType"] = "none",
+								["style"] = "Custom",
+								["position"] = "healthBar-left",
+								["custom"] = "",
+								["hidden"] = false,
+								["size"] = 1,
+							},
+							["status"] = {
+								["styleType"] = "none",
+								["custom"] = "",
+								["position"] = "frame-center",
+								["style"] = "Custom",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+							["Name"] = {
+								["styleType"] = "name",
+								["style"] = "Custom",
+								["position"] = "frame-outbottomleft",
+								["custom"] = "[Name:ClassColor]  [Classification] [Level:DifficultyColor]  [SmartClass:ClassColor] [DruidForm:Paren]",
+								["hidden"] = false,
+								["size"] = 1.1,
+							},
+							["name midd"] = {
+								["styleType"] = "none",
+								["custom"] = "[Outline][~Dead?~IsMaxHP?PercentHP:Percent:HPColor]",
+								["position"] = "healthBar-right",
+								["style"] = "Custom",
+								["hidden"] = false,
+								["size"] = 1.23,
+							},
+							["buff"] = {
+								["styleType"] = "none",
+								["custom"] = "",
+								["position"] = "frame-center",
+								["style"] = "Custom",
+								["hidden"] = true,
+								["size"] = 1,
+							},
+						},
+					},
+					["maintank"] = {
+						["bars"] = {
+							["powerBar"] = {
+								["height"] = 1,
+							},
+						},
+						["texts"] = {
+							["Threat"] = {
+								["hidden"] = true,
+							},
+							["Power"] = {
+								["hidden"] = true,
+							},
+							["Class"] = {
+								["hidden"] = true,
+							},
+							["Name"] = {
+								["style"] = "Class Colored",
+								["custom"] = "[Name:ClassColor] [AFKDND:Angle]",
+								["size"] = 1.02,
+							},
+							["Health"] = {
+								["style"] = "Custom",
+								["custom"] = "[~Dead?~IsMaxHP?PercentHP:Round:Percent:HPColor]",
+								["size"] = 1.05,
+							},
+						},
+					},
+					["maintanktargettarget"] = {
+						["bars"] = {
+							["powerBar"] = {
+								["height"] = 1,
+							},
+						},
+						["texts"] = {
+							["Threat"] = {
+								["hidden"] = true,
+							},
+							["Power"] = {
+								["hidden"] = true,
+							},
+							["Class"] = {
+								["hidden"] = true,
+							},
+							["Name"] = {
+								["size"] = 1.02,
+							},
+							["Health"] = {
+								["style"] = "Custom",
+								["custom"] = "[PercentHP:Percent]",
+								["size"] = 1.19,
+							},
+						},
+					},
+					["party"] = {
+						["debuffSide"] = "bottomright",
+						["bars"] = {
+							["healthBar"] = {
+								["height"] = 10,
+							},
+							["powerBar"] = {
+								["height"] = 3,
+							},
+						},
+						["buffSide"] = "right",
+						["icons"] = {
+							["leaderIcon"] = {
+								["size"] = 0.71,
+							},
+						},
+						["texts"] = {
+							["Power"] = {
+								["hidden"] = true,
+								["size"] = 1.23,
+							},
+							["Class"] = {
+								["hidden"] = true,
+								["size"] = 1.14,
+							},
+							["name mid"] = {
+								["custom"] = "[Outline][~IsMaxHP?PercentHP:Short:Percent:HPColor]",
+								["position"] = "healthBar-right",
+								["hidden"] = false,
+								["size"] = 1.17,
+							},
+							["Name"] = {
+								["custom"] = "[Name:ClassColor]",
+								["position"] = "frame-outleft",
+								["style"] = "Custom",
+								["size"] = 1.28,
+							},
+							["status"] = {
+								["custom"] = "[Status]",
+								["position"] = "healthBar-center",
+								["size"] = 1.14,
+							},
+							["Health"] = {
+								["custom"] = "[Outline][~IsMaxHP?CurHP:VeryShort:HideZero:HPColor]",
+								["position"] = "healthBar-outright",
+								["style"] = "Custom",
+								["hidden"] = true,
+								["size"] = 1.18,
+							},
+						},
+					},
+				},
+			},
+		},
+		["Aura"] = {
+			["profiles"] = {
+				["Default"] = {
+					["targettargettarget"] = {
+						["frameHighlight"] = "Never",
+						["hiddenDebuffs"] = true,
+						["hidden"] = true,
+						["hiddenBuffs"] = true,
+					},
+					["partytarget"] = {
+						["debuffsize"] = 15,
+						["hiddenDebuffs"] = true,
+						["frameHighlight"] = "Never",
+						["debuffFilter"] = false,
+						["hidden"] = true,
+						["hiddenBuffs"] = true,
+						["highlightStyle"] = "normal",
+						["buffFilter"] = false,
+						["maxdebuffs"] = 3,
+					},
+					["party"] = {
+						["highlight"] = {
+							["Buffs"] = false,
+						},
+						["split"] = true,
+						["maxdebuffs"] = 7,
+						["buffFilterSelection"] = {
+							["Renew"] = false,
+							["Power Infusion"] = false,
+							["Inner Focus"] = false,
+							["Pain Suppression"] = false,
+							["Fade"] = false,
+							["Netherstorm Flag"] = false,
+							["Blessed Recovery"] = false,
+							["Prayer of Spirit"] = false,
+							["Inner Fire"] = false,
+							["Focused Casting"] = false,
+							["Levitate"] = false,
+							["Cannibalize"] = false,
+							["Divine Spirit"] = false,
+							["Silverwing Flag"] = false,
+							["Power Word: Shield"] = false,
+							["Will of the Forsaken"] = false,
+							["Touch of Weakness"] = false,
+							["Prayer of Mending"] = false,
+							["Shadowform"] = false,
+						},
+						["buffsize"] = 13,
+						["debuffFilter"] = false,
+						["flip"] = true,
+						["debuffdirection"] = "Left then Down",
+						["debuffsize"] = 25,
+						["highlightType"] = {
+							["Buffs"] = false,
+						},
+						["highlightStyle"] = "thinborder",
+						["snap"] = false,
+						["maxbuffs"] = 0,
+					},
+					["maintanktarget"] = {
+						["hiddenDebuffs"] = true,
+						["hidden"] = true,
+						["hiddenBuffs"] = true,
+					},
+					["focus"] = {
+						["hiddenDebuffs"] = true,
+						["hidden"] = true,
+						["hiddenBuffs"] = true,
+					},
+					["target"] = {
+						["maxdebuffs"] = 20,
+						["buffFilterSelection"] = {
+							["Inner Fire"] = false,
+							["Will of the Forsaken"] = false,
+							["Levitate"] = false,
+							["Pain Suppression"] = false,
+							["Fade"] = false,
+							["Silverwing Flag"] = false,
+							["Power Infusion"] = false,
+							["Focused Casting"] = false,
+							["Touch of Weakness"] = false,
+						},
+						["buffsize"] = 25,
+						["grow"] = 1,
+						["debuffsize"] = 25,
+						["debuffdirection"] = "Right then Up",
+						["buffdirection"] = "Right then Up",
+						["highlightStyle"] = "normal",
+						["snap"] = false,
+						["maxbuffs"] = 10,
+					},
+					["raid"] = {
+						["hiddenBuffs"] = true,
+						["flip"] = true,
+						["buffFilterSelection"] = {
+							["Renew"] = false,
+							["Power Infusion"] = false,
+							["Inner Focus"] = false,
+							["Pain Suppression"] = false,
+							["Prayer of Mending"] = false,
+							["Netherstorm Flag"] = false,
+							["Blessed Recovery"] = false,
+							["Prayer of Spirit"] = false,
+							["Inner Fire"] = false,
+							["Focused Casting"] = false,
+							["Levitate"] = false,
+							["Cannibalize"] = false,
+							["Divine Spirit"] = false,
+							["Silverwing Flag"] = false,
+							["Power Word: Shield"] = false,
+							["Shadowform"] = false,
+							["Fade"] = false,
+							["Touch of Weakness"] = false,
+							["Will of the Forsaken"] = false,
+						},
+						["buffsize"] = 15,
+						["maxdebuffs"] = 0,
+						["split"] = true,
+						["grow"] = 1,
+						["snap"] = false,
+						["buffdirection"] = "Left then Up",
+						["highlightType"] = {
+							["Buffs"] = false,
+						},
+						["maxbuffs"] = 2,
+					},
+					["cooldownTextAlpha"] = 1,
+					["pet"] = {
+						["hiddenDebuffs"] = true,
+						["hidden"] = true,
+						["hiddenBuffs"] = true,
+					},
+					["player"] = {
+						["grow"] = 1,
+						["split"] = true,
+						["maxdebuffs"] = 10,
+						["hiddenWeaponBuffs"] = true,
+						["buffsize"] = 24,
+						["debuffsize"] = 22,
+						["maxbuffs"] = 20,
+						["hidden"] = true,
+						["hiddenBuffs"] = true,
+						["debuffdirection"] = "Left then Down",
+						["hiddenDebuffs"] = true,
+						["buffdirection"] = "Left then Down",
+						["snap"] = false,
+						["buffFilterSelection"] = {
+							["Blessed Recovery"] = false,
+							["Cannibalize"] = false,
+						},
+					},
+					["colors"] = {
+						["debuffs"] = {
+							["Disease"] = {
+								0.6862745098039216, -- [1]
+								0.3058823529411765, -- [2]
+								nil, -- [3]
+								0.8500000089406967, -- [4]
+							},
+							["nil"] = {
+								nil, -- [1]
+								0.3372549019607843, -- [2]
+								0.1254901960784314, -- [3]
+							},
+							["Curse"] = {
+								0.5529411764705883, -- [1]
+								0.3450980392156863, -- [2]
+								1, -- [3]
+								0.8500000089406967, -- [4]
+							},
+							["Magic"] = {
+								0.4235294117647059, -- [1]
+								0.7215686274509804, -- [2]
+							},
+							["Poison"] = {
+								0.3764705882352941, -- [1]
+								[3] = 0.2470588235294118,
+							},
+						},
+						["buffs"] = {
+							0.2431372549019608, -- [1]
+							["nil"] = {
+								0.9882352941176471, -- [1]
+								[3] = 0.8156862745098039,
+							},
+							[3] = 0.1254901960784314,
+							["Own"] = {
+								0.803921568627451, -- [1]
+								[3] = 0.8745098039215686,
+							},
+						},
+					},
+					["targettarget"] = {
+						["frameHighlight"] = "Never",
+						["hiddenDebuffs"] = true,
+						["hidden"] = true,
+						["hiddenBuffs"] = true,
+					},
+					["zoomAura"] = false,
+					["maintank"] = {
+						["buffsize"] = 11,
+						["hiddenDebuffs"] = true,
+						["hidden"] = true,
+						["hiddenBuffs"] = true,
+					},
+					["cooldown"] = false,
+					["maintanktargettarget"] = {
+						["hiddenDebuffs"] = true,
+						["hidden"] = true,
+						["hiddenBuffs"] = true,
+					},
+				},
+			},
+		},
+		["Portrait"] = {
+			["profiles"] = {
+				["Default"] = {
+					["targettargettarget"] = {
+						["hidden"] = true,
+					},
+					["partytarget"] = {
+						["hidden"] = true,
+					},
+					["targettarget"] = {
+						["hidden"] = true,
+					},
+					["pet"] = {
+						["hidden"] = true,
+					},
+					["party"] = {
+						["hidden"] = true,
+					},
+					["player"] = {
+						["hidden"] = true,
+					},
+					["maintanktarget"] = {
+						["hidden"] = true,
+					},
+					["focus"] = {
+						["hidden"] = true,
+					},
+					["target"] = {
+						["hidden"] = true,
+					},
+					["raid"] = {
+						["hidden"] = true,
+					},
+					["maintank"] = {
+						["hidden"] = true,
+					},
+					["maintanktargettarget"] = {
+						["hidden"] = true,
+					},
+				},
+			},
+		},
+		["PvPIcon"] = {
+			["profiles"] = {
+				["Default"] = {
+					["groups"] = {
+						["targettargettarget"] = {
+							["ignore"] = true,
+						},
+						["partytarget"] = {
+							["ignore"] = true,
+						},
+						["targettarget"] = {
+							["ignore"] = true,
+						},
+						["pet"] = {
+							["ignore"] = true,
+						},
+						["raid"] = {
+							["ignore"] = true,
+						},
+						["player"] = {
+							["ignore"] = true,
+						},
+						["maintanktarget"] = {
+							["ignore"] = true,
+						},
+						["focus"] = {
+							["ignore"] = true,
+						},
+						["target"] = {
+							["ignore"] = true,
+						},
+						["maintank"] = {
+							["ignore"] = true,
+						},
+						["maintanktargettarget"] = {
+							["ignore"] = true,
+						},
+						["party"] = {
+							["ignore"] = true,
+						},
+					},
+				},
+			},
+		},
+		["CombatIcon"] = {
+			["profiles"] = {
+				["Default"] = {
+					["groups"] = {
+						["target"] = {
+							["disable"] = true,
+						},
+						["player"] = {
+							["disable"] = true,
+						},
+						["party"] = {
+							["disable"] = true,
+						},
+					},
+				},
+			},
+		},
+		["RaidTarget"] = {
+			["profiles"] = {
+				["Default"] = {
+					["maintank"] = {
+						["disable"] = true,
+					},
+					["pet"] = {
+						["disable"] = true,
+					},
+					["player"] = {
+						["disable"] = true,
+					},
+				},
+			},
+		},
+		["RestIcon"] = {
+			["profiles"] = {
+				["Default"] = {
+					["disable"] = true,
+				},
+			},
+		},
+		["HealthBar"] = {
+			["profiles"] = {
+				["Default"] = {
+					["maintank"] = {
+						["customColor"] = true,
+						["classColor"] = false,
+						["customColors"] = {
+							0.2627450980392157, -- [1]
+							0.3137254901960784, -- [2]
+							0.2941176470588235, -- [3]
+						},
+					},
+					["partytarget"] = {
+						["classColor"] = false,
+					},
+					["pet"] = {
+						["customColor"] = true,
+						["classColor"] = false,
+						["customColors"] = {
+							0.2627450980392157, -- [1]
+							0.3137254901960784, -- [2]
+							0.2941176470588235, -- [3]
+						},
+						["happinessColor"] = false,
+					},
+					["party"] = {
+						["customColor"] = true,
+						["customColors"] = {
+							0.2862745098039216, -- [1]
+							0.3803921568627451, -- [2]
+							0.4313725490196079, -- [3]
+						},
+					},
+					["maintanktarget"] = {
+						["customColor"] = true,
+						["classColor"] = false,
+						["hostilityColor"] = true,
+						["customColors"] = {
+							0.2862745098039216, -- [1]
+							0.3803921568627451, -- [2]
+							0.4313725490196079, -- [3]
+						},
+					},
+					["raid"] = {
+						["customColor"] = true,
+						["classColor"] = false,
+						["customColors"] = {
+							0.2627450980392157, -- [1]
+							0.3137254901960784, -- [2]
+							0.2941176470588235, -- [3]
+						},
+						["customBGColors"] = {
+							0.5490196078431373, -- [1]
+							0.3686274509803922, -- [2]
+							0.3294117647058824, -- [3]
+						},
+					},
+					["player"] = {
+						["customColor"] = true,
+						["customColors"] = {
+							nil, -- [1]
+							0.4862745098039216, -- [2]
+							0, -- [3]
+						},
+						["customBGColors"] = {
+							0.1490196078431373, -- [1]
+							0.1843137254901961, -- [2]
+							0.2117647058823529, -- [3]
+						},
+					},
+				},
+			},
+		},
+		["Power"] = {
+			["profiles"] = {
+				["Default"] = {
+					["targettargettarget"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+						},
+					},
+					["partytarget"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+							},
+							["mana"] = {
+								0.611764705882353, -- [1]
+								0.4901960784313725, -- [2]
+								0.203921568627451, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+						},
+					},
+					["party"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+						},
+					},
+					["mainassist"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+						},
+					},
+					["focus"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+						},
+					},
+					["target"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+						},
+					},
+					["raid"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+						},
+						["hideNoMana"] = false,
+					},
+					["raidtarget"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["mana"] = {
+								0.3843137254901961, -- [1]
+								0.4745098039215686, -- [2]
+								1, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+						},
+					},
+					["focustarget"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+						},
+					},
+					["targettarget"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+						},
+						["hidden"] = false,
+					},
+					["partypet"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+						},
+					},
+					["player"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+						},
+					},
+					["pet"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+						},
+					},
+					["maintanktargettarget"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["mana"] = {
+								0.3843137254901961, -- [1]
+								0.4745098039215686, -- [2]
+								1, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+						},
+					},
+					["maintank"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["mana"] = {
+								0.1882352941176471, -- [1]
+								0.4431372549019608, -- [2]
+								0.7490196078431373, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+						},
+					},
+					["maintanktarget"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["mana"] = {
+								0.3843137254901961, -- [1]
+								0.4745098039215686, -- [2]
+								1, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+						},
+					},
+					["raidpet"] = {
+						["customColors"] = {
+							["rage"] = {
+								0.8862745098039215, -- [1]
+								0.1764705882352941, -- [2]
+								0.2941176470588235, -- [3]
+							},
+							["mana"] = {
+								0.3843137254901961, -- [1]
+								0.4745098039215686, -- [2]
+								1, -- [3]
+							},
+							["energy"] = {
+								1, -- [1]
+								0.8627450980392157, -- [2]
+								0.09803921568627451, -- [3]
+							},
+							["focus"] = {
+								1, -- [1]
+								0.8235294117647058, -- [2]
+								0, -- [3]
+							},
+						},
+					},
+				},
+			},
+		},
+		["Combat"] = {
+			["profiles"] = {
+				["Default"] = {
+					["groups"] = {
+						["target"] = {
+							["disable"] = true,
+						},
+						["player"] = {
+							["disable"] = true,
+						},
+						["party"] = {
+							["disable"] = true,
+						},
+					},
+				},
+			},
+		},
+		["Layout-ABF"] = {
+			["profiles"] = {
+				["Default"] = {
+					["partytarget"] = {
+						["classTextCustom"] = "",
+						["powerBarHeight"] = 1,
+						["portraitSide"] = "top",
+						["healthTextStyle"] = "Percent",
+						["classTextStyle"] = "Hide",
+						["powerTextPosition"] = "hide",
+						["portraitHeight"] = 12,
+						["healthBarHeight"] = 3,
+						["healthTextCustom"] = "[Status:PercentHP:Percent]",
+					},
+					["pet"] = {
+						["classTextCustom"] = "",
+						["powerBarHeight"] = 1,
+						["nameTextSize"] = 1.21,
+						["healthTextSize"] = 1.25,
+						["powerTextCustom"] = "",
+						["powerTextStyle"] = "Hide",
+						["classTextStyle"] = "Hide",
+						["powerTextPosition"] = "hide",
+						["classTextPosition"] = "hide",
+						["healthTextStyle"] = "Percent",
+						["healthTextCustom"] = "[Status:PercentHP:Percent]",
+					},
+					["targettarget"] = {
+						["classTextCustom"] = "",
+						["powerBarHeight"] = 1,
+						["nameTextSize"] = 1.24,
+						["healthTextSize"] = 1.22,
+						["portraitSide"] = "right",
+						["healthTextStyle"] = "Percent",
+						["classTextStyle"] = "Hide",
+						["powerTextPosition"] = "hide",
+						["healthTextCustom"] = "[Status:PercentHP:Percent]",
+					},
+					["player"] = {
+						["powerTextSize"] = 1.2,
+						["powerBarHeight"] = 2,
+						["nameTextSize"] = 1.44,
+						["healthTextSize"] = 1.44,
+						["auraSide"] = "top",
+						["healthTextStyle"] = "Absolute",
+						["classTextSize"] = 1.16,
+						["healthTextCustom"] = "[Status:SureHP:PercentHP:Percent]",
+						["healthBarHeight"] = 3,
+						["combatTextPosition"] = "healthBar-center",
+						["castBarHeight"] = 5,
+						["nameTextCustom"] = "[Name] [AFKDND:Angle]",
+					},
+					["maintanktarget"] = {
+						["healthTextStyle"] = "Percent",
+						["healthBarHeight"] = 12,
+						["powerBarHeight"] = 1,
+						["healthTextCustom"] = "[Status:PercentHP:Percent]",
+					},
+					["maintank"] = {
+						["healthTextStyle"] = "Percent",
+						["powerBarHeight"] = 1,
+						["healthTextCustom"] = "[Status:PercentHP:Percent]",
+					},
+					["target"] = {
+						["combatTextPosition"] = "healthBar-center",
+						["powerBarHeight"] = 2,
+						["nameTextSize"] = 1.44,
+						["healthTextSize"] = 1.44,
+						["auraSide"] = "top",
+						["healthTextStyle"] = "Absolute and Percent",
+						["classTextSize"] = 1.2,
+						["portraitHeight"] = 6,
+						["healthBarHeight"] = 3,
+						["healthTextCustom"] = "[~Status?FractionalHP:Short] || [Status:PercentHP:Percent]",
+						["powerTextSize"] = 1.2,
+						["nameTextCustom"] = "[Name] [AFKDND:Angle]",
+					},
+					["raid"] = {
+						["classTextCustom"] = "",
+						["powerBarHeight"] = 1,
+						["nameTextSize"] = 1.15,
+						["healthTextSize"] = 1.15,
+						["auraSide"] = "topright",
+						["healthTextStyle"] = "Percent",
+						["classTextStyle"] = "Hide",
+						["powerTextPosition"] = "hide",
+						["healthTextCustom"] = "[Status:PercentHP:Percent]",
+					},
+					["maintanktargettarget"] = {
+						["healthBarHeight"] = 12,
+						["powerBarHeight"] = 1,
+					},
+					["party"] = {
+						["combatTextPosition"] = "healthBar-center",
+						["powerBarHeight"] = 2,
+						["nameTextSize"] = 1.44,
+						["healthTextSize"] = 1.44,
+						["healthTextStyle"] = "Absolute",
+						["healthTextCustom"] = "[Status:SureHP:PercentHP:Percent]",
+						["healthBarHeight"] = 3,
+						["powerTextSize"] = 1.21,
+						["debuffSide"] = "bottom",
+						["classTextSize"] = 1.17,
+					},
+				},
+			},
+		},
+		["RangeCheck"] = {
+			["profiles"] = {
+				["Default"] = {
+					["opacity"] = 0.25,
+					["groups"] = {
+						["pet"] = {
+							["ignore"] = true,
+						},
+						["party"] = {
+							["ignore"] = true,
+						},
+						["maintanktargettarget"] = {
+							["ignore"] = true,
+						},
+						["raid"] = {
+							["ignore"] = false,
+						},
+						["maintank"] = {
+							["ignore"] = true,
+						},
+					},
+				},
+			},
+		},
+		["MasterLooter"] = {
+			["profiles"] = {
+				["Default"] = {
+					["raid"] = {
+						["disable"] = true,
+					},
+					["player"] = {
+						["disable"] = true,
+					},
+					["party"] = {
+						["disable"] = true,
+					},
+				},
+			},
+		},
+		["CombatFader"] = {
+			["profiles"] = {
+				["Default"] = {
+					["groups"] = {
+						["targettarget"] = {
+							["outAlpha"] = 0.5,
+							["ignore"] = false,
+						},
+						["player"] = {
+							["outAlpha"] = 0.5,
+						},
+					},
+				},
+			},
+		},
+		["MasterLooterIcon"] = {
+			["profiles"] = {
+				["Default"] = {
+					["party"] = {
+						["disable"] = true,
+					},
+					["raid"] = {
+						["disable"] = true,
+					},
+					["player"] = {
+						["disable"] = true,
+					},
+				},
+			},
+		},
+		["Health"] = {
+			["profiles"] = {
+				["Default"] = {
+					["party"] = {
+						["customColors"] = {
+							0.7686274509803921, -- [1]
+							0.6352941176470588, -- [2]
+							0.3137254901960784, -- [3]
+						},
+						["customColor"] = true,
+					},
+					["maintanktarget"] = {
+						["classColor"] = false,
+						["hostilityColorNPCs"] = true,
+						["hostilityColor"] = true,
+					},
+					["player"] = {
+						["customColors"] = {
+							0.4156862745098039, -- [1]
+							0.403921568627451, -- [2]
+							0.4156862745098039, -- [3]
+						},
+						["customColor"] = true,
+					},
+					["target"] = {
+						["customColors"] = {
+							0.4156862745098039, -- [1]
+							0.403921568627451, -- [2]
+							0.4156862745098039, -- [3]
+						},
+						["customColor"] = true,
+					},
+					["maintank"] = {
+						["classColor"] = false,
+					},
+					["pet"] = {
+						["classColor"] = false,
+						["happinessColor"] = false,
+					},
+					["targettarget"] = {
+						["customColors"] = {
+							0.8313725490196078, -- [1]
+							0.2941176470588235, -- [2]
+							0.1137254901960784, -- [3]
+						},
+						["customColor"] = true,
+					},
+				},
+			},
+		},
+		["CombatText"] = {
+			["profiles"] = {
+				["Default"] = {
+					["groups"] = {
+						["player"] = {
+							["fontheight"] = 14,
+							["ignore"] = false,
+						},
+						["party"] = {
+							["fontheight"] = 15,
+							["ignore"] = true,
+						},
+						["focus"] = {
+							["ignore"] = true,
+						},
+						["target"] = {
+							["fontheight"] = 14,
+							["ignore"] = false,
+						},
+						["raid"] = {
+							["ignore"] = true,
+							["fontheight"] = 8,
+						},
+						["pet"] = {
+							["ignore"] = true,
+						},
+						["maintank"] = {
+							["ignore"] = true,
+						},
+					},
+				},
+			},
+		},
+		["ThreatBar"] = {
+			["profiles"] = {
+				["Default"] = {
+					["colors"] = {
+						0.6235294117647059, -- [1]
+						0.5529411764705883, -- [2]
+						0.1490196078431373, -- [3]
+					},
+				},
+			},
+		},
+		["PvP"] = {
+			["profiles"] = {
+				["Default"] = {
+					["groups"] = {
+						["partytarget"] = {
+							["ignore"] = true,
+						},
+						["pet"] = {
+							["ignore"] = true,
+						},
+						["targettarget"] = {
+							["ignore"] = true,
+						},
+						["party"] = {
+							["ignore"] = true,
+						},
+						["maintanktargettarget"] = {
+							["ignore"] = true,
+						},
+						["maintank"] = {
+							["ignore"] = true,
+						},
+						["target"] = {
+							["ignore"] = true,
+						},
+						["raid"] = {
+							["ignore"] = true,
+						},
+						["maintanktarget"] = {
+							["ignore"] = true,
+						},
+						["player"] = {
+							["ignore"] = true,
+						},
+					},
+				},
+			},
+		},
+		["Rest"] = {
+			["profiles"] = {
+				["Default"] = {
+					["disable"] = true,
+				},
+			},
+		},
+		["Highlight"] = {
+			["profiles"] = {
+				["Default"] = {
+					["player"] = {
+						["hidden"] = true,
+					},
+					["party"] = {
+						["hidden"] = true,
+					},
+					["pet"] = {
+						["hidden"] = true,
+					},
+					["target"] = {
+						["hidden"] = true,
+					},
+					["raid"] = {
+						["hidden"] = true,
+					},
+					["targettarget"] = {
+						["hidden"] = true,
+					},
+					["partytarget"] = {
+						["hidden"] = true,
+					},
+				},
+			},
+		},
+	},
+	["profiles"] = {
+		["Default"] = {
+			["clusters"] = {
+				["raid5"] = {
+					["y"] = -0.0001220703125,
+					["x"] = -709.3600921630859,
+				},
+				["raid6"] = {
+					["y"] = -82.5198974609375,
+					["x"] = -709.8584442138672,
+				},
+				["raid4"] = {
+					["y"] = 83.458740234375,
+					["x"] = -709.858283996582,
+				},
+				["raidMAINTANKtargettarget"] = {
+					["y"] = -323.5165405273438,
+					["x"] = 454.7994995117188,
+				},
+				["partytarget"] = {
+					["y"] = -296.3219909667969,
+					["x"] = -707.9836120605469,
+				},
+				["raid7"] = {
+					["y"] = -165.0400390625,
+					["x"] = -709.8592224121094,
+				},
+				["raidMAINASSIST"] = {
+					["y"] = 275.6922607421875,
+					["x"] = -60.01397705078125,
+				},
+				["raidMAINTANK"] = {
+					["y"] = -320.703857421875,
+					["x"] = 722.9899291992188,
+				},
+				["raidMAINTANKtarget"] = {
+					["y"] = -319.7657012939453,
+					["x"] = 589.9540405273438,
+				},
+				["party"] = {
+					["y"] = -302.8879241943359,
+					["x"] = -497.9281616210938,
+				},
+				["raid1"] = {
+					["y"] = 331.0183715820313,
+					["x"] = -709.85888671875,
+				},
+				["raid8"] = {
+					["y"] = -247.5596466064453,
+					["x"] = -709.8604507446289,
+				},
+				["raid3"] = {
+					["y"] = 165.9783325195313,
+					["x"] = -709.8579864501953,
+				},
+				["raid"] = {
+					["y"] = 434.168701171875,
+					["x"] = -726.7398490905762,
+				},
+				["raid2"] = {
+					["y"] = 248.4990234375,
+					["x"] = -709.3594360351563,
+				},
+				["partypet"] = {
+					["y"] = 195.047607421875,
+					["x"] = 362.9010620117188,
+				},
+			},
+			["settings"] = {
+				["font"] = "Skurri",
+				["colors"] = {
+					["HUNTER"] = {
+						0.6392156862745098, -- [1]
+						1, -- [2]
+						0.5098039215686274, -- [3]
+					},
+					["WARRIOR"] = {
+						0.8274509803921568, -- [1]
+						0.7529411764705882, -- [2]
+						0.5882352941176471, -- [3]
+					},
+					["PALADIN"] = {
+						0.9607843137254902, -- [1]
+						0.5490196078431373, -- [2]
+						0.7294117647058823, -- [3]
+					},
+					["frameBorder"] = {
+						nil, -- [1]
+						0.9490196078431372, -- [2]
+						0.996078431372549, -- [3]
+						0, -- [4]
+					},
+					["midHP"] = {
+						0.7647058823529411, -- [1]
+						[3] = 0.00392156862745098,
+					},
+					["DRUID"] = {
+						nil, -- [1]
+						0.4901960784313725, -- [2]
+						0.0392156862745098, -- [3]
+					},
+					["disconnected"] = {
+						0.2666666666666667, -- [1]
+						0.2862745098039216, -- [2]
+						0.2588235294117647, -- [3]
+					},
+					["minHP"] = {
+						nil, -- [1]
+						0.2627450980392157, -- [2]
+						0.1607843137254902, -- [3]
+					},
+					["WARLOCK"] = {
+						0.7333333333333333, -- [1]
+						0.6431372549019607, -- [2]
+						1, -- [3]
+					},
+					["energy"] = {
+						0.8941176470588235, -- [1]
+						0.8666666666666667, -- [2]
+						0.6588235294117647, -- [3]
+					},
+					["maxHP"] = {
+						0.1333333333333333, -- [1]
+						[3] = 0.1607843137254902,
+					},
+					["neutral"] = {
+						0.8470588235294118, -- [1]
+						0.7764705882352941, -- [2]
+						0.3529411764705882, -- [3]
+					},
+					["mana"] = {
+						0.5764705882352941, -- [1]
+						0.7803921568627451, -- [2]
+						0.9803921568627451, -- [3]
+					},
+					["hostile"] = {
+						0.8431372549019608, -- [1]
+						0.1882352941176471, -- [2]
+						0.1529411764705883, -- [3]
+					},
+					["focus"] = {
+						0.796078431372549, -- [1]
+						0.7254901960784314, -- [2]
+						0.5019607843137255, -- [3]
+					},
+					["dead"] = {
+						0.2549019607843137, -- [1]
+						0.2784313725490196, -- [2]
+						0.3215686274509804, -- [3]
+					},
+					["rage"] = {
+						0.6235294117647059, -- [1]
+						0.3803921568627451, -- [2]
+						0.3764705882352941, -- [3]
+					},
+					["civilian"] = {
+						0.8431372549019608, -- [1]
+						0.1882352941176471, -- [2]
+						0.1529411764705883, -- [3]
+					},
+					["frameBG"] = {
+						0.0196078431372549, -- [1]
+						0.0196078431372549, -- [2]
+						0.0196078431372549, -- [3]
+						1, -- [4]
+					},
+					["friendly"] = {
+						0.2627450980392157, -- [1]
+						0.3137254901960784, -- [2]
+						0.2941176470588235, -- [3]
+					},
+					["PRIEST"] = {
+						0.7607843137254902, -- [1]
+						[3] = 0.996078431372549,
+					},
+					["SHAMAN"] = {
+						0, -- [1]
+						1, -- [2]
+						0.996078431372549, -- [3]
+					},
+					["ROGUE"] = {
+						nil, -- [1]
+						0.9607843137254902, -- [2]
+						0.4117647058823529, -- [3]
+					},
+					["MAGE"] = {
+						0.4823529411764706, -- [1]
+						[3] = 1,
+					},
+				},
+				["locked"] = true,
+				["texture"] = "Armory",
+			},
+			["groups"] = {
+				["mainassisttarget"] = {
+					["hidden"] = true,
+				},
+				["targettargettarget"] = {
+					["width"] = 136,
+					["height"] = 27,
+				},
+				["partytarget"] = {
+					["hidden"] = true,
+					["width"] = 123,
+					["direction"] = "up",
+					["spacing"] = 31,
+					["height"] = 35,
+				},
+				["mainassisttargettarget"] = {
+					["hidden"] = true,
+				},
+				["party"] = {
+					["direction"] = "up",
+					["border"] = "Blizzard Tooltip",
+					["width"] = 187,
+					["spacing"] = 36,
+					["height"] = 29,
+					["hspacing"] = 18,
+				},
+				["maintanktarget"] = {
+					["direction"] = "up",
+					["hidden"] = true,
+					["width"] = 104,
+					["spacing"] = 1,
+					["height"] = 18,
+					["border"] = "Blizzard Tooltip",
+				},
+				["focus"] = {
+					["border"] = "Blizzard Dialog",
+					["width"] = 160,
+					["height"] = 40,
+				},
+				["target"] = {
+					["scale"] = 1.05,
+					["border"] = "Blizzard Dialog",
+					["width"] = 265,
+					["height"] = 35,
+				},
+				["raid"] = {
+					["scale"] = 1.25,
+					["nameSort"] = false,
+					["border"] = "Blizzard Tooltip",
+					["width"] = 104,
+					["spacing"] = 1,
+					["height"] = 11,
+				},
+				["targettarget"] = {
+					["border"] = "Blizzard Tooltip",
+					["width"] = 161,
+					["height"] = 19,
+				},
+				["focustarget"] = {
+					["hidden"] = true,
+				},
+				["pet"] = {
+					["border"] = "Blizzard Tooltip",
+					["width"] = 160,
+					["height"] = 18,
+				},
+				["partypet"] = {
+					["hidden"] = true,
+				},
+				["player"] = {
+					["scale"] = 1.05,
+					["border"] = "Blizzard Tooltip",
+					["width"] = 265,
+					["height"] = 35,
+				},
+				["maintanktargettarget"] = {
+					["direction"] = "up",
+					["hidden"] = true,
+					["width"] = 104,
+					["height"] = 18,
+					["border"] = "Blizzard Tooltip",
+				},
+				["pettarget"] = {
+					["hidden"] = true,
+				},
+				["maintank"] = {
+					["direction"] = "up",
+					["border"] = "Blizzard Tooltip",
+					["width"] = 110,
+					["hidden"] = true,
+					["spacing"] = 1,
+					["height"] = 18,
+				},
+				["mainassist"] = {
+					["hidden"] = true,
+					["width"] = 295,
+				},
+			},
+			["units"] = {
+				["pettarget"] = {
+					["y"] = 3.0517578125e-005,
+				},
+				["player"] = {
+					["y"] = -356.4506471128866,
+					["x"] = -237.1949745215887,
+				},
+				["targettargettarget"] = {
+					["y"] = -397.5970153808594,
+					["x"] = 247.5613403320313,
+				},
+				["focus"] = {
+					["y"] = -322.5774993896484,
+					["x"] = 0.00091552734375,
+				},
+				["target"] = {
+					["y"] = -356.6210061472339,
+					["x"] = 237.5690100706715,
+				},
+				["focustarget"] = {
+					["y"] = 3.0517578125e-005,
+					["x"] = -364.7765808105469,
+				},
+				["pet"] = {
+					["y"] = -415.9575042724609,
+					["x"] = 0.4793701171875,
+				},
+				["targettarget"] = {
+					["y"] = -365.0068435668945,
+					["x"] = 0.129150390625,
+				},
+			},
+		},
+	},
+	["account"] = {
+		["firstTimeWoW21"] = true,
+		["customLayouts"] = {
+			["mt"] = {
+				["name"] = "mt",
+				["pbRevision"] = 44755,
+				["bars"] = {
+					["castBar"] = {
+						["position"] = 8,
+					},
+					["healthBar"] = {
+						["height"] = 5,
+						["position"] = 2,
+					},
+					["expBar"] = {
+						["position"] = 4,
+					},
+					["blankSpace"] = {
+						["hidden"] = true,
+						["position"] = 7,
+					},
+					["threatBar"] = {
+						["position"] = 6,
+					},
+					["portrait"] = {
+						["side"] = "left",
+						["position"] = 1,
+					},
+					["powerBar"] = {
+						["height"] = 1,
+						["position"] = 3,
+					},
+					["repBar"] = {
+						["position"] = 5,
+					},
+				},
+				["icons"] = {
+					["restIcon"] = {
+						["position"] = "frame-edgebottomleft",
+					},
+					["masterIcon"] = {
+						["position"] = "frame-edgetopleft",
+					},
+					["leaderIcon"] = {
+						["position"] = "frame-edgetopleft",
+					},
+					["pvpIcon"] = {
+						["position"] = "frame-edgetopright",
+					},
+					["raidTargetIcon"] = {
+						["position"] = "frame-edgetop",
+					},
+					["combatIcon"] = {
+						["position"] = "frame-edgebottomleft",
+					},
+				},
+				["texts"] = {
+					["Health"] = {
+						["styleType"] = "health",
+						["custom"] = "[Status:PercentHP:Percent]",
+						["position"] = "healthBar-right",
+						["style"] = "Percent",
+						["size"] = 1.19,
+					},
+					["combatText"] = {
+						["position"] = "frame-center",
+					},
+					["Reputation"] = {
+						["styleType"] = "reputation",
+						["style"] = "Standard",
+						["position"] = "repBar-center",
+					},
+					["Experience"] = {
+						["styleType"] = "experience",
+						["style"] = "Standard",
+						["position"] = "expBar-center",
+					},
+					["Combo"] = {
+						["styleType"] = "combo",
+						["style"] = "Standard",
+						["position"] = "frame-outright",
+					},
+					["Name"] = {
+						["styleType"] = "name",
+						["custom"] = "[Name]",
+						["position"] = "healthBar-left",
+						["style"] = "Standard",
+						["size"] = 1.19,
+					},
+				},
+			},
+		},
+	},
+}

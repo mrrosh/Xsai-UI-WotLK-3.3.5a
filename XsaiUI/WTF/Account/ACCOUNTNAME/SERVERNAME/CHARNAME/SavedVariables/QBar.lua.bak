@@ -1,0 +1,10 @@
+
+QBar_Config = {
+	["enabled"] = true,
+	["vertical"] = false,
+	["bottom"] = 444.4862744921629,
+	["scale"] = 1,
+	["padding"] = 1,
+	["showTips"] = true,
+	["left"] = 309.07299847312,
+}

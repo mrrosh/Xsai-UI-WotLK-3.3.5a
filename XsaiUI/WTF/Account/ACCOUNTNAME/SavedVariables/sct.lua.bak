@@ -1,0 +1,10 @@
+
+SCT_CONFIG = {
+	["profileKeys"] = {
+		["Nedraxx - Lordaeron"] = "Nedraxx - Lordaeron",
+	},
+	["profiles"] = {
+		["Nedraxx - Lordaeron"] = {
+		},
+	},
+}

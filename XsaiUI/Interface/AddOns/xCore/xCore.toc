@@ -1,0 +1,6 @@
+## Interface: 30000
+## Author: xsai
+## Title: |cff0088ffxCore|r
+## Version: 1.0
+
+xCore.lua

@@ -1,0 +1,10 @@
+
+OnScreenHealthDB = {
+	["profiles"] = {
+		["Default"] = {
+			["fontSizeHealth"] = 18,
+			["fontSizePower"] = 16,
+			["fontSizeTarget"] = 18,
+		},
+	},
+}

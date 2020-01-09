@@ -1,0 +1,11 @@
+
+AutoInviteOptions = {
+	["Arthas"] = {
+		["Xsai"] = {
+			["Status"] = "On",
+			["Type"] = "Party",
+			["RaidLimit"] = 40,
+			["Invite"] = "invite me",
+		},
+	},
+}

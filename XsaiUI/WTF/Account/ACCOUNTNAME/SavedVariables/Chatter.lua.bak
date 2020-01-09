@@ -1,0 +1,258 @@
+
+ChatterDB = {
+	["namespaces"] = {
+		["Highlight"] = {
+			["profileKeys"] = {
+				["Frostica - Duskwood"] = "Default",
+			},
+			["profiles"] = {
+				["Default"] = {
+				},
+			},
+		},
+		["AltLinks"] = {
+			["profileKeys"] = {
+				["Frostica - Duskwood"] = "Default",
+			},
+			["realm"] = {
+				["Duskwood"] = {
+				},
+			},
+		},
+		["Scrollback"] = {
+			["profileKeys"] = {
+				["Frostica - Duskwood"] = "Default",
+			},
+			["profiles"] = {
+				["Default"] = {
+				},
+			},
+		},
+		["Invite Links"] = {
+			["profileKeys"] = {
+				["Frostica - Duskwood"] = "Default",
+			},
+			["profiles"] = {
+				["Default"] = {
+					["words"] = {
+						["inv"] = "inv",
+						["invite"] = "invite",
+					},
+				},
+			},
+		},
+		["ChannelColors"] = {
+			["profileKeys"] = {
+				["Frostica - Duskwood"] = "Default",
+			},
+			["profiles"] = {
+				["Default"] = {
+					["colors"] = {
+						["Guild"] = {
+							["b"] = 0.250980406999588,
+							["g"] = 1.000000059138984,
+							["r"] = 0.250980406999588,
+						},
+						["General"] = {
+							["b"] = 0.752941220998764,
+							["g"] = 0.752941220998764,
+							["r"] = 1.000000059138984,
+						},
+						["Trade"] = {
+							["b"] = 0.02745098201557994,
+							["g"] = 0.6666667060926557,
+							["r"] = 1.000000059138984,
+						},
+						["Yell"] = {
+							["b"] = 0.250980406999588,
+							["g"] = 0.250980406999588,
+							["r"] = 1.000000059138984,
+						},
+						["LocalDefense"] = {
+							["b"] = 0.752941220998764,
+							["g"] = 0.752941220998764,
+							["r"] = 1.000000059138984,
+						},
+						["Party"] = {
+							["b"] = 1.000000059138984,
+							["g"] = 0.6666667060926557,
+							["r"] = 0.6666667060926557,
+						},
+						["Whisper"] = {
+							["b"] = 1.000000059138984,
+							["g"] = 0.501960813999176,
+							["r"] = 1.000000059138984,
+						},
+						["Say"] = {
+							["b"] = 1.000000059138984,
+							["g"] = 1.000000059138984,
+							["r"] = 1.000000059138984,
+						},
+						["Battleground"] = {
+							["b"] = 0,
+							["g"] = 0.4980392451398075,
+							["r"] = 1.000000059138984,
+						},
+						["Raid"] = {
+							["b"] = 0,
+							["g"] = 0.4980392451398075,
+							["r"] = 1.000000059138984,
+						},
+						["Raid Warning"] = {
+							["b"] = 0,
+							["g"] = 0.2823529578745365,
+							["r"] = 1.000000059138984,
+						},
+						["Officer"] = {
+							["b"] = 0.250980406999588,
+							["g"] = 0.752941220998764,
+							["r"] = 0.250980406999588,
+						},
+					},
+				},
+			},
+		},
+		["StickyChannels"] = {
+			["profileKeys"] = {
+				["Frostica - Duskwood"] = "Default",
+			},
+			["profiles"] = {
+				["Default"] = {
+				},
+			},
+		},
+		["ChatFrameBorders"] = {
+			["profileKeys"] = {
+				["Frostica - Duskwood"] = "Default",
+			},
+			["profiles"] = {
+				["Default"] = {
+				},
+			},
+		},
+		["Buttons"] = {
+			["profileKeys"] = {
+				["Frostica - Duskwood"] = "Default",
+			},
+			["profiles"] = {
+				["Default"] = {
+				},
+			},
+		},
+		["Timestamps"] = {
+			["profileKeys"] = {
+				["Frostica - Duskwood"] = "Default",
+			},
+			["profiles"] = {
+				["Default"] = {
+				},
+			},
+		},
+		["EditBox"] = {
+			["profileKeys"] = {
+				["Frostica - Duskwood"] = "Default",
+			},
+			["profiles"] = {
+				["Default"] = {
+					["attach"] = "TOP",
+				},
+			},
+		},
+		["ChatTabs"] = {
+			["profileKeys"] = {
+				["Frostica - Duskwood"] = "Default",
+			},
+			["profiles"] = {
+				["Default"] = {
+				},
+			},
+		},
+		["PlayerNames"] = {
+			["profiles"] = {
+				["Default"] = {
+				},
+			},
+			["global"] = {
+			},
+			["profileKeys"] = {
+				["Frostica - Duskwood"] = "Default",
+			},
+			["realm"] = {
+				["Duskwood"] = {
+				},
+			},
+		},
+		["ChannelNames"] = {
+			["profileKeys"] = {
+				["Frostica - Duskwood"] = "Default",
+			},
+			["profiles"] = {
+				["Default"] = {
+				},
+			},
+		},
+		["JustifyText"] = {
+			["profileKeys"] = {
+				["Frostica - Duskwood"] = "Default",
+			},
+			["profiles"] = {
+				["Default"] = {
+				},
+			},
+		},
+		["Editbox History"] = {
+			["profileKeys"] = {
+				["Frostica - Duskwood"] = "Default",
+			},
+			["realm"] = {
+				["Duskwood"] = {
+					["history"] = {
+						"/w Mulicay um thanks, who is this?", -- [1]
+						"/chatter", -- [2]
+						"/w Mulicay oh hahaha", -- [3]
+						"/w Mulicay sorry", -- [4]
+						"/w Mulicay I forgot :D", -- [5]
+						"/w Mulicay just logged in to work on my UI a little since the servers are actually working now", -- [6]
+						"/w Mulicay tomorrow is going to be insane", -- [7]
+						"/kgpanels config", -- [8]
+						"/bar config", -- [9]
+						"/bar config", -- [10]
+						"/kgpanels config", -- [11]
+						"/chatter", -- [12]
+						"/quartz", -- [13]
+						"/quit", -- [14]
+					},
+				},
+			},
+		},
+		["ChatFont"] = {
+			["profileKeys"] = {
+				["Frostica - Duskwood"] = "Default",
+			},
+			["profiles"] = {
+				["Default"] = {
+				},
+			},
+		},
+		["Mousewheel Scroll"] = {
+			["profileKeys"] = {
+				["Frostica - Duskwood"] = "Default",
+			},
+			["profiles"] = {
+				["Default"] = {
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Frostica - Duskwood"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["modules"] = {
+				["Borders/Background"] = true,
+			},
+			["welcomeMessaged"] = true,
+		},
+	},
+}

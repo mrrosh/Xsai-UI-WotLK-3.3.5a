@@ -1,0 +1,22 @@
+
+pMinimapDB = {
+	["offset"] = 1,
+	["strata"] = "BACKGROUND",
+	["subzone"] = false,
+	["coords"] = false,
+	["unlocked"] = false,
+	["mail"] = true,
+	["fontsize"] = 13,
+	["fontflag"] = "OUTLINE",
+	["colors"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		1, -- [4]
+	},
+	["scale"] = 0.9,
+	["clock"] = true,
+	["level"] = 2,
+	["durabi"] = false,
+	["font"] = "Interface\\AddOns\\pMinimap\\font.ttf",
+}

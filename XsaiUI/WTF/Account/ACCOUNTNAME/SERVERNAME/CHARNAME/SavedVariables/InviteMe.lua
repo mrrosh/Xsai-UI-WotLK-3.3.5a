@@ -1,0 +1,4 @@
+
+InviteMeSV = {
+	["On"] = 1,
+}

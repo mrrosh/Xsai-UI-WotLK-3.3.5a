@@ -1,0 +1,7 @@
+## Interface: 30000
+## Version: 09.03.08
+## Title: AzCastBar
+## Author: Aezay (Earthen Ring EU)
+## Notes: Casting Bar Addon with Plugin Support
+## SavedVariablesPerCharacter: AzCastBar_Config
+core.lua

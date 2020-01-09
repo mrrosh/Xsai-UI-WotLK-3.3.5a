@@ -1,0 +1,7 @@
+## Interface: 30000
+## Title: bInvite
+## Notes: blablubb
+## Author: Biggulina
+## Version: 1.0
+
+bInvite.lua

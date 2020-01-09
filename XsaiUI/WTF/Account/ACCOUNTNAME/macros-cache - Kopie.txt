@@ -1,0 +1,48 @@
+﻿MACRO 2 "Armors" Ability_Mage_MoltenArmor
+/cast [Button:1] Molten Armor(Rank 1)
+/cast [Button:2] Mage Armor(Rank 4)
+/cast [Button:3] Ice Armor(Rank 5)
+END
+MACRO 12 "Clear" Spell_Frost_Stun
+/clearfocus
+END
+MACRO 1 "cs" INV_Misc_QuestionMark
+#Showtooltip Counterspell
+/stopcasting
+/cast Counterspell
+END
+MACRO 8 "Decurse" Ability_Creature_Disease_05
+#Showtooltip Geringen Fluch aufheben
+/cast [help] Geringen Fluch aufheben; [target=mouseover] Geringen Fluch aufheben
+END
+MACRO 10 "FB" Spell_Frost_FrostBolt02
+#Showtooltip Frostbolt
+/cast [button:1] Frostbolt(Rank 13)
+/cast [button:2] Frostbolt(Rank 1)
+END
+MACRO 11 "Fokus" Spell_Frost_ManaRecharge
+/focus
+END
+MACRO 5 "Food" Spell_Misc_Food
+#Showtooltip Conjured Croissant
+/cast [button:1] Conjured Croissant; [button:2] Conjure Food(Rank 8)
+END
+MACRO 3 "Int" Spell_Holy_ArcaneIntellect
+/cast [Button:1] Arcane Intellect(Rank 6)
+/cast [Button:2] Arcane Brilliance(Rank 2)
+END
+MACRO 9 "Ride" Ability_Hunter_Pet_DragonHawk
+/dismount [mounted]
+/script UIErrorsFrame:UnregisterEvent("UI_ERROR_MESSAGE");
+/use [outdoors,nomounted] Swift Red Gryphon
+/use [outdoors,nomounted] Amani War Bear
+/script UIErrorsFrame:RegisterEvent("UI_ERROR_MESSAGE"); 
+END
+MACRO 16 "Wards" Spell_Fire_FireArmor
+/cast [button:1] Fire Ward(Rank 6)
+/cast [button:2] Frost Ward(Rank 6)
+END
+MACRO 4 "Water" Spell_Misc_Drink
+#Showtooltip Conjured Glacier Water
+/cast [button:1] Conjured Glacier Water; [button:2] Conjure Water(Rank 9)
+END

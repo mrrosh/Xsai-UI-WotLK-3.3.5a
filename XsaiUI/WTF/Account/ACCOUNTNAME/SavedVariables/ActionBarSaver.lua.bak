@@ -1,0 +1,157 @@
+
+ActionBSDB = nil
+ActionBarSaverDB = {
+	["profileKeys"] = {
+		["Xsai - Arthas"] = "Global",
+	},
+	["profiles"] = {
+		["Xsai - Arthas"] = {
+		},
+		["Global"] = {
+			["sets"] = {
+				["DEATHKNIGHT"] = {
+				},
+				["WARRIOR"] = {
+				},
+				["PALADIN"] = {
+				},
+				["MAGE"] = {
+					["xsai"] = {
+						"macro|37||blink|Interface\\Icons\\Spell_Arcane_Blink|#showtooltip/n/stopcasting/n/cast Blink", -- [1]
+						"spell|188||Frostfire Bolt|Rank 2", -- [2]
+						"spell|217||Scorch|Rank 11", -- [3]
+						"spell|154||Fire Blast|Rank 11", -- [4]
+						"spell|234||Cone of Cold|Rank 8", -- [5]
+						"spell|191||Living Bomb|Rank 3", -- [6]
+						"macro|6||cs|Interface\\Icons\\Spell_Frost_IceShock|#Showtooltip Counterspell/n/stopcasting/n/cast Counterspell/n/cast [modifier:alt][target=focus] Counterspell", -- [7]
+						"macro|14||Wards|Interface\\Icons\\Spell_Fire_FireArmor|/cast [button:1] Fire Ward(Rank 6)/n/cast [button:2] Frost Ward(Rank 6)", -- [8]
+						"macro|38||block|Interface\\Icons\\Spell_Frost_Frost|#showtooltip/n/stopcasting/n/cancelaura Ice Block/n/cast Ice Block", -- [9]
+						"macro|40||ss|Interface\\Icons\\Spell_Arcane_Arcane02|#showtooltip Spellsteal/n/stopcasting/n/cast Spellsteal", -- [10]
+						"spell|121||Polymorph|Rank 4", -- [11]
+						"macro|10||gem|Interface\\Icons\\INV_Misc_Gem_Sapphire_02|/use [button:1] Mana Sapphire/n/cast [button:2] Conjure Mana Gem(Rank 6)", -- [12]
+						"spell|143||Combustion|", -- [13]
+						"spell|277||Icy Veins|", -- [14]
+						"spell|117||Mirror Image|", -- [15]
+						"spell|100||Evocation|", -- [16]
+						"macro|12||invi|Interface\\Icons\\Ability_Mage_Invisibility|/cast Invisibility/n/cancelaura Invisibility", -- [17]
+						"spell|63||Arcane Missiles|Rank 13", -- [18]
+						"spell|116||Mana Shield|Rank 9", -- [19]
+						"spell|238||Frost Nova|Rank 1", -- [20]
+						"spell|9||Every Man for Himself|", -- [21]
+						"spell|226||Blizzard|Rank 9", -- [22]
+						"spell|186||Flamestrike|Rank 9", -- [23]
+						"macro|9||Food|Interface\\Icons\\Spell_Misc_Food|#Showtooltip Conjured Croissant/n/cast [button:1] Conjured Croissant; [button:2] Conjure Food(Rank 8]; /n/cast [button:3] Ritual of Refreshment(Rank 2)", -- [24]
+						"item|36892||Fel Healthstone", -- [25]
+						"item|34722||Heavy Frostweave Bandage", -- [26]
+						"macro|11||Int|Interface\\Icons\\Achievement_Dungeon_TheVioletHold|/cast [button:1] Dalaran Intellect(Rank 7)/n/cast [button:2] Dalaran Brilliance(Rank 3)", -- [27]
+						"macro|3||armors|Interface\\Icons\\Ability_Mage_MoltenArmor|/cast [button:1] Molten Armor(Rank 1)/n/cast [button:2] Mage Armor(Rank 4)/n/cast [button:3] Ice Armor(Rank 5)", -- [28]
+						"spell|134||Slow Fall|", -- [29]
+						"item|33448||Runic Mana Potion", -- [30]
+						"item|33447||Runic Healing Potion", -- [31]
+						nil, -- [32]
+						nil, -- [33]
+						"spell|107||Mage Armor|Rank 6", -- [34]
+						"spell|194||Molten Armor|Rank 3", -- [35]
+						"spell|272||Ice Armor|Rank 6", -- [36]
+						"spell|124||Portal: Dalaran|", -- [37]
+						"spell|136||Teleport: Dalaran|", -- [38]
+						"spell|276||Ice Lance|Rank 3", -- [39]
+						"spell|43||Arcane Explosion|Rank 10", -- [40]
+						"spell|139||Teleport: Ironforge|", -- [41]
+						"spell|16||Prospecting|", -- [42]
+						"macro|13||Ride|Interface\\Icons\\Ability_Hunter_Pet_DragonHawk|/dismount [mounted]/n/use Rivendare's Deathcharger", -- [43]
+						"macro|42||Ride2|Interface\\Icons\\Ability_Mount_Drake_Blue|/dismount [mounted]/n/use Albino Drake", -- [44]
+						"spell|226||Blizzard|Rank 9", -- [45]
+						"spell|43||Arcane Explosion|Rank 10", -- [46]
+						"spell|206||Pyroblast|Rank 12", -- [47]
+						"macro|4||bäm|Interface\\Icons\\Spell_Fire_SealOfFire|/use Combustion/n/use Icy Veins", -- [48]
+						nil, -- [49]
+						"macro|42||Ride2|Interface\\Icons\\Ability_Mount_Drake_Blue|/dismount [mounted]/n/use Albino Drake", -- [50]
+						nil, -- [51]
+						"spell|17||Shoot|", -- [52]
+						"spell|43||Arcane Explosion|Rank 10", -- [53]
+						"macro|8||Fokus|Interface\\Icons\\Spell_Frost_ManaRecharge|#showtooltip /n/stopcasting/n/focus/n/clearfocus [modifier:shift]/n/cast [target=focus] Polymorph/n/cast [modifier:alt] Polymorph", -- [54]
+						"mount|27||Rivendare's Deathcharger", -- [55]
+						"item|43523||Conjured Mana Strudel", -- [56]
+						"spell|92||Dalaran Intellect|Rank 7", -- [57]
+						"item|33312||Mana Sapphire", -- [58]
+						nil, -- [59]
+						nil, -- [60]
+						"spell|101||Invisibility|", -- [61]
+						nil, -- [62]
+						"spell|135||Spellsteal|", -- [63]
+						"spell|43||Arcane Explosion|Rank 10", -- [64]
+						"macro|38||block|Interface\\Icons\\Spell_Frost_Frost|#showtooltip/n/stopcasting/n/cancelaura Ice Block/n/cast Ice Block", -- [65]
+						"spell|123||Polymorph|Turtle", -- [66]
+						"spell|100||Evocation|", -- [67]
+						nil, -- [68]
+						"spell|116||Mana Shield|Rank 9", -- [69]
+						nil, -- [70]
+						"spell|131||Remove Curse|", -- [71]
+						"spell|191||Living Bomb|Rank 3", -- [72]
+						nil, -- [73]
+						"spell|163||Fireball|Rank 2", -- [74]
+						nil, -- [75]
+						nil, -- [76]
+						nil, -- [77]
+						nil, -- [78]
+						nil, -- [79]
+						"spell|226||Blizzard|Rank 9", -- [80]
+						nil, -- [81]
+						"spell|110||Mana Shield|Rank 3", -- [82]
+						"spell|135||Spellsteal|", -- [83]
+						"spell|121||Polymorph|Rank 4", -- [84]
+						"spell|139||Teleport: Ironforge|", -- [85]
+						"spell|30||Arcane Blast|Rank 4", -- [86]
+						"spell|50||Arcane Intellect|Rank 7", -- [87]
+						"spell|128||Portal: Shattrath|", -- [88]
+						"spell|127||Portal: Ironforge|", -- [89]
+						nil, -- [90]
+						"spell|220||Blizzard|Rank 3", -- [91]
+						nil, -- [92]
+						"spell|170||Fireball|Rank 9", -- [93]
+						nil, -- [94]
+						"spell|33||Arcane Brilliance|Rank 3", -- [95]
+						"spell|140||Teleport: Shattrath|", -- [96]
+						nil, -- [97]
+						nil, -- [98]
+						nil, -- [99]
+						nil, -- [100]
+						"spell|171||Fireball|Rank 10", -- [101]
+						"spell|258||Frostbolt|Rank 8", -- [102]
+						nil, -- [103]
+						"spell|50||Arcane Intellect|Rank 7", -- [104]
+						"spell|33||Arcane Brilliance|Rank 3", -- [105]
+						"spell|134||Slow Fall|", -- [106]
+						"spell|99||Dampen Magic|Rank 7", -- [107]
+						nil, -- [108]
+						"mount|1||Albino Drake", -- [109]
+						"spell|188||Frostfire Bolt|Rank 2", -- [110]
+						"mount|2||Amani War Bear", -- [111]
+						"spell|134||Slow Fall|", -- [112]
+						"spell|43||Arcane Explosion|Rank 10", -- [113]
+						"spell|78||Conjure Mana Gem|Rank 6", -- [114]
+						nil, -- [115]
+						"spell|6||Disenchant|", -- [116]
+						"mount|27||Rivendare's Deathcharger", -- [117]
+						"item|22103||Master Healthstone", -- [118]
+						"spell|80||Conjure Refreshment|Rank 2", -- [119]
+						"item|43518||Conjured Mana Pie", -- [120]
+					},
+				},
+				["WARLOCK"] = {
+				},
+				["ROGUE"] = {
+				},
+				["SHAMAN"] = {
+				},
+				["DRUID"] = {
+				},
+				["HUNTER"] = {
+				},
+				["PRIEST"] = {
+				},
+			},
+		},
+	},
+}

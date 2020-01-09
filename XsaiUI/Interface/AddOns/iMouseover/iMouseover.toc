@@ -1,0 +1,6 @@
+## Interface: 30000
+## Title: iMouseover
+## Notes: sets some things on mouseover
+## Author: Chiril/Itchy/Heimlich on Thrall-DE
+
+iMouseover.lua

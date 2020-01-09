@@ -1,0 +1,14 @@
+## Interface: 30000
+## Title: Geist
+## Notes: Quick mouse access for up to 25 buttons.
+## Version: 30000.4
+## Author: Cidrei (Jazrei of Zangarmarsh-US)
+## OptionalDeps: ButtonFacade
+## SavedVariablesPerCharacter: Geist
+
+localization.lua
+GeistButtons.lua
+Geist.lua
+GeistFrame.lua
+GeistSlash.lua
+GeistButtonFacade.lua

@@ -1,0 +1,112 @@
+AzCastBar Changes | 2009 Mar 08
+-------------------------------
+- The CastBar and Mirror plugin has been moved out of the core part of AzCastBar, but will remain included in the main download. But doing this allows people to easily disable these two plugins if they have no need for them.
+- Core: Changed some of the core functions, an update of all plugins is required.
+- Core: Each bar frame will now have a global name, the format is "AzCastBarPlugin<TOKEN>", where token is the specific name of that frame, e.g. "Player". This was a request to allow panels to be anchored to AzCastBar frames.
+- Core: It is now possible for a plugin to add additional options. Because of this, some options has been removed under the options and moved directly into the plugins themselves.
+- Core: A slash command has been added to wipe all plugin settings, use "/acb wipeconfig" to do it. Note that this does not affect profiles.
+- CastBar: The Safezone indicator now shows for channeled casts as well.
+- CastBar: Will now show the bind location for "Astral Recall" just like it already does for Hearthstone. These should now also work for non english clients as well.
+- CastBar: The "Enable Bar Plugin" option in will now re-enable the default blizzard casting bar if disabled.
+- Options: A new option has been added to change the frame strata of the bar frames, you will find it under "Position" in the option dialog.
+- Options: You can now change the offset of the icon to the status bar, look for the option under the "Anchors" category.
+- Options: Removed the option "Show Bar Icon" and replaced it with an "Icon Anchor" option, which can be set to either "Left", "Right", or "None".
+- Options: Fixed a problem where the "Left Offset" was not updated when moving the bar manually in edit mode.
+- Options: By suggestion, I've added a new option to hide the borders around spell icons. This is on by default, so you'll have to go and disable it if you want the old look back, but I think most will prefer the change.
+- Options: The position of the option window will no longer be reset when you load a saved profile.
+- Many small optimizations and code improvements.
+
+AzCastBar Changes | 2009 Jan 10
+-------------------------------
+- New anchor settings added for multi bar plugins. You can modify in which direction the bars will grow, top, bottom, left or right. An anchor offset can also be set. You should update to the newest plugins to support this.
+- Removed some obsolete "OnEditMode" code from the castbar and mirror plugins as well as the options.
+
+AzCastBar Changes | 2008 Dec 22
+-------------------------------
+- The bars are no longer created as top level frames, meaning they should no longer be "popping" on top of other frames when shown.
+- Bars showing the total time will now show two decimals instead of just one, for better precision with haste ratings.
+- CastBar: Pets you are in possession of, will now show their cast bar using the player cast bar instead of the pet bar. Really nice for all the new WotLK quests.
+- Mirror: Corrected an error that could occur if you had a mirror bar showing, when turning on "Edit Mode".
+- Mirror: Now supports the option "Also Show Total Time".
+- Options: Fixed a problem where the option dialog went blank for options, at least I hope so, it's been somewhat hard for me to reproduce, so please let me know if it's still a problem.
+- Options: Changed how "Edit Mode" works. It's now a lot more clean, since it uses its own bars, instead of modifying the bar of each plugin.
+- All functions which were previously global, those named "AzCastBar_***", has now been moved into a table named "AzCastBar" to lower the global namespace pollution. This change will require all plugins to be updated.
+
+AzCastBar Changes | 2008 Oct 22
+-------------------------------
+- Fixed a cast bar problem, where it would say interrupted and hide itself when casting a spell, if you tried to cast another spell.
+- Added an option to show the total duration of the cast.
+
+AzCastBar Changes | 2008 Oct 18
+-------------------------------
+- Changed the TOC version to 30000 for the Wrath of the Lich King patch.
+- Options: Switched to using "LibSharedMedia-3.0". The library itself is still not included, so get it elsewhere.
+- Options: Updated the parameters for the scrollbars to make them work for the 3.0 patch.
+
+AzCastBar Changes | 2008 Apr 04
+-------------------------------
+- Should now properly initialize the backdrop background texture.
+- Options: Now uses the new CopyTable() function, which is a part of the Blizzard interface in 2.4, instead of a function of its own.
+- CastBar: Removed some old debugging code.
+
+AzCastBar Changes | 2008 Mar 21
+-------------------------------
+- Changed the TOC version to 20400 for the new 2.4.0 patch.
+- Default setting for the "SafeZone Indication" is now false due to the fact that this feature isn't so much needed anymore.
+- Added an option to hide the text label on the bar as well as the text indicating the time.
+- New option to set the text alignment of the Bar Label.
+- The drop down menus in the options now have a scrollbar. If you have a lot of shared media items, they should no longer drop off the screen.
+
+AzCastBar Changes | 2008 Jan 30
+-------------------------------
+- Code and plugin framework improved and optimized.
+- The Options received a big optimization as well.
+- The profile loader under the options will now only load settings for bar plugins which is currently loaded.
+
+AzCastBar Changes | 2007 Dec 28
+-------------------------------
+- Included "FlightTimes" and "BGTimers" as added plugins for AzCastBar, if you do not wish to use these, do not copy them to your AddOn folder.
+
+AzCastBar Changes | 2007 Nov 22
+-------------------------------
+- Fixed an error in the options dialog if you did not have SharedMediaLib installed.
+
+AzCastBar Changes | 2007 Nov 21
+-------------------------------
+- Changed the TOC version to 20300 for the 2.3 patch.
+- Added pet casting bar.
+- Options: Added support for SharedMediaLib to make more textures available. The library is not included with AzCastBar, but it will use it if installed.
+- Options: You now select which cast bar to configure in the window on the left side instead of buttons.
+- Options: You can now use the mousewheel to increase and decrease slider values.
+
+AzCastBar Changes | 2007 Aug 21
+-------------------------------
+- Fixed a problem which would hide the castbar, if you tried to cast something new while the GCD from a channeled spell was still up (e.g. spamming the mind flay button).
+- Options: Added "Enable Bar" option.
+- A problem causing the cast to go out of sync, when the cast bars gets hidden by calling up the map or hiding the UI with Alt+Z, has been fixed.
+- Fixed an error when clicking on a cast bar when the options had not yet been loaded.
+- When moving the bars with the mouse in "Edit Mode", the option frame for the current bar will now be updated accordingly.
+
+AzCastBar Changes | 2007 Aug 16
+-------------------------------
+- Options: Added slider for the castbar backdrop indent.
+- Fixed an issue that made the castbars appear "laggy" the longer your computer uptime was. The cause of this was due to Lua cutting off decimals on large numbers.
+- Made the option dialog Load on Demand.
+- Did a lot of restructuring of the entire mod.
+- Added profiles which you can load, save and delete manually. These settings are stored with the Load on Demand Option Dialog, so the saved entries will not take up memory until the Options is loaded.
+- Recoded a lot of how the settings are stored, this means your old config is lost, sorry.
+- The Texture drop down should now show the correct selected texture.
+
+AzCastBar Changes | 2007 Jul 19
+-------------------------------
+- Updated TOC to 20200 for the 2.2.0 patch.
+- Option for frame alpha added, this is how transparent the frame is. Default is 100.
+- The "Show Anchors" option which makes the bars movable is now a global option which will unlock all bars at once, and it will no longer get saved between sessions.
+- Added "Show Spell Rank" option, which if the spell has a rank, will show it in brackets after the spell name.
+- There is now an option to for the Safe Zone Area (Player Bar only).
+- Included a few Textures which you can switch to from the options.
+- Added option for Fade Out Time.
+
+AzCastBar Changes | 2007 Jul 09
+-------------------------------
+- First Release

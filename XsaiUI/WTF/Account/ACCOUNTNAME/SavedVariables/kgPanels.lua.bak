@@ -1,0 +1,17 @@
+
+kgPanelsDB = {
+	["profileKeys"] = {
+		["Bàdrasta - Crushridge"] = "Default",
+	},
+	["global"] = {
+		["layouts"] = {
+			["Frozen"] = {
+			},
+		},
+	},
+	["profiles"] = {
+		["Default"] = {
+			["layout"] = "Frozen",
+		},
+	},
+}

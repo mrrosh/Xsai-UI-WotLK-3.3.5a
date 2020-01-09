@@ -1,0 +1,81 @@
+MACRO 4 "  scorch spam" Spell_Fire_SoulBurn
+#showtooltip Versengen(Rang 9)
+/script UIErrorsFrame:Hide() 
+/cast Versengen(Rang 9)
+/script UIErrorsFrame:Clear() 
+END
+MACRO 1 " /focus" Ability_Creature_Cursed_04
+/focus
+END
+MACRO 16 " fb spam" Spell_Frost_FrostBolt02
+#showtooltip Frostbolt
+/run SetCVar("Sound_EnableSFX","0")
+/run SetCVar("Sound_EnableSFX","1")
+/cast [nochanneling:Arcane Missiles] Frostbolt
+END
+MACRO 13 " fb spam" Spell_Fire_FlameBolt
+#showtooltip Feuerball(Rang 13)
+/script UIErrorsFrame:Hide() 
+/cast Feuerball(Rang 13)
+/script UIErrorsFrame:Clear() 
+END
+MACRO 20 " focus cs" INV_Misc_QuestionMark
+/stopcasting
+/cast [target=focus] Gegenzauber
+END
+MACRO 23 " focus ss" Ability_Creature_Cursed_01
+/stopcasting
+/cast [target=focus] Zauberraub
+END
+MACRO 19 " Poly!" Spell_Magic_PolymorphChicken
+#Showtooltip Polymorph(Rank 4)
+/clearfocus [target=focus,dead]; clearfocus [modifier:shift]
+/focus [target=focus, noexists] target
+/cast [target=focus, exists, harm] Polymorph(Rank 4)
+/stopmacro [noharm]
+END
+MACRO 24 "13" INV_Misc_QuestionMark
+/use 13
+END
+MACRO 25 "14" INV_Misc_QuestionMark
+/use 14
+END
+MACRO 29 "armors" INV_Misc_QuestionMark
+/cast [button:1] Molten Armor(Rank 3)
+/cast [button:2] Mage Armor(Rank 6)
+/cast [button:3] Ice Armor(Rank 6)
+END
+MACRO 26 "bäm" Spell_Fire_BlueRainOfFire
+/use Einäschern
+/use Eisige Adern
+/use Verhexter Schrumpfkopf
+END
+MACRO 27 "clearf" Ability_Creature_Cursed_02
+/clearfocus
+END
+MACRO 33 "dampamp" INV_Misc_QuestionMark
+#Showtooltip  Magie dämpfen(Rang 6)
+/cast [button:1] Magie dämpfen(Rang 6)
+/cast [button:2] Magie verstärken(Rang 6)
+END
+MACRO 28 "gems" Spell_Shadow_ManaFeed
+/cast [button:1] Manasmaragd herbeizaubern
+/cast [button:2] Manarubin herbeizaubern
+END
+MACRO 32 "Int" INV_Misc_QuestionMark
+/cast [button:1] Dalaran Intellect(Rank 7)
+/cast [button:2] Dalaran Brilliance(Rank 3)
+/cast [button:3] Focus Magic
+END
+MACRO 34 "peon" INV_Misc_QuestionMark
+/target Ungehorsamer Peon des Drachenmals
+/benutzen Schuhmerang
+END
+MACRO 30 "stones" Spell_Shadow_SoothingKiss
+#Showtooltip Meisterlicher Gesundheitsstein
+/use Meisterlicher Gesundheitsstein
+END
+MACRO 31 "wards" INV_Misc_QuestionMark
+/cast [button:1] Fire Ward(Rank 7)
+/cast [button:2] Frost Ward(Rank 7)
+END

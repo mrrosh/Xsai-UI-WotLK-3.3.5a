@@ -1,0 +1,9 @@
+## Interface: 30000
+## Title: oUF PowerSpark
+## Notes: PowerSpark for oUF.
+## Author: Snago
+## Version: 1.0
+## X-Category: UnitFrame
+## Dependencies: oUF
+
+oUF_PowerSpark.lua

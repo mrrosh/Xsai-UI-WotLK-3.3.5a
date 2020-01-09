@@ -1,0 +1,26 @@
+
+TomTomDB = {
+	["profileKeys"] = {
+		["Khassi - Arthas"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["arrow"] = {
+				["lock"] = true,
+				["noclick"] = true,
+			},
+			["block"] = {
+				["enable"] = false,
+			},
+		},
+	},
+}
+TomTomWaypoints = {
+	["profileKeys"] = {
+		["Khassi - Arthas"] = "Khassi - Arthas",
+	},
+	["profiles"] = {
+		["Khassi - Arthas"] = {
+		},
+	},
+}

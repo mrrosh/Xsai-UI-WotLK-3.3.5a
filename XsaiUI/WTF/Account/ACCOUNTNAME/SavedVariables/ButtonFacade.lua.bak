@@ -1,0 +1,17 @@
+
+ButtonFacadeDB = {
+	["profileKeys"] = {
+		["Bàdrasta - Crushridge"] = "Bàdrasta - Crushridge",
+	},
+	["namespaces"] = {
+		["ButtonTest"] = {
+			["profileKeys"] = {
+				["Bàdrasta - Crushridge"] = "Bàdrasta - Crushridge",
+			},
+			["profiles"] = {
+				["Bàdrasta - Crushridge"] = {
+				},
+			},
+		},
+	},
+}

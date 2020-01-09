@@ -1,0 +1,23 @@
+------------------------------------------------------------------------
+r42 | elkano | 2009-03-09 08:14:03 +0000 (Mon, 09 Mar 2009) | 3 lines
+Changed paths:
+   M /trunk/FramesResized.lua
+   M /trunk/FramesResized.toc
+   A /trunk/FramesResizedOptions.lua
+
+version 2.3.0
+- fixes for 3.1 PTR
+- added ingame configuration: /fr
+------------------------------------------------------------------------
+r41 | elkano | 2009-03-05 07:25:56 +0000 (Thu, 05 Mar 2009) | 1 line
+Changed paths:
+   M /trunk/FramesResized.lua
+
+will now also resize RaidInfo panel to 8 visible entries
+------------------------------------------------------------------------
+r40 | elkano | 2009-01-12 14:00:21 +0000 (Mon, 12 Jan 2009) | 1 line
+Changed paths:
+   M /trunk/FramesResized.toc
+
+pushed version to 2.2.1 for release
+------------------------------------------------------------------------

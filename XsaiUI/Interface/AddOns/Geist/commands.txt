@@ -1,0 +1,18 @@
+Geist Slash Commands
+
+!! All commands require a UI reload to take effect. !!
+
+/geist -- Default slash command. Displays Geist version and chat usage.
+/gbm -- Same as above.
+
+/geist buttons -- Displays the current number of buttons Geist is using.
+/geist buttons X -- Configures Geist to use X buttons. Valid range is 1-25.
+
+/geist scale -- Displays the current Geist scale.
+/geist scale X -- Sets the Geist scale to X. Limited to between 0.5 and 1.5
+/geist scale reset -- Resets the Geist scale to your current UI scale.
+
+/geist guide -- This setting enables or disables a guide that overlays your buttons. The top number indicates the button number, the bottom is the current ID. This guide comes in handy for the command below.
+
+/geist assignX -- Shows the current ID of Button X.
+/geist assignX Y -- Sets Button X to ID Y. Valid Buttons are 1-25, valid IDs are 1-120.

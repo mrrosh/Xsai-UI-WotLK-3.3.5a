@@ -1,0 +1,66 @@
+
+Omen3DB = {
+	["profileKeys"] = {
+		["Tydor - Arthas"] = "Tydor - Arthas",
+	},
+	["profiles"] = {
+		["Tydor - Arthas"] = {
+			["PositionW"] = 186.162129593828,
+			["NumBars"] = 11,
+			["PositionH"] = 183.0000092078113,
+			["VGrip2"] = 107.0432405811199,
+			["PositionY"] = 371.5247546381889,
+			["Background"] = {
+				["EdgeSize"] = 5,
+				["Color"] = {
+					["a"] = 0.4600000381469727,
+					["r"] = 0,
+					["g"] = 0.02352941176470588,
+				},
+				["BarInset"] = 4,
+				["BorderColor"] = {
+					["r"] = 0,
+					["g"] = 0.05490196078431373,
+					["b"] = 0.3490196078431372,
+				},
+				["Texture"] = "Blizzard Tooltip",
+			},
+			["PositionX"] = 2.156475575999552,
+			["ShowWith"] = {
+				["HideWhenOOC"] = true,
+			},
+			["TitleBar"] = {
+				["ShowTitleBar"] = false,
+			},
+			["Warnings"] = {
+				["Sound"] = false,
+				["Flash"] = false,
+			},
+			["CollapseHide"] = true,
+			["Autocollapse"] = true,
+			["VGrip1"] = 103.6042209582901,
+			["Bar"] = {
+				["FontSize"] = 12,
+				["ShowHeadings"] = false,
+				["Spacing"] = 1,
+				["MyBarColor"] = {
+					["r"] = 0.996078431372549,
+					["b"] = 1,
+				},
+				["FontOutline"] = "OUTLINE",
+				["Texture"] = "Ruben",
+				["ShowTPS"] = false,
+				["UseMyBarColor"] = true,
+				["Classes"] = {
+					["PRIEST"] = false,
+					["HUNTER"] = false,
+					["PET"] = false,
+					["*NOTINPARTY*"] = false,
+					["SHAMAN"] = false,
+				},
+				["Font"] = "CAFETA__",
+				["Height"] = 15,
+			},
+		},
+	},
+}

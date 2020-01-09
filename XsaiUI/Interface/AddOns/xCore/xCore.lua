@@ -1,0 +1,11 @@
+local c = RAID_CLASS_COLORS[select(2, UnitClass("player"))];
+local frame = CreateFrame("Frame", nil, UIParent);
+frame:SetPoint("BOTTOMLEFT", -227, -25);
+frame:SetFrameStrata("BACKGROUND");
+frame:SetFrameLevel(0);
+frame:SetWidth(480); 
+frame:SetHeight(480);
+frame.texture = frame:CreateTexture(nil, "BACKGROUND");
+frame.texture:SetTexture("Interface\\AddOns\\xCore\\flowerkringel");
+frame.texture:SetAllPoints(frame);
+frame.texture:SetVertexColor(c.r, c.g, c.b, 0.8);

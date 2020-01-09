@@ -1,0 +1,79 @@
+------------------------------------------------------------------------
+r33 | dhedbor | 2008-10-15 17:34:43 +0000 (Wed, 15 Oct 2008) | 1 line
+Changed paths:
+   A /tags/r33-beta (from /trunk:32)
+
+Bump to beta.
+------------------------------------------------------------------------
+r32 | dhedbor | 2008-10-15 07:33:24 +0000 (Wed, 15 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/BetterBlizzOptions.lua
+
+Fixed reference to renamed button template.
+------------------------------------------------------------------------
+r31 | dhedbor | 2008-10-15 07:25:51 +0000 (Wed, 15 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/BetterBlizzOptions.lua
+   M /trunk/BetterBlizzOptions.toc
+
+Made new config frames movable, removed broken frame reference and bumped toc.
+------------------------------------------------------------------------
+r30 | root | 2008-09-29 22:10:58 +0000 (Mon, 29 Sep 2008) | 1 line
+Changed paths:
+   A /trunk/.pkgmeta
+
+Facilitate WowAce-on-CurseForge transition
+------------------------------------------------------------------------
+r28 | root | 2008-09-29 20:57:36 +0000 (Mon, 29 Sep 2008) | 1 line
+Changed paths:
+   D /tmp/trunk/BetterBlizzOptions
+   A /trunk (from /tmp/trunk/BetterBlizzOptions:27)
+
+Importing old repo data under /trunk
+------------------------------------------------------------------------
+r25 | kergoth | 2008-05-07 01:51:32 +0000 (Wed, 07 May 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/BetterBlizzOptions/BetterBlizzOptions.lua
+
+BetterBlizzOptions: Fix the addons list height to grow with the window height.
+------------------------------------------------------------------------
+r23 | antiarc | 2008-04-04 03:01:34 +0000 (Fri, 04 Apr 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/BetterBlizzOptions/BetterBlizzOptions.lua
+
+BetterBlizzOptions: Add moving to GameOptionsFrame JUST BECAUSE I CAN!
+ /drunkwithpower
+------------------------------------------------------------------------
+r22 | antiarc | 2008-04-04 02:53:56 +0000 (Fri, 04 Apr 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/BetterBlizzOptions/BetterBlizzOptions.lua
+
+BetterBlizzOptions: Remove debug stuff.
+------------------------------------------------------------------------
+r21 | antiarc | 2008-04-04 02:53:02 +0000 (Fri, 04 Apr 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/BetterBlizzOptions/BetterBlizzOptions.lua
+
+BetterBlizzOptions: Make Video, and Sound frames movable as well, just for the hell of it.
+------------------------------------------------------------------------
+r20 | antiarc | 2008-04-04 02:46:15 +0000 (Fri, 04 Apr 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/BetterBlizzOptions/BetterBlizzOptions.lua
+
+BetterBlizzOptions: Make ChatConfigFrame movable too.
+------------------------------------------------------------------------
+r19 | antiarc | 2008-04-04 02:43:47 +0000 (Fri, 04 Apr 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/BetterBlizzOptions/BetterBlizzOptions.lua
+
+BetterBlizzOptions: Enable Y-axis resizing, set a sane min resize. Intentionally not clamped to screen though.
+------------------------------------------------------------------------
+r18 | antiarc | 2008-04-04 02:05:30 +0000 (Fri, 04 Apr 2008) | 1 line
+Changed paths:
+   A /tmp/trunk/BetterBlizzOptions
+   A /tmp/trunk/BetterBlizzOptions/BetterBlizzOptions.lua
+   A /tmp/trunk/BetterBlizzOptions/BetterBlizzOptions.toc
+   A /tmp/trunk/BetterBlizzOptions/ResizeGrip.tga
+
+BetterBlizzOptions: Initial commit. Makes the Blizzard interface options dialog movable and resizable.
+------------------------------------------------------------------------

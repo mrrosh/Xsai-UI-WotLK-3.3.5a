@@ -1,0 +1,94 @@
+
+ChinchillaDB = {
+	["namespaces"] = {
+		["Appearance"] = {
+			["profiles"] = {
+				["Default"] = {
+					["borderStyle"] = "Gloss",
+					["shape"] = "SQUARE",
+				},
+			},
+		},
+		["TrackingDots"] = {
+			["profiles"] = {
+				["Default"] = {
+					["trackingDotStyle"] = "Nandini",
+				},
+			},
+		},
+		["ShowHide"] = {
+			["profiles"] = {
+				["Default"] = {
+					["locationBar"] = false,
+					["zoom"] = false,
+					["lfg"] = false,
+					["voice"] = false,
+					["north"] = false,
+					["dayNight"] = false,
+					["locationText"] = false,
+					["map"] = false,
+				},
+			},
+		},
+		["Position"] = {
+			["profiles"] = {
+				["Default"] = {
+					["questWatch"] = {
+						nil, -- [1]
+						-180.270288058994, -- [2]
+						-226, -- [3]
+					},
+					["capture"] = {
+						nil, -- [1]
+						-9.000000000000043, -- [2]
+						-188.9189387878064, -- [3]
+					},
+					["minimapLock"] = true,
+				},
+			},
+		},
+		["Location"] = {
+			["profiles"] = {
+				["Default"] = {
+					["showClose"] = false,
+				},
+			},
+		},
+		["MoveButtons"] = {
+			["profiles"] = {
+				["Default"] = {
+					["track"] = {
+						"TOPRIGHT", -- [1]
+						-135.2702877778395, -- [2]
+						-38.91893885809509, -- [3]
+					},
+					["lock"] = true,
+					["mail"] = {
+						"TOPRIGHT", -- [1]
+						-35.27028777783949, -- [2]
+						-38.91893885809509, -- [3]
+					},
+					["clock"] = {
+						"TOPRIGHT", -- [1]
+						-130.2702877778395, -- [2]
+						-148.9189388580951, -- [3]
+					},
+				},
+			},
+		},
+		["Expander"] = {
+			["profiles"] = {
+				["Default"] = {
+					["key"] = "9",
+				},
+			},
+		},
+	},
+	["disabledModules"] = {
+		["Default"] = {
+			["Expander"] = true,
+			["Coordinates"] = true,
+			["Location"] = true,
+		},
+	},
+}

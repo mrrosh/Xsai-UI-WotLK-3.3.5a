@@ -1,0 +1,6 @@
+## Interface: 30000
+## Title: |cff0088ffLynSettings|r
+## Author: Lyn
+## Notes: Currently does cool things but I can't remember what exactly...
+core.lua
+panel.lua

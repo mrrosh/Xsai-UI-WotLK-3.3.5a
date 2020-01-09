@@ -1,0 +1,19 @@
+## Interface: 30000
+## X-Curse-Packaged-Version: r42
+## X-Curse-Project-Name: FramesResized
+## X-Curse-Project-ID: framesresized
+## X-Curse-Repository-ID: wow/framesresized/mainline
+
+## Title: Elkano's FramesResized
+## Notes: Resizes some default UI frames (LootFrame, QuestLog, RaidInfo, TradeSkillUI and TrainerUI) to show more lines
+## Author: Elkano
+## Version: 2.3.0-42
+## X-Website: http://www.wowace.com/projects/framesresized/
+## X-Category: Frame Modification
+
+## X-Revision: 42
+## X-Date: 2009-03-09T08:14:03Z
+
+FramesResized.xml
+FramesResized.lua
+FramesResizedOptions.lua

@@ -1,0 +1,7 @@
+## Interface: 30000
+## Title: bDPS
+## Notes: Eine DPS-Anzeige.
+## Author: Biggulina
+## Version: 1.0
+
+bDPS.lua

@@ -1,0 +1,14 @@
+## Interface: 30000
+## Title: Ratings
+## Note: Convert ratings to percentages.
+## Author: Jerry
+## Credits: Whitetooth
+## X-Category: Interface Enhancements
+## DefaultState: Enabled
+## SavedVariablesPerCharacter: RatingsDB
+## X-Curse-Packaged-Version: v1.2.1
+## X-Curse-Project-Name: Ratings
+## X-Curse-Project-ID: ratings
+## X-Curse-Repository-ID: wow/ratings/mainline
+
+core.lua

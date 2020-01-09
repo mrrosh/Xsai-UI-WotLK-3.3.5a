@@ -1,0 +1,49 @@
+
+DBMChamberOfAspects_SavedVars = {
+	["Tenebron"] = {
+		["Enabled"] = true,
+		["Announce"] = false,
+		["HealthFrame"] = false,
+	},
+	["Vesperon"] = {
+		["Enabled"] = true,
+		["Announce"] = false,
+		["HealthFrame"] = false,
+	},
+	["Shadron"] = {
+		["Enabled"] = true,
+		["Announce"] = false,
+		["HealthFrame"] = false,
+	},
+	["Sartharion"] = {
+		["Enabled"] = true,
+		["Announce"] = false,
+		["HealthFrame"] = false,
+	},
+}
+DBMChamberOfAspects_SavedStats = {
+	["Tenebron"] = {
+		["heroicPulls"] = 0,
+		["kills"] = 0,
+		["heroicKills"] = 0,
+		["pulls"] = 0,
+	},
+	["Vesperon"] = {
+		["heroicPulls"] = 0,
+		["kills"] = 0,
+		["heroicKills"] = 0,
+		["pulls"] = 0,
+	},
+	["Shadron"] = {
+		["heroicPulls"] = 0,
+		["kills"] = 0,
+		["heroicKills"] = 0,
+		["pulls"] = 0,
+	},
+	["Sartharion"] = {
+		["heroicPulls"] = 0,
+		["kills"] = 0,
+		["heroicKills"] = 0,
+		["pulls"] = 0,
+	},
+}

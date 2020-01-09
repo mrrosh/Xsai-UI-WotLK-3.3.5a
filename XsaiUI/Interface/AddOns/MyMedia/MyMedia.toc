@@ -1,0 +1,13 @@
+## Interface: 30000
+
+## Title: MyMedia
+## Notes: Inserts your media into LibSharedMedia's storage.
+## Version: 1.0
+## Author: Seerah, Elsia
+
+## OptionalDeps: LibSharedMedia-3.0, LibSharedMedia-2.0, SharedMediaLib
+
+Libs\LibStub.lua
+
+core.lua
+MyMedia.lua

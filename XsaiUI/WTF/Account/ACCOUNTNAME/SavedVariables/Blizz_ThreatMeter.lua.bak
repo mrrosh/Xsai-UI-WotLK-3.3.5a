@@ -1,0 +1,10 @@
+
+ThreatMeter_Saved = {
+	["OPT_TIP"] = 2,
+	["OPT_SIZE_X"] = 100,
+	["OPT_PORT"] = 1,
+	["OPT_BCKDRP"] = 0,
+	["OPT_INLINE"] = 0,
+	["NUM_THREAT_BARS"] = 5,
+	["OPT_PET"] = 0,
+}

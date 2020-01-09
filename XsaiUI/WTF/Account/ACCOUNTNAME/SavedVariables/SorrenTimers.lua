@@ -1,0 +1,9 @@
+
+SorrenTimersDB = {
+	["profiles"] = {
+		["Default"] = {
+			["detachedTooltip"] = {
+			},
+		},
+	},
+}

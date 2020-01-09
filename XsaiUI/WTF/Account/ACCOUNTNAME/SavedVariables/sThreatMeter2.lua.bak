@@ -1,0 +1,29 @@
+
+sThreatMeter_Data = {
+	["Direction"] = "up",
+	["Point"] = {
+		"BOTTOMRIGHT", -- [1]
+		nil, -- [2]
+		"BOTTOMRIGHT", -- [3]
+		-5.468781408037407, -- [4]
+		27.6382988997509, -- [5]
+	},
+	["Color"] = "class",
+	["Width"] = 260,
+	["TextRight"] = "$value [$perc%]",
+	["Font"] = {
+		"Fonts\\ARIALN.TTF", -- [1]
+		12, -- [2]
+	},
+	["TextLeft"] = "$name",
+	["Spacing"] = 1,
+	["Height"] = 18,
+	["Bars"] = 5,
+	["BackgroundColor"] = {
+		0.08235294117647059, -- [1]
+		0.08235294117647059, -- [2]
+		0.08235294117647059, -- [3]
+		1, -- [4]
+	},
+	["Texture"] = "Interface\\Addons\\MyMedia\\statusbar\\Smoothv2.tga",
+}

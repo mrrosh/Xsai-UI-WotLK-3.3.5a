@@ -1,0 +1,58 @@
+
+DBMBattlegrounds_SavedVars = {
+	["Archavon"] = {
+		["Enabled"] = true,
+		["timer_enrage"] = true,
+		["Enrage in %s %s"] = "warning_enrage",
+		["TimerShards"] = true,
+		["HealthFrame"] = false,
+		["WarningGrab"] = true,
+		["Announce"] = false,
+		["WarningShards"] = true,
+	},
+	["Battlegrounds"] = {
+		["Enabled"] = true,
+		["ShowInviteTimer"] = true,
+		["ColorByClass"] = true,
+		["Announce"] = false,
+		["AutoSpirit"] = false,
+	},
+	["Arenas"] = {
+		["Enabled"] = true,
+		["Announce"] = false,
+		["TimerStart"] = true,
+	},
+	["EyeOfTheStorm"] = {
+		["Enabled"] = true,
+		["TimerFlag"] = true,
+		["TimerWin"] = true,
+		["TimerStart"] = true,
+		["Announce"] = false,
+		["ShowPointFrame"] = true,
+	},
+	["Arathi"] = {
+		["Enabled"] = true,
+		["TimerCap"] = true,
+		["ShowAbBasesToWin"] = false,
+		["TimerWin"] = true,
+		["TimerStart"] = true,
+		["Announce"] = false,
+		["ShowAbEstimatedPoints"] = true,
+	},
+	["Warsong"] = {
+		["TimerFlag"] = true,
+		["ShowFlagCarrierErrorNote"] = false,
+		["ShowFlagCarrier"] = true,
+		["Enabled"] = true,
+		["Announce"] = false,
+		["TimerStart"] = true,
+	},
+	["Alterac"] = {
+		["Enabled"] = true,
+		["TimerGY"] = true,
+		["TimerTower"] = true,
+		["AutoTurnIn"] = true,
+		["Announce"] = false,
+		["TimerStart"] = true,
+	},
+}

@@ -1,0 +1,33 @@
+MACRO 16777217 "AE" Spell_Fire_SelfDestruct
+/cast [Button:1] Flamestrike(Rank 7)
+/cast [Button:2] Blizzard(Rank 7)
+END
+MACRO 16777220 "Boom" Ability_Hunter_Harass
+/cast Combustion
+/cast Icy Veins
+/use Hex Shrunken Head
+END
+MACRO 16777218 "Gems" INV_Misc_QuestionMark
+#Showtooltip Master Healthstone
+/use Master Healthstone
+END
+MACRO 16777222 "Gesstein" Spell_ChargePositive
+#Showtooltip Master Healthstone
+/use [Button:1} Master Healthstone
+/use [Button:2] Heavy Netherweave Bandage
+END
+MACRO 16777221 "il" INV_Misc_QuestionMark
+#Showtooltip Ice Lance(Rank 1)
+/cast [Button:1] Ice Lance(Rank 1)
+/cast [Button:2] Cone of Cold(Rank 6)
+END
+MACRO 16777223 "pyro" Spell_Fire_Fireball02
+#showtooltip Fire Blast(Rank 9)
+/cast [Button:1] Pyroblast(Rank 10)
+/cast [Button:2] Fire Blast(Rank 9)
+END
+MACRO 16777219 "Slow+SS" INV_Misc_QuestionMark
+#Showtooltip Slow
+/cast [Button:1] Slow
+/cast [Button:2] Spellsteal
+END

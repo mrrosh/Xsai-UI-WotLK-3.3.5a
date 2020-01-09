@@ -1,0 +1,6 @@
+## Interface: 30000
+## Title: BetterBlizOptions
+## Notes: Makes the Blizzard options frame movable and resizable
+## Author: Antiarc
+
+BetterBlizzOptions.lua

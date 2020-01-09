@@ -1,0 +1,10 @@
+
+CooldownCountDB = {
+	["profileKeys"] = {
+		["Frostica - Duskwood"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

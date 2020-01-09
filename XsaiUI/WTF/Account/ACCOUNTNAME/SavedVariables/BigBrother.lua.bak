@@ -1,0 +1,9 @@
+
+BigBrotherDB = {
+	["profiles"] = {
+		["Default"] = {
+			["detachedTooltip"] = {
+			},
+		},
+	},
+}

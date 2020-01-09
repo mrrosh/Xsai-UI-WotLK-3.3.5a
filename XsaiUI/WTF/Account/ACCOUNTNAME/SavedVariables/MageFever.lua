@@ -1,0 +1,2 @@
+
+MFSavedVars = nil

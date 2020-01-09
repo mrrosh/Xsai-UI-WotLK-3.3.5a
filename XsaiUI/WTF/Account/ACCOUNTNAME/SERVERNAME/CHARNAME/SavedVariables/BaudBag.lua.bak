@@ -1,0 +1,81 @@
+
+BaudBag_Cfg = {
+	{
+		{
+			["AutoOpen"] = false,
+			["Coords"] = {
+				830.2702877778396, -- [1]
+				518.9189748458764, -- [2]
+			},
+			["Columns"] = 8,
+			["RarityColor"] = true,
+			["Scale"] = 100,
+			["Background"] = 1,
+			["BlankTop"] = false,
+			["Name"] = "Xsai's Inventory",
+		}, -- [1]
+		{
+			["AutoOpen"] = false,
+			["Coords"] = {
+				830.2702877778396, -- [1]
+				518.9189748458764, -- [2]
+			},
+			["Columns"] = 4,
+			["RarityColor"] = true,
+			["Scale"] = 100,
+			["Background"] = 3,
+			["BlankTop"] = false,
+			["Name"] = "Key Ring",
+		}, -- [2]
+		["Enabled"] = true,
+		["Joined"] = {
+			[6] = false,
+		},
+		["ShowBags"] = false,
+	}, -- [1]
+	{
+		{
+			["AutoOpen"] = false,
+			["Coords"] = {
+				830.2702877778396, -- [1]
+				518.9189748458764, -- [2]
+			},
+			["Columns"] = 12,
+			["RarityColor"] = true,
+			["Scale"] = 100,
+			["Background"] = 1,
+			["BlankTop"] = false,
+			["Name"] = "Xsai's Bank Box",
+		}, -- [1]
+		["Enabled"] = true,
+		["Joined"] = {
+		},
+		["ShowBags"] = true,
+	}, -- [2]
+}
+BaudBag_Cache = {
+	[5] = {
+		["Size"] = 0,
+	},
+	[6] = {
+		["Size"] = 0,
+	},
+	[7] = {
+		["Size"] = 0,
+	},
+	[9] = {
+		["Size"] = 0,
+	},
+	[11] = {
+		["Size"] = 0,
+	},
+	[10] = {
+		["Size"] = 0,
+	},
+	[8] = {
+		["Size"] = 0,
+	},
+	[-1] = {
+		["Size"] = 28,
+	},
+}

@@ -1,0 +1,7 @@
+## Interface: 30000
+## Title: bBar
+## Notes: Eine Bar, die sehr wenig Speicher frisst.
+## Author: Biggulina
+## Version: 1.0
+
+bBar.lua

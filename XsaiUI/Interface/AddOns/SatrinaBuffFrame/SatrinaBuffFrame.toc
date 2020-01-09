@@ -1,0 +1,38 @@
+## Interface: 30000
+## Title: Satrina Buff Frames
+## Author: Satrina@Stormrage
+## Version: 3.0
+## X-MinorVersion: 7
+## OptionalDeps: Ace3, LibSharedMedia-3.0, cyCircled, ButtonFacade
+## SavedVariables: SBFDB
+## Notes: A replacement for the UI buff frame.
+## Notes-zhCN: Buff框体替换与增强。
+## Notes-zhTW: Buff框體替換與增強。
+
+## X-Date $Date: 2008-12-21 10:28:06 -0500 (Sun, 21 Dec 2008) $  
+## X-Revision $Revision: 122 $
+
+
+embeds.xml
+SatrinaBuffFrame.lua
+SBFResources.lua
+SBFBuff.lua
+SBFSavedVar.lua
+SBFElements.lua
+SBFFrame.lua
+SBFCombatText.lua
+SBFUtil.lua
+SBFStrings.lua
+SBFEnchant.lua
+SBFTracking.lua
+SBFFilters.lua
+SBFTotems.lua
+
+SBFcyCircled.lua
+SBFButtonFacade.lua
+
+Locales\Localisation.zhCN.lua
+Locales\Localisation.zhTW.lua
+Locales\Localisation.enUS.lua
+
+SBF.xml
